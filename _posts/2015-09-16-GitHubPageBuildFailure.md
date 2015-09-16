@@ -33,9 +33,9 @@ github page 昨天還builde 好好的，完全沒改動的情況下，今天始�
 2.把post內的.md文章 有用到 highlight 語法
 
 ```
-{% highlight cpp %}
+{％ highlight cpp ％}
 // Code
-{% endhighlight %}
+{％ endhighlight ％}
 ```
 
 改成
