@@ -381,6 +381,7 @@ bRun = false;
 
 C++ 語法    
 使用網路上找的class，https://github.com/jhpeng/SerialPortApi
+
 {% highlight cpp %}
 
 
@@ -460,4 +461,6 @@ serialPort.Close();
 
 - http://ffyy99.pixnet.net/blog/post/32640408-c%23-%E4%BA%8B%E4%BB%B6%E8%A7%B8%E7%99%BC%E7%9A%84rs232
 - https://msdn.microsoft.com/zh-tw/library/System.IO.Ports.SerialPort_methods(v=vs.110).aspx
+
+
 ----------
