@@ -8,9 +8,7 @@ tags: ['GIT','GitHub']
 github page 昨天還builde 好好的，完全沒改動的情況下，今天始終Page build failure，
 
 > The page build failed with the following error:
-> 
 > Page build failed. For more information, see https://help.github.com/articles/troubleshooting-github-pages-build-failures.
-> 
 > If you have any questions you can contact us by replying to this email.
 
 最後才發現問題在於 highlight 語法。
@@ -34,11 +32,11 @@ github page 昨天還builde 好好的，完全沒改動的情況下，今天始�
 
 2.把post內的.md文章 有用到 highlight 語法
 
-
-    {% highlight cpp %}
-    // Code
-    {% endhighlight %}
-
+```
+{% highlight cpp %}
+// Code
+{% endhighlight %}
+```
 
 改成
 
