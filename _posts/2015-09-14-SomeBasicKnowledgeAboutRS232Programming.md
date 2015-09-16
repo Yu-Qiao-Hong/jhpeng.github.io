@@ -192,26 +192,25 @@ int iBit = mybyte.BIT6;
 
 
 C++ 語法    
-~~~cpp
 
+~~~cpp
 unsigned short x = 0x96F1;
 unsigned char HighByte = x >> 8; // 利用右移 8 bits 擠掉 low byte:
 unsigned char LowByte = x & 0xff; // & 11111111 用來取最後8bits ,利用 AND 運算過濾掉 high byte 的部分。
 ~~~
 
 C# 語法
-~~~csharp
 
+~~~csharp
 ushort x = 0x96F1;
 byte HighByte = x >> 8; // 利用右移 8 bits 擠掉 low byte:
 byte LowByte = x & 0xff; // & 11111111 用來取最後8bits ,利用 AND 運算過濾掉 high byte 的部分。
-
 ~~~
 
 
-C 語法    
+C 語法   
+ 
 ~~~c
-
 typedef union{
 	unsigned short usValue;
 	struct{
@@ -243,7 +242,6 @@ MyWORD x;
 x.usValue = 0x96F1;
 unsigned char HighByte = x.ucHight;
 unsigned char LowByte = x.ucLowf; 
-
 ~~~
 
 
@@ -255,9 +253,9 @@ unsigned char LowByte = x.ucLowf;
 
 ## Queue 用法 ##
 
-C++ 語法    
+C++ 語法  
+  
 ~~~cpp
-
 //匯入Queue的命名空間
 #include <deque> 
 using namespace std;
@@ -282,7 +280,6 @@ HANDLE g_Mutex = ::CreateMutex(NULL, FALSE, _T("MY_MUTEX_FOR_QUEUE"));
 ::WaitForSingleObject(g_Mutex, INFINITE);
 	pDlg->myOscSendQueue.pop_front();
 ::ReleaseMutex(g_Mutex);
-
 ~~~
 
 C# 語法
@@ -290,7 +287,6 @@ C# 語法
 佇列(Queue)是用先進先出的方式處理物件的集合；而堆疊(Stack )是後進先出。
 
 ~~~csharp
-
 //匯入Queue的命名空間
 using System.Collections;
 
@@ -311,8 +307,6 @@ lock (myQueue.SyncRoot)
 {  
     string strData = myQueue.Dequeue();
 }  
-
-
 ~~~
 
 參考： [http://www.dotblogs.com.tw/yc421206/archive/2009/01/23/6930.aspx](http://www.dotblogs.com.tw/yc421206/archive/2009/01/23/6930.aspx)
@@ -322,9 +316,9 @@ lock (myQueue.SyncRoot)
 
 ## 執行緒 Thread 用法 ##
 
-C++ 語法    
+C++ 語法   
+ 
 ~~~cpp
-
 //thread
 CWinThread* workerThread;
 BOOL bRun = TRUE;
@@ -342,10 +336,10 @@ workerThread = AfxBeginThread(DoWork, (LPVOID)this);
 
 //停止執行緒
 bRun = FALSE;
-
 ~~~
 
 C# 語法
+
 ~~~csharp
 using System.Threading;
 
@@ -367,7 +361,6 @@ workerThread.Start();
 
 //停止執行緒
 bRun = false;
-
 ~~~
 
 
@@ -383,8 +376,6 @@ C++ 語法
 使用網路上找的class，https://github.com/jhpeng/SerialPortApi
 
 ~~~cpp
-
-
 //宣告一個 SerialPort
 CSerialPortApi COMPort;
 
@@ -408,14 +399,11 @@ if(COMPort.ReceiveFlag)
 
 //讀數據
 COMPort.ReadRecvByte();    
-
-
 ~~~
 
 
 C# 語法
 ~~~csharp
-
 //宣告一個 SerialPort
 public SerialPort serialPort = new SerialPort();
 
@@ -453,7 +441,6 @@ serialPort.Read(test, 0, bytes);
 serialPort.DiscardInBuffer();       // RX  清空 serial port 的緩存
 serialPort.DiscardOutBuffer();      // TX  清空 serial port 的緩存
 serialPort.Close();
-
 ~~~
 
 
