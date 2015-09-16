@@ -5,9 +5,9 @@ author: 'James Peng'
 tags: ['Win8']
 ---
 
-{% highlight shell %}
+~~~shell
 HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Windows NT\CurrentVersion\AppCompatFlags\Layers
-{% endhighlight %}   
+~~~   
 
 ## Under specific registry key ##
 
