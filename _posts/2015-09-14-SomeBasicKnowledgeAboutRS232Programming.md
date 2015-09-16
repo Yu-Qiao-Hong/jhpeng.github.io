@@ -57,42 +57,37 @@ Virtual Serial Ports Emulator
 ## 10進位int 轉成 16進位string ##
 
 C++ 語法
-~~~cpp
 
+~~~cpp
     int i = 100;
     CString strHex;
     strHex.Format(_T("%02X"), i);
-
 ~~~
 
 C# 語法
-~~~csharp
 
+~~~csharp
     int i = 100;
     string strHex = Convert.ToString(i, 16);
-
 ~~~
-
 
 ----------
 
 ## 16進位string 轉成 10進位int ##
 
 C++ 語法
-~~~cpp
 
+~~~cpp
     CString hexStr(_T("64"));
     wchar_t *end = NULL;
     int iData = (int)wcstol (hexStr, &end, 16);
-
 ~~~
 
 C# 語法
-~~~csharp
 
+~~~csharp
     string hexStr = "64";
     int iData = Convert.ToInt32(hexStr, 16);
-
 ~~~
 
 
@@ -101,25 +96,23 @@ C# 語法
 ## 將字元或字串轉成ASCII code ##
 
 C++ 語法
-~~~cpp
 
+~~~cpp
 	char strA = 'a';
 	int asciiCode = strA;
 
 	CStringA strA("abc");
 	unsigned char *asciiBytes = (unsigned char*)strA.GetBuffer(strA.GetLength() );
-
 ~~~
 
 C# 語法
-~~~csharp
 
+~~~csharp
 	char strA = 'a';
 	int asciiCode = Convert.ToInt32(charWord);
 	
 	string stringWord = "abc";
 	byte[] asciiBytes = Encoding.ASCII.GetBytes(stringWord);
-
 ~~~
 
 參考：
@@ -129,29 +122,27 @@ C# 語法
 
 ## 取一個Byte(int)裡bit6的值 ##
 
-C++ 語法    
+C++ 語法 
+   
 ~~~cpp
-
     int bitNumber = 6;
     int iData = 0xBF; //10111111
     int iBit = (iData >> bitNumber) & 1; //>> ：向右移位, a >> n 即 a 向右移 n 個 bits， ＆1就是取bit0
-
 ~~~
 
 C# 語法
-~~~csharp
 
+~~~csharp
     int bitNumber = 6;
     int iData = 0xBF; //10111111
     int iBit = (iData >> bitNumber) & 1;
-
 ~~~
 
 
 
-C 語法    
+C 語法  
+  
 ~~~c
-
 typedef union{
 	unsigned short usValue;
 	struct{
@@ -169,7 +160,6 @@ typedef union{
 MyBYTE mybyte;
 mybyte.usValue = 0xBF;
 int iBit = mybyte.BIT6;
-
 ~~~
 
 ----------
@@ -403,6 +393,7 @@ COMPort.ReadRecvByte();
 
 
 C# 語法
+
 ~~~csharp
 //宣告一個 SerialPort
 public SerialPort serialPort = new SerialPort();
