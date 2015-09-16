@@ -66,7 +66,7 @@ C++ 語法
 ~~~
 
 C# 語法
-~~~cs
+~~~csharp
 
     int i = 100;
     string strHex = Convert.ToString(i, 16);
@@ -88,7 +88,7 @@ C++ 語法
 ~~~
 
 C# 語法
-~~~cs
+~~~csharp
 
     string hexStr = "64";
     int iData = Convert.ToInt32(hexStr, 16);
@@ -112,7 +112,7 @@ C++ 語法
 ~~~
 
 C# 語法
-~~~cs
+~~~csharp
 
 	char strA = 'a';
 	int asciiCode = Convert.ToInt32(charWord);
@@ -139,7 +139,7 @@ C++ 語法
 ~~~
 
 C# 語法
-~~~cs
+~~~csharp
 
     int bitNumber = 6;
     int iData = 0xBF; //10111111
@@ -200,7 +200,7 @@ unsigned char LowByte = x & 0xff; // & 11111111 用來取最後8bits ,利用 AND
 ~~~
 
 C# 語法
-~~~cs
+~~~csharp
 
 ushort x = 0x96F1;
 byte HighByte = x >> 8; // 利用右移 8 bits 擠掉 low byte:
@@ -289,7 +289,7 @@ C# 語法
 
 佇列(Queue)是用先進先出的方式處理物件的集合；而堆疊(Stack )是後進先出。
 
-~~~cs
+~~~csharp
 
 //匯入Queue的命名空間
 using System.Collections;
@@ -346,7 +346,7 @@ bRun = FALSE;
 ~~~
 
 C# 語法
-~~~cs
+~~~csharp
 using System.Threading;
 
 Thread workerThread;
@@ -414,7 +414,7 @@ COMPort.ReadRecvByte();
 
 
 C# 語法
-~~~cs
+~~~csharp
 
 //宣告一個 SerialPort
 public SerialPort serialPort = new SerialPort();
