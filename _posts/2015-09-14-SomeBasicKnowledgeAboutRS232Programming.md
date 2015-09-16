@@ -57,21 +57,21 @@ Virtual Serial Ports Emulator
 ## 10進位int 轉成 16進位string ##
 
 C++ 語法
-{% highlight cpp %}
+~~~cpp
 
     int i = 100;
     CString strHex;
     strHex.Format(_T("%02X"), i);
 
-{% endhighlight %}
+~~~
 
 C# 語法
-{% highlight cs %}
+~~~cs
 
     int i = 100;
     string strHex = Convert.ToString(i, 16);
 
-{% endhighlight %}
+~~~
 
 
 ----------
@@ -79,21 +79,21 @@ C# 語法
 ## 16進位string 轉成 10進位int ##
 
 C++ 語法
-{% highlight cpp %}
+~~~cpp
 
     CString hexStr(_T("64"));
     wchar_t *end = NULL;
     int iData = (int)wcstol (hexStr, &end, 16);
 
-{% endhighlight %}
+~~~
 
 C# 語法
-{% highlight cs %}
+~~~cs
 
     string hexStr = "64";
     int iData = Convert.ToInt32(hexStr, 16);
 
-{% endhighlight %}
+~~~
 
 
 ----------
@@ -101,7 +101,7 @@ C# 語法
 ## 將字元或字串轉成ASCII code ##
 
 C++ 語法
-{% highlight cpp %}
+~~~cpp
 
 	char strA = 'a';
 	int asciiCode = strA;
@@ -109,10 +109,10 @@ C++ 語法
 	CStringA strA("abc");
 	unsigned char *asciiBytes = (unsigned char*)strA.GetBuffer(strA.GetLength() );
 
-{% endhighlight %}
+~~~
 
 C# 語法
-{% highlight cs %}
+~~~cs
 
 	char strA = 'a';
 	int asciiCode = Convert.ToInt32(charWord);
@@ -120,7 +120,7 @@ C# 語法
 	string stringWord = "abc";
 	byte[] asciiBytes = Encoding.ASCII.GetBytes(stringWord);
 
-{% endhighlight %}
+~~~
 
 參考：
 - http://yeahpingchi.blogspot.tw/2012/04/cconvert-to-ascii.html
@@ -130,27 +130,27 @@ C# 語法
 ## 取一個Byte(int)裡bit6的值 ##
 
 C++ 語法    
-{% highlight cpp %}
+~~~cpp
 
     int bitNumber = 6;
     int iData = 0xBF; //10111111
     int iBit = (iData >> bitNumber) & 1; //>> ：向右移位, a >> n 即 a 向右移 n 個 bits， ＆1就是取bit0
 
-{% endhighlight %}
+~~~
 
 C# 語法
-{% highlight cs %}
+~~~cs
 
     int bitNumber = 6;
     int iData = 0xBF; //10111111
     int iBit = (iData >> bitNumber) & 1;
 
-{% endhighlight %}
+~~~
 
 
 
 C 語法    
-{% highlight c %}
+~~~c
 
 typedef union{
 	unsigned short usValue;
@@ -170,7 +170,7 @@ MyBYTE mybyte;
 mybyte.usValue = 0xBF;
 int iBit = mybyte.BIT6;
 
-{% endhighlight %}
+~~~
 
 ----------
 
@@ -192,25 +192,25 @@ int iBit = mybyte.BIT6;
 
 
 C++ 語法    
-{% highlight cpp %}
+~~~cpp
 
 unsigned short x = 0x96F1;
 unsigned char HighByte = x >> 8; // 利用右移 8 bits 擠掉 low byte:
 unsigned char LowByte = x & 0xff; // & 11111111 用來取最後8bits ,利用 AND 運算過濾掉 high byte 的部分。
-{% endhighlight %}
+~~~
 
 C# 語法
-{% highlight cs %}
+~~~cs
 
 ushort x = 0x96F1;
 byte HighByte = x >> 8; // 利用右移 8 bits 擠掉 low byte:
 byte LowByte = x & 0xff; // & 11111111 用來取最後8bits ,利用 AND 運算過濾掉 high byte 的部分。
 
-{% endhighlight %}
+~~~
 
 
 C 語法    
-{% highlight c %}
+~~~c
 
 typedef union{
 	unsigned short usValue;
@@ -244,7 +244,7 @@ x.usValue = 0x96F1;
 unsigned char HighByte = x.ucHight;
 unsigned char LowByte = x.ucLowf; 
 
-{% endhighlight %}
+~~~
 
 
 
@@ -256,7 +256,7 @@ unsigned char LowByte = x.ucLowf;
 ## Queue 用法 ##
 
 C++ 語法    
-{% highlight cpp %}
+~~~cpp
 
 //匯入Queue的命名空間
 #include <deque> 
@@ -283,13 +283,13 @@ HANDLE g_Mutex = ::CreateMutex(NULL, FALSE, _T("MY_MUTEX_FOR_QUEUE"));
 	pDlg->myOscSendQueue.pop_front();
 ::ReleaseMutex(g_Mutex);
 
-{% endhighlight %}
+~~~
 
 C# 語法
 
 佇列(Queue)是用先進先出的方式處理物件的集合；而堆疊(Stack )是後進先出。
 
-{% highlight cs %}
+~~~cs
 
 //匯入Queue的命名空間
 using System.Collections;
@@ -313,7 +313,7 @@ lock (myQueue.SyncRoot)
 }  
 
 
-{% endhighlight %}
+~~~
 
 參考： [http://www.dotblogs.com.tw/yc421206/archive/2009/01/23/6930.aspx](http://www.dotblogs.com.tw/yc421206/archive/2009/01/23/6930.aspx)
 
@@ -323,7 +323,7 @@ lock (myQueue.SyncRoot)
 ## 執行緒 Thread 用法 ##
 
 C++ 語法    
-{% highlight cpp %}
+~~~cpp
 
 //thread
 CWinThread* workerThread;
@@ -343,10 +343,10 @@ workerThread = AfxBeginThread(DoWork, (LPVOID)this);
 //停止執行緒
 bRun = FALSE;
 
-{% endhighlight %}
+~~~
 
 C# 語法
-{% highlight cs %}
+~~~cs
 using System.Threading;
 
 Thread workerThread;
@@ -368,7 +368,7 @@ workerThread.Start();
 //停止執行緒
 bRun = false;
 
-{% endhighlight %}
+~~~
 
 
 參考：
@@ -382,7 +382,7 @@ bRun = false;
 C++ 語法    
 使用網路上找的class，https://github.com/jhpeng/SerialPortApi
 
-{% highlight cpp %}
+~~~cpp
 
 
 //宣告一個 SerialPort
@@ -410,11 +410,11 @@ if(COMPort.ReceiveFlag)
 COMPort.ReadRecvByte();    
 
 
-{% endhighlight %}
+~~~
 
 
 C# 語法
-{% highlight cs %}
+~~~cs
 
 //宣告一個 SerialPort
 public SerialPort serialPort = new SerialPort();
@@ -454,7 +454,7 @@ serialPort.DiscardInBuffer();       // RX  清空 serial port 的緩存
 serialPort.DiscardOutBuffer();      // TX  清空 serial port 的緩存
 serialPort.Close();
 
-{% endhighlight %}
+~~~
 
 
 參考：
