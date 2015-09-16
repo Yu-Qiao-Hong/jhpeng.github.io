@@ -9,11 +9,11 @@ tags: ['Rails']
 我們需要安裝一點軟體（Gem），讓我們可以在 Rails 裡上傳檔案。
 
 
-~~~shell
+~~~text
     gem install 'carrierwave'
 ~~~
 
-~~~shell
+~~~text
  C:\Sites\idea>gem install 'carrierwave'
  Fetching: carrierwave-0.10.0.gem (100%)
  Successfully installed carrierwave-0.10.0
@@ -28,13 +28,13 @@ tags: ['Rails']
 
 在終端裡，執行：
 
-~~~shell
+~~~text
     bundle
 ~~~
 
 現在我們可以來產生處理上傳的相關程式。在終端裡，執行：
 
-~~~shell
+~~~text
     rails generate uploader Picture
 ~~~
 
