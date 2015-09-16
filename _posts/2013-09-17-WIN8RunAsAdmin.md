@@ -5,7 +5,7 @@ author: 'James Peng'
 tags: ['Win8']
 ---
 
-~~~shell
+~~~text
 HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Windows NT\CurrentVersion\AppCompatFlags\Layers
 ~~~   
 
