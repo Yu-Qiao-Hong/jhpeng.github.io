@@ -1,0 +1,27 @@
+---
+layout: post
+title: 'WIN8所有程式 自動使用Admin權限開啟'
+author: 'James Peng'
+tags: ['Win8']
+---
+
+{% highlight shell %}
+HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Windows NT\CurrentVersion\AppCompatFlags\Layers
+{% endhighlight %}   
+
+## Under specific registry key ##
+
+1. Create **REG_SZ** value with name as full path to executable (if path contains spaces, do not surround it with quotes)
+2. Data for this value must contain string **RUNASADMIN**
+
+![](http://i.imgur.com/qtbmogb.png)
+
+## 結果 ##
+
+![](http://i.imgur.com/gWANpky.png)
+
+## 參考 ##
+http://www.cievo.sk/2011/11/02/how-to-set-run-this-program-as-administrator-via-registry/
+
+  
+
