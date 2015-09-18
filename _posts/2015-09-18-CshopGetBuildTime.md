@@ -2,12 +2,12 @@
 layout: post
 title: 'C#中取得最後編譯時間'
 author: 'James Peng'
-tags: ['cshop']
+tags: ['csharp']
 ---
 
 C#獲取程序集的版本號：
 
-~~~cshop
+~~~csharp
 string ver = System.Reflection.Assembly.GetExecutingAssembly().GetName().Version.ToString();
 ~~~
 
@@ -15,7 +15,7 @@ string ver = System.Reflection.Assembly.GetExecutingAssembly().GetName().Version
  
 在實際的軟件開發工作中，我們通常需要記錄某個工程的最後編譯時間，原來在C++中，我們有個__DATE__，__TIME__，__FILE__，__LINE__這樣的異性宏定義可以使用，但是在C#中，不能使用，但是可以用以下語句來獲得最後編譯時間。
 
-~~~cshop
+~~~csharp
 System.IO.File.GetLastWriteTime(this.GetType().Assembly.Location)
 ~~~
 
