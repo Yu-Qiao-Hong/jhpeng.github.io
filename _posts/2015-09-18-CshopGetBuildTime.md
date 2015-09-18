@@ -8,7 +8,11 @@ tags: ['csharp']
 
 在實際的專案開發中，我們常常需要記錄某個Project的最後編譯時間，
 
-原來在C++中，我們有個__DATE__，__TIME__，__FILE__，__LINE__這樣的Macros獲得最後編譯時間，
+原來在C++中，我們有個__DATE__，__TIME__，__FILE__，__LINE__這樣的Macros獲得最後編譯時間，例如：
+
+~~~cpp
+CString m_strBuildCode = (CString)__DATE__ + _T(" ") + (CString)__TIME__;
+~~~
 
 但是在C#中，可以用以下語法...
 
