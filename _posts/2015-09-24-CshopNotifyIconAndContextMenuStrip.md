@@ -6,6 +6,7 @@ tags: ['csharp']
 ---
 
 先拉 NotifyIcon 與 contextMenuStrip 這兩個元件到 Form
+
 ![](http://i.imgur.com/LJHvGF7.png)
 
 
