@@ -2,7 +2,7 @@
 layout: post
 title: 'C# 輸出 Excel 方案選擇'
 author: 'James Peng'
-tags: ['CShop']
+tags: ['C#']
 ---
 
 ## 1.使用 Microsoft.Office.Interop.Excel ##
