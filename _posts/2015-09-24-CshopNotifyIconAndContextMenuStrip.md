@@ -47,7 +47,7 @@ tags: ['csharp']
 
 NotifyIcon裡，指定 contextMenuStrip
 
-![](http://i.imgur.com/LJHvGF7.png)
+![](http://i.imgur.com/inFsmJn.png)
 
 ~~~csharp
         private void exitToolStripMenuItem_Click(object sender, EventArgs e)
