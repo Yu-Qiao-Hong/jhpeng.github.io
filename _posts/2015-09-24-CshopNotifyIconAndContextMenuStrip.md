@@ -5,10 +5,11 @@ author: 'James Peng'
 tags: ['csharp']
 ---
 
+先拉 NotifyIcon 與 contextMenuStrip 這兩個元件到 Form
 ![](http://i.imgur.com/LJHvGF7.png)
 
 
-點選controlbox縮到最小之後，就會將Form隱藏，並將notifyicon顯示於右下角
+點選Form右上角縮到最小之後，就會將Form隱藏，並將notifyicon顯示於右下角
 
 ~~~csharp
         private void MainForm_Resize(object sender, EventArgs e)
@@ -25,7 +26,7 @@ tags: ['csharp']
 ~~~
 
 
-當點選windows桌面右下角的icon兩下，則Form會顯示
+點選windows桌面右下角的icon兩下，則Form會顯示
 
 ~~~csharp
         private void notifyIcon1_DoubleClick(object sender, EventArgs e)
@@ -74,12 +75,14 @@ NotifyIcon裡，指定 contextMenuStrip
 ~~~
 
 
-結果：
+DEMO：
+
 ![](http://i.imgur.com/X6pJhhm.png)
+
+![](http://i.imgur.com/XZDjbMp.png)
 
 
 參考：
 
 - http://ms-net.blogspot.tw/2008/04/notifyicon-contextmenustrip.html
 - http://blog.xuite.net/merci0212/wretch/141175655-[%E8%BD%89%E8%BC%89]C# %E8%A3%BD%E4%BD%9Cwindows%E7%B8%AE%E5%B0%8F%E5%9C%96%E7%A4%BA%E5%B7%A5%E5%85%B7%EF%BC%8C%E4%BD%BF%E7%94%A8notifyicon(Trayicon)%E5%92%8Ccontextmenustrip
-- 
