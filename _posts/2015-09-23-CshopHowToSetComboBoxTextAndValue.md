@@ -2,7 +2,7 @@
 layout: post
 title: 'C# 使用 Key-Value 設定 ComboBox 的資料'
 author: 'James Peng'
-tags: ['csharp']
+tags: ['csharp','C#']
 ---
 
 有時候我們除了想要知道選取的項目外，還想要知道該項目的值。例如，如果從資料庫拉資料進ComboBox，我們想要同時把一筆資料的ID同時指定給該項目，以利於做其他判斷。這時候就必須讓ComboBox同時可以設定"項目名稱"及"值"。 
