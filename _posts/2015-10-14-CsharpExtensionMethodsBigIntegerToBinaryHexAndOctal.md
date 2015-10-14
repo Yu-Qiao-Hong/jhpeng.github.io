@@ -1,6 +1,6 @@
 ---
 layout: post
-title: 'C# – Get Windows Version and Edition'
+title: 'Extension methods: BigInteger to Binary, Hex, and Octal'
 author: 'James Peng'
 tags: ['csharp','C#']
 ---
