@@ -2,7 +2,7 @@
 layout: post
 title: 'XP環境的IIS安裝設定 PHP 5.2.0'
 author: 'James Peng'
-tags: ['PHP']
+tags: ['IIS']
 ---
 
 連線至PHP官方網站下載頁面。  

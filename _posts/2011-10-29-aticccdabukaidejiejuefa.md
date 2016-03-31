@@ -2,7 +2,7 @@
 layout: post
 title: 'ATI CCC打不開的解決法'
 author: 'James Peng'
-tags: ['ati','windows']
+tags: ['Windows']
 ---
 
   

@@ -2,7 +2,7 @@
 layout: post
 title: 'mssql轉access'
 author: 'James Peng'
-tags: ['access','MSSQL']
+tags: ['MSSQL']
 ---
 
 [![image](http://lh4.ggpht.com/_AnTT9cbXdqY/TPlIRtbU5bI/AAAAAAAAI98/QzBx4SnyyDw/image_thumb%5B11%5D.png?imgmax=800 "image")](http://lh5.ggpht.com/_AnTT9cbXdqY/TPlIQq0h1CI/AAAAAAAAI94/hNSADfeoRNY/s1600-h/image%5B14%5D.png)

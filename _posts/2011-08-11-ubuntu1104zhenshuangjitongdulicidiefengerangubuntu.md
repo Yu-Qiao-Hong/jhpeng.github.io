@@ -2,7 +2,7 @@
 layout: post
 title: 'Ubuntu 11.04 真．雙系統，獨立磁碟分割，讓 Ubuntu 不再受到 Windows 拖累'
 author: 'James Peng'
-tags: ['ubuntu','windows']
+tags: ['Ubuntu','Windows']
 ---
 
  

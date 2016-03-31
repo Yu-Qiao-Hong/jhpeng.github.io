@@ -2,7 +2,7 @@
 layout: post
 title: 'XP環境的IIS安裝設定phpMyAdmin-2.11.2.2'
 author: 'James Peng'
-tags: ['PHP']
+tags: ['IIS']
 ---
 
 官方網站下載：  

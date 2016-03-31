@@ -2,7 +2,7 @@
 layout: post
 title: 'Windows2003遠端連線數滿了解決方法'
 author: 'James Peng'
-tags: ['windows']
+tags: ['Windows']
 ---
 
 Windows 2003
