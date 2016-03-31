@@ -6,9 +6,7 @@ tags: ['MFC','C++']
 ---
 
 
-# Unicode
-
-#### Unicode簡介
+### Unicode簡介
 
 
 | 古代 | 現代 |
@@ -21,6 +19,9 @@ tags: ['MFC','C++']
 
 
 PS.寬字元不一定是Unicode。Unicode是一種寬字元集。然而，因為本書的焦點是MFC而不是理論，所以我將把寬字元和Unicode作為同義語。
+
+
+-----------------
 
 #### 使用非Unicode開發的程式
 
@@ -63,8 +64,10 @@ PS.寬字元不一定是Unicode。Unicode是一種寬字元集。然而，因為
 但也有失敗的機率，是個治標不治本的方法。
 
 
+-----------------
 
-#### 請使用Unicode開發的程式
+
+### 請使用Unicode開發的程式
 
 
 
@@ -98,7 +101,9 @@ m_Status = "";
 前者是一個 Unicode 的 (空) 字串.
 
 
-延伸閱讀：
+-----------------
+
+### 延伸閱讀：
 
 * http://msdn2.microsoft.com/en-us/library/szdfzttz.aspx
 * http://msdn2.microsoft.com/en-us/library/c426s321.aspx
