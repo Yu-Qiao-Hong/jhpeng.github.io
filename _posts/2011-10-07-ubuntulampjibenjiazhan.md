@@ -1,8 +1,8 @@
 ---
 layout: post
-title: '[ubuntu] LAMP 基本架站'
+title: 'Ubuntu LAMP 基本架站'
 author: 'James Peng'
-tags: ['Ubuntu']
+tags: ['Linux']
 ---
 
 首先先安裝apache2
