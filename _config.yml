@@ -40,7 +40,7 @@ bing_verify:
 timezone:    Asia/Taipei
 future:      true
 highlighter:  false # pygments
-markdown:    redcarpet
+markdown:    kramdown
 gems:
   - jekyll-sitemap
 sass:
