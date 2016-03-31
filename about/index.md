@@ -19,14 +19,14 @@ If you've used any of [my other themes](http://mademistakes.com/work/jekyll-them
 
 # Delta Electronics
 
-December 2014 ¡V Present (1 year 4 months)
+December 2014 â€“ Present (1 year 4 months)
 
 - Developing and Testing PLC IDE which is simultaneously being integrated with other Automation
 software. Implementing parts of industrial communication protocol Modbus, CANopen, EtherCAT.
 
 - Developing the Software for Power Supplier which is simultaneously being integrated with automated test equipment that ensure QA of Firmware and Hardware. Implementing parts of industrial communication protocol Modbus, CAN Bus, I2C.
 
-# Project¡G
+# Projectï¼š
 * Delta PLC EtherCAT builder (C#)
 * Delta PLC EDS builder (VC++)
 * Solvang_1200W_GUI (C++ Builder)
@@ -50,7 +50,7 @@ Delta Electronics is one of the biggest corporations headquartered in Taiwan, ha
 
 # Compal
 
-July 2011 ¡V December 2014 (3 years 6 months)
+July 2011 â€“ December 2014 (3 years 6 months)
 
 - Develop Windows / Android / Linux application.
 - Win8 NB / Android Pad production test program Issue Analysis and Problem Solving.
