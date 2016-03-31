@@ -2,7 +2,7 @@
 layout: post
 title: 'Some basic knowledge about RS232 programming'
 author: 'James Peng'
-tags: ['c++','MFC','C#']
+tags: ['C++','MFC','C#']
 ---
 
 ## 串列埠存取工具（串口助手） ##

@@ -2,7 +2,7 @@
 layout: post
 title: 'VirtualBox建置 Ubuntu 10.04 LTS x64 Android source build 開發環境'
 author: 'James Peng'
-tags: ['Android','Linux','ubuntu']
+tags: ['Android']
 ---
 
 [![image](http://lh5.ggpht.com/-A71ZAXXIvec/UQ0fNkodh6I/AAAAAAAAPQM/gmAYtkBc3SM/image_thumb%25255B57%25255D.png?imgmax=800 "image")](http://lh6.ggpht.com/-nHJqm48ZnZw/UQ0fNDZMzjI/AAAAAAAAPQE/UWADbdifqOo/s1600-h/image%25255B108%25255D.png)

@@ -2,7 +2,7 @@
 layout: post
 title: 'MFC SQLite 不會中文亂碼'
 author: 'James Peng'
-tags: ['c++','MFC']
+tags: ['C++','MFC']
 ---
 
 SQLite3  是用 C 語言編寫的開源數據庫，可移植性好，容易非常簡單，而且及其輕便。

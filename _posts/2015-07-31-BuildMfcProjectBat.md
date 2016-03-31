@@ -2,7 +2,7 @@
 layout: post
 title: 'Build-Mfc-Project-Bat'
 author: 'James Peng'
-tags: ['c++','MFC']
+tags: ['C++','MFC']
 ---
 
 

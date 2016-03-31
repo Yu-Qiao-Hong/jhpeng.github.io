@@ -2,7 +2,7 @@
 layout: post
 title: 'Bejeweled2 Deluxe 製作遊戲修改器教學'
 author: 'James Peng'
-tags: ['c++','MFC']
+tags: ['C++','MFC']
 ---
 
 
