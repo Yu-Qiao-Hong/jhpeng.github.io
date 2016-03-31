@@ -2,7 +2,7 @@
 layout: post
 title: 'Blogger風格修改範例'
 author: 'James Peng'
-tags: ['blogger']
+tags: ['Google']
 ---
 
 到後台的範本裡，先「下載完整範本」

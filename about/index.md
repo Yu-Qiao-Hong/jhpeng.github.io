@@ -1,34 +1,93 @@
 ---
 layout: page
-title: About the Jekyll Theme
+title: About the jhpeng(James Peng)
 image:
   feature: abstract-5.jpg
   credit: dargadgetz
   creditlink: http://www.dargadgetz.com/ios-7-abstract-wallpaper-pack-for-iphone-5-and-ipod-touch-retina/
 comments: false
-modified: 2014-12-24
+modified: 2016-03-31
 ---
 
 They say three times the charm, so here is another free responsive Jekyll blog theme for you. I've learned a ton since open sourcing my first two themes [on Github](http://github.com/mmistakes), and wanted to try a few new things this time around. 
 
 If you've used any of [my other themes](http://mademistakes.com/work/jekyll-themes/) most of this should be familiar territory...
 
-## What HPSTR brings to the table:
+### Experience
 
-* Responsive templates for post, page, and post index `_layouts`. Looks great on mobile, tablet, and desktop devices.
-* Gracefully degrads in older browsers. Compatible with Internet Explorer 8+ and all modern browsers.  
-* Modern and minimal design.
-* Sweet animated menu.
-* Background image support.
-* Readable typography to make your words shine.
-* Support for large images to call out your favorite posts.
-* Built-in support for Sass courtesy of Jekyll 2.x.
-* Optional [Disqus](http://disqus.com) comments.
-* Simple and clear permalink structure[^1].
-* [Open Graph](https://developers.facebook.com/docs/opengraph/) and [Twitter Cards](https://dev.twitter.com/docs/cards) support for a better social sharing experience.
-* Simple [custom 404 page]({{ site.url }}/404.html) to get you started.
-* Stylesheets for Pygments and Coderay [syntax highlighting]({{ site.url }}/code-highlighting-post/) to make your code examples look snazzy.
+## Software Engineer
 
-<div markdown="0"><a href="{{ site.url }}/theme-setup/" class="btn btn-info">Theme Setup</a> <a href="https://github.com/mmistakes/hpstr-jekyll-theme" class="btn btn-success">Download HPSTR</a></div>
+# Delta Electronics
 
-[^1]: Example: *domain.com/category-name/post-title*
+December 2014 ¡V Present (1 year 4 months)
+
+- Developing and Testing PLC IDE which is simultaneously being integrated with other Automation
+software. Implementing parts of industrial communication protocol Modbus, CANopen, EtherCAT.
+
+- Developing the Software for Power Supplier which is simultaneously being integrated with automated test equipment that ensure QA of Firmware and Hardware. Implementing parts of industrial communication protocol Modbus, CAN Bus, I2C.
+
+# Project¡G
+* Delta PLC EtherCAT builder (C#)
+* Delta PLC EDS builder (VC++)
+* Solvang_1200W_GUI (C++ Builder)
+* DPST-3000DBA_GUI (VC++)
+* HP_Orion_750W_PCM_GUI (VC++)
+* DPST-150DBA_Bootloader_GUI (C#)
+* DPST-2800CB_Formosa_PSU_Utility (VC++)
+* DPST-750BB_Firmware_Downloader (VC++)
+* DPST-1200GBA_Bootloader_GUI (VC++)
+* NTT_EEPROM_Program (VC++)
+* DPST-100ABA_Firmware_Test_Program (VC++)
+* DPST-2530AB_Test_Program (VC++)
+* RMC_CANBus_Stress_Test_Program (VC++)
+* RMC_Power_Cycling_Test_Program(VC++)
+* RMC_SNMP_Test_Program (VC++)
+* AD_20830BA_Test_Program (VC++)
+
+Delta Electronics is one of the biggest corporations headquartered in Taiwan, has its business with Innovations in Power Electronics, Energy Management, Industrial Automation, Smart Green Life.
+
+----------------
+
+# Compal
+
+July 2011 ¡V December 2014 (3 years 6 months)
+
+- Develop Windows / Android / Linux application.
+- Win8 NB / Android Pad production test program Issue Analysis and Problem Solving.
+- Test improve factory automation project, Sensor Test automation improvement, Camera Test image recognition automation.
+
+Windows Application:
+* JV_ITPM_LCD_Touch_IC_TEST (VC++)
+* ITPM_RB_BrightnessTest (VC++)
+* ITPM_USHTest (VC++)
+* ITPM_AC-AdapterCheck (VC++)
+* STPM_ThermalCheck (VC++)
+* STPM_HDDTest (VC++)
+* STPM_3DMarkScoreCheck (VC++)
+* STPM_TimeSubtract (VC++)
+* STPM_ASUSBattMonitor (VC++)
+* STPM_AcerFanCheck (VC++)
+* STPM_DeviceStatusCheck (VC++)
+* ASUSBtDummyMAC(VC++)
+* XMLParserTool(VC++)
+* ITPM_CameraFATest(VC++)
+* Test Result in WallPaper(VC++)
+* Windows HCK Studio Paser (C#)
+
+Ubuntu Application:
+* AutoSensor.jar
+
+Android Application:
+* AtdmMain.apk
+* CameraAuto.apk
+* ECompassAuto.apk
+* GSensorAuto.apk
+* GyroAuto.apk
+* HDMI.apk
+* LightSensorAuto.apk
+* PosSensor.apk
+* RotationAuto.apk
+* TSensor.apk
+* VolumekeyAuto.apk
+
+Compal Electronics is a Taiwanese original design manufacturer (ODM), handling the production of notebook computers, monitors and televisions for a variety of clients around the world, including Acer, Lenovo, Dell, Toshiba, Hewlett-Packard and Fujitsu Siemens Computers. It also licenses brands of its clients. It is the second-largest contract laptop manufacturer in the world behind Quanta Computer and shipped over 48 million notebooks in 2010.
