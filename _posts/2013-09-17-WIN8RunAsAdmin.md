@@ -2,7 +2,7 @@
 layout: post
 title: 'WIN8所有程式 自動使用Admin權限開啟'
 author: 'James Peng'
-tags: ['Win8']
+tags: ['Windows']
 ---
 
 ~~~text

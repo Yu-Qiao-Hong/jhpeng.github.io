@@ -2,7 +2,7 @@
 layout: post
 title: 'SQL2005 錯誤15023 使用者 建立失敗，孤兒使用者'
 author: 'James Peng'
-tags: ['SQL']
+tags: ['MSSQL']
 ---
 
 先在該table查詢  

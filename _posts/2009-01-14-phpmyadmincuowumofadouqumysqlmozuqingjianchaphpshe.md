@@ -2,7 +2,7 @@
 layout: post
 title: 'phpMyAdmin - 錯誤 無法讀取 mysql 模組,請檢查 PHP 設定 - 說明文件'
 author: 'James Peng'
-tags: ['IIS','PHP']
+tags: ['IIS']
 ---
 
 備註：若發生「無法載入mysql模組」  

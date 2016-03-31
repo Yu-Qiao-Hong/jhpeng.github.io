@@ -2,7 +2,7 @@
 layout: post
 title: 'WIN8自動login 不需password'
 author: 'James Peng'
-tags: ['Win8']
+tags: ['Windows']
 ---
 
     HKLM\Software\Microsoft\Windows NT\CurrentVersion\winlogon 
