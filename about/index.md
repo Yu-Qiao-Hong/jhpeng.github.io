@@ -17,6 +17,8 @@ If you've used any of [my other themes](http://mademistakes.com/work/jekyll-them
 
 ## Software Engineer
 
+----------------
+
 ### Delta Electronics
 
 December 2014 – Present (1 year 4 months)
