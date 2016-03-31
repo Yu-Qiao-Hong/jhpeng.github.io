@@ -2,7 +2,7 @@
 layout: post
 title: 'C# 讓視窗縮小到工具列 NotifyIcon 與 contextMenuStrip 的應用'
 author: 'James Peng'
-tags: ['csharp','C#']
+tags: ['C#']
 ---
 
 先拉 NotifyIcon 與 contextMenuStrip 這兩個元件到 Form

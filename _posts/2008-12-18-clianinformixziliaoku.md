@@ -2,7 +2,7 @@
 layout: post
 title: 'C#連Informix資料庫'
 author: 'James Peng'
-tags: ['C#','Informix']
+tags: ['C#']
 ---
 
 先到 IBM 官網下載 Informix Client Software Development Kit (Client SDK)

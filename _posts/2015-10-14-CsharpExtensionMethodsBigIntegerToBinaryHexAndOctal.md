@@ -2,7 +2,7 @@
 layout: post
 title: 'Extension methods: BigInteger to Binary, Hex, and Octal'
 author: 'James Peng'
-tags: ['csharp','C#']
+tags: ['C#']
 ---
 
 Here is a class containing extension methods to convert BigInteger instances to binary, hexadecimal, and octal strings:

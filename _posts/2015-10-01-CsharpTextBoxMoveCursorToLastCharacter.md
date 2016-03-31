@@ -2,7 +2,7 @@
 layout: post
 title: 'C# TextBox 將游標移至最後一個字元'
 author: 'James Peng'
-tags: ['csharp','C#']
+tags: ['C#']
 ---
 
 

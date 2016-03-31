@@ -2,7 +2,7 @@
 layout: post
 title: 'C#中取得最後編譯時間'
 author: 'James Peng'
-tags: ['csharp','C#']
+tags: ['C#']
 ---
 
 

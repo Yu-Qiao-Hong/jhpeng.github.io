@@ -2,7 +2,7 @@
 layout: post
 title: 'C# – Get Windows Version and Edition'
 author: 'James Peng'
-tags: ['csharp','C#']
+tags: ['C#']
 ---
 
 

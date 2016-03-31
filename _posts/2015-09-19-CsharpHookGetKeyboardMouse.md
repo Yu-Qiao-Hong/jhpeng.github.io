@@ -2,7 +2,7 @@
 layout: post
 title: 'C# 使用Windows API 接收全域鍵盤事件 (Windows Hook for Keyboard)'
 author: 'James Peng'
-tags: ['csharp','C#']
+tags: ['C#']
 ---
 
 若要在應用程式閒置/非正在執行的狀態下持續地監控 Mouse 及 Keyboard 的事件，不外乎要轉個方法來處理。

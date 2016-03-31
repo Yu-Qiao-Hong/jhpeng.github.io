@@ -2,7 +2,7 @@
 layout: post
 title: 'Tomcat 設定虛擬目錄'
 author: 'James Peng'
-tags: ['Tomcat']
+tags: ['Java']
 ---
 
 前置作業 - 安裝Tomcat  

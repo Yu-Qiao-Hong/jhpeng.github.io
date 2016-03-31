@@ -2,7 +2,7 @@
 layout: post
 title: 'ubuntu安裝sun-java5-jdk'
 author: 'James Peng'
-tags: ['Linux']
+tags: ['Java']
 ---
 
 Ubuntu
