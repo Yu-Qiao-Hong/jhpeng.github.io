@@ -2,7 +2,7 @@
 layout: post
 title: 'Git bitbucket'
 author: 'James Peng'
-tags: ['git']
+tags: ['GIT']
 ---
 
 # 新專案時：

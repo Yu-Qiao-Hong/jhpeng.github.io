@@ -2,7 +2,7 @@
 layout: post
 title: 'github: Page build failure'
 author: 'James Peng'
-tags: ['GIT','GitHub']
+tags: ['GIT']
 ---
 
 github page 昨天還builde 好好的，完全沒改動的情況下，今天始終Page build failure，

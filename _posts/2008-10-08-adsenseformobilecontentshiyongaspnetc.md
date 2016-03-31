@@ -2,7 +2,7 @@
 layout: post
 title: 'AdSense for Mobile Content使用ASP.Net C#'
 author: 'James Peng'
-tags: ['ASP.Net','C#','Google']
+tags: ['ASP.Net','C#']
 ---
 
 mobile版沒有支援C\#\~Asp.net!!!
