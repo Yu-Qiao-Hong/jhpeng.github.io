@@ -6,7 +6,7 @@ tags: ['MFC','C++']
 ---
 
 
-### Unicode簡介
+## Unicode簡介 ## 
 
 
 | 古代 | 現代 |
@@ -23,7 +23,7 @@ PS.寬字元不一定是Unicode。Unicode是一種寬字元集。然而，因為
 
 -----------------
 
-#### 使用非Unicode開發的程式
+## 使用非Unicode開發的程式 ##
 
 使用Win7正體中文作業系統，執行日文軟體的畫面，都是亂碼。
 
@@ -67,7 +67,7 @@ PS.寬字元不一定是Unicode。Unicode是一種寬字元集。然而，因為
 -----------------
 
 
-### 請使用Unicode開發的程式
+## 請使用Unicode開發的程式  ##
 
 
 
@@ -103,7 +103,7 @@ m_Status = "";
 
 -----------------
 
-### 延伸閱讀：
+## 延伸閱讀：##
 
 * http://msdn2.microsoft.com/en-us/library/szdfzttz.aspx
 * http://msdn2.microsoft.com/en-us/library/c426s321.aspx
