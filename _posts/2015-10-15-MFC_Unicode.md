@@ -70,7 +70,7 @@ PS.寬字元不一定是Unicode。Unicode是一種寬字元集。然而，因為
 
 您還可在字串前面使用L字首，來表示它們應解釋為寬字元。如下所示：
 
-~~~Cpp
+~~~cpp
 CString str = L"Hello!";
 ~~~
 
@@ -79,19 +79,19 @@ CString str = L"Hello!";
 
 也可以用_T來保證相容性，MFC 支援 ASCII 和 Unicode 兩種字元類型，用 _T 可以保證從 ASCII 編碼類型轉換到 Unicode 編碼類型的時候，程式不需要修改。
 
-~~~Cpp
+~~~cpp
 CString str = _T("Hello!");
 ~~~
 
 它不是函數, 它是一個 Windows 的 macro, 隸屬於 generic-text mapping 的範圍，如果是個 Unicode 的 project, _T("") 會變成 L""
 
-~~~Cpp
+~~~cpp
 m_Status = L"";
 ~~~
 
 如果不是 Unicode 的 project, _T("") 會變成 "", 所以整個句子:
 
-~~~Cpp
+~~~cpp
 m_Status = ""; 
 ~~~
 
@@ -99,5 +99,6 @@ m_Status = "";
 
 
 延伸閱讀：
+
 * http://msdn2.microsoft.com/en-us/library/szdfzttz.aspx
 * http://msdn2.microsoft.com/en-us/library/c426s321.aspx
