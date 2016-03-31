@@ -13,11 +13,11 @@ They say three times the charm, so here is another free responsive Jekyll blog t
 
 If you've used any of [my other themes](http://mademistakes.com/work/jekyll-themes/) most of this should be familiar territory...
 
-### Experience
+# Experience
 
 ## Software Engineer
 
-# Delta Electronics
+### Delta Electronics
 
 December 2014 – Present (1 year 4 months)
 
@@ -26,7 +26,7 @@ software. Implementing parts of industrial communication protocol Modbus, CANope
 
 - Developing the Software for Power Supplier which is simultaneously being integrated with automated test equipment that ensure QA of Firmware and Hardware. Implementing parts of industrial communication protocol Modbus, CAN Bus, I2C.
 
-# Project：
+#### Project：
 * Delta PLC EtherCAT builder (C#)
 * Delta PLC EDS builder (VC++)
 * Solvang_1200W_GUI (C++ Builder)
@@ -48,7 +48,7 @@ Delta Electronics is one of the biggest corporations headquartered in Taiwan, ha
 
 ----------------
 
-# Compal
+### Compal
 
 July 2011 – December 2014 (3 years 6 months)
 
@@ -56,7 +56,7 @@ July 2011 – December 2014 (3 years 6 months)
 - Win8 NB / Android Pad production test program Issue Analysis and Problem Solving.
 - Test improve factory automation project, Sensor Test automation improvement, Camera Test image recognition automation.
 
-Windows Application:
+#### Windows Project：
 * JV_ITPM_LCD_Touch_IC_TEST (VC++)
 * ITPM_RB_BrightnessTest (VC++)
 * ITPM_USHTest (VC++)
@@ -74,10 +74,8 @@ Windows Application:
 * Test Result in WallPaper(VC++)
 * Windows HCK Studio Paser (C#)
 
-Ubuntu Application:
+#### Android Project：
 * AutoSensor.jar
-
-Android Application:
 * AtdmMain.apk
 * CameraAuto.apk
 * ECompassAuto.apk
