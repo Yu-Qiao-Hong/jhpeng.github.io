@@ -9,7 +9,8 @@ tags: ['ASP.Net']
   
   
 錯誤訊息：  
-  
+
+~~~text  
  無法產生 ActiveX 控制項
 '8856f961-340a-11d0-a96b-00c04fd705a2'，因為目前的執  
 行緒不是在單一執行緒 Apartment。  
@@ -31,12 +32,14 @@ tags: ['ASP.Net']
  System.Windows.Forms.WebBrowserBase..ctor(String clsidString)
 +3653451  
  System.Windows.Forms.WebBrowser..ctor() +54  
-  
+~~~  
   
 解決方法：  
   
 ASP.NET 應用程式應該將 @ Page 指示詞的 ASPCompat 屬性設定為
 true，強迫網頁由 STA 執行緒集區服務。  
-  
+
+~~~text  
 \<%@ Page Language="C\#" AutoEventWireup="true" CodeBehind="xxx.aspx.cs"
 Inherits="xxx.xxx" AspCompat="true" %\>
+~~~
