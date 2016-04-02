@@ -5,10 +5,9 @@ author: 'James Peng'
 tags: ['Git']
 ---
 
-
 這是一個可以在 命令提示字元 (Command Prompt) 下執行的一套指令列工具，目前市面上所有 Git 的 GUI 工具，其實骨子裡都是執行這些較為底層的 Git 工具。
 
-以下是安裝過程：
+## 安裝過程： ##
 
 先連到官網 http://git-scm.com/downloads ，下載windows安裝檔
 
@@ -60,13 +59,15 @@ tags: ['Git']
 
 
 安裝完成後，直接開啟命令提示字元，就可以開始使用
+
 ![](http://i.imgur.com/Xoa7zHR.png)
 
 
 你可以輸入 git --version 指令查詢目前工具程式的版本
-```
+
+~~~text
 git --version
-```
+~~~
 
 ![](http://i.imgur.com/wxM1FhB.png)
 
@@ -75,6 +76,7 @@ git --version
 ## 安裝 TortoiseGit
 
 先到烏龜Git的官方網站下載最新版本
+
 https://code.google.com/p/tortoisegit/
 
 ![](http://i.imgur.com/hJFtVFx.png)
@@ -139,3 +141,8 @@ General 裡的 Language 改為 中文
 ![](http://i.imgur.com/yHQiGX6.png)
 
 ----------------------------
+
+參考：
+
+- https://code.google.com/p/tortoisegit/
+- http://git-scm.com/downloads
