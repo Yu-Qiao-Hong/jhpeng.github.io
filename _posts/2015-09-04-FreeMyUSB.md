@@ -2,7 +2,7 @@
 layout: post
 title: 'FreeMyUSB for my company'
 author: 'James Peng'
-tags: ['C++','MFC']
+tags: ['Visual C++']
 ---
 
 

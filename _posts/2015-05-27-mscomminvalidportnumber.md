@@ -2,7 +2,7 @@
 layout: post
 title: 'MSCOMM Invalid port number'
 author: 'James Peng'
-tags: ['C++','MFC']
+tags: ['Visual C++']
 ---
 
 High Port numbers with MSComm  
