@@ -1,6 +1,6 @@
 ---
 layout: post
-title: '依據資料表中資料動態產生功能表'
+title: 'CMenu 依據資料表中資料動態產生功能表'
 author: 'James Peng'
 tags: ['Visual C++']
 ---
