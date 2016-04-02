@@ -8,7 +8,9 @@ tags: ['C#']
 **Dynamic Method Invocation**  
 One very useful feature related to Reflection is the ability to create
 objects dynamically and call methods on them.  
-note : Class1.cs has methods which will be dynamically invoked at
+
+note : 
+Class1.cs has methods which will be dynamically invoked at
 runtime from the DynaInvoke.cs  
 
 ## Class1.cs ##  
@@ -59,6 +61,8 @@ Console.WriteLine(i);
 }  
 }  
 ~~~
-save this file as DynaInvoke.cs and Compile c:/\>csc DynaInvoke.cs and
+save this file as DynaInvoke.cs and Compile c:/\>csc DynaInvoke.cs 
+
+and
 run C:\\\>DynaInvoke
 
