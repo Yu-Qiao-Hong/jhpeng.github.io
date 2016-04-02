@@ -10,7 +10,9 @@ One very useful feature related to Reflection is the ability to create
 objects dynamically and call methods on them.  
 note : Class1.cs has methods which will be dynamically invoked at
 runtime from the DynaInvoke.cs  
-Class1.cs  
+
+## Class1.cs ##  
+~~~cs
 using System;  
 class Class1{  
        public static String method1()  
@@ -26,8 +28,11 @@ class Class1{
           return "Hello " + s;  
        }  
 }  
+~~~
 save this file as Class1.cs and Compile c:/\>csc /t:library Class1.cs  
-**DynaInvoke.cs**  
+
+## DynaInvoke.cs ##  
+~~~cs
 using System;  
 using System.Reflection;  
 class DynamicInvoke  
@@ -53,6 +58,7 @@ BindingFlags.InvokeMethod,null,o,par);
 Console.WriteLine(i);  
 }  
 }  
+~~~
 save this file as DynaInvoke.cs and Compile c:/\>csc DynaInvoke.cs and
 run C:\\\>DynaInvoke
 
