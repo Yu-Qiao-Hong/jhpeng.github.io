@@ -5,8 +5,16 @@ author: 'James Peng'
 tags: ['C#']
 ---
 
-透過第三方dll NReco.PdfGenerator 套件可以簡單辦到
-它具有免費和付費版本，非常值得的。
+C# 將 HTML 轉 PDF 可以透過第三方套件 NReco.PdfGenerator 簡單辦到，只需要一行code
+
+## 下載套件 並 參考 ##
+
+![](http://i.imgur.com/ynpptPk.png)
+
+https://pdfgenerator.codeplex.com/
+
+
+![](http://i.imgur.com/DDamu2W.png)
 
 ## 使用方法 ##
 
@@ -20,7 +28,7 @@ tags: ['C#']
 
 ## 結果:  ##
 
-一真神奇 行cod 就完成了
+非常真神奇，這樣就完工了...。
 
 ![](http://i.imgur.com/yP8L45s.png)
 
