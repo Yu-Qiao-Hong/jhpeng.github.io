@@ -2,7 +2,7 @@
 layout: post
 title: 'Thread 裡調用 UpdateData'
 author: 'James Peng'
-tags: ['MFC']
+tags: ['Visual C++']
 ---
 
 

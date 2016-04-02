@@ -2,7 +2,7 @@
 layout: post
 title: '已在 LIBCMTD.lib(dbgdel.obj) 中定義過了'
 author: 'James Peng'
-tags: ['MFC']
+tags: ['Visual C++']
 ---
 
 ~~~text

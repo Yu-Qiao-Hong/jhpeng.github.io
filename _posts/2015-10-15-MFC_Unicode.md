@@ -2,7 +2,7 @@
 layout: post
 title: 'MFC Unicode'
 author: 'James Peng'
-tags: ['MFC','C++']
+tags: ['Visual C++']
 ---
 
 ## 使用非Unicode開發的程式 ##

@@ -2,7 +2,7 @@
 layout: post
 title: '_CRT_SECURE_NO_WARNINGS'
 author: 'James Peng'
-tags: ['MFC']
+tags: ['Visual C++']
 ---
 
 開發時使用一些標準函數時會出現錯誤...

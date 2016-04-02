@@ -2,7 +2,7 @@
 layout: post
 title: 'MFC裡使用C Code'
 author: 'James Peng'
-tags: ['MFC']
+tags: ['Visual C++']
 ---
 
 The MSVC++ compiler has a feature which pre-compiles header files to speed up compilation time. The header file stdafx.h centralizes all the pre-compiled data into one place. Normally, MFC applications requires that #include "stdafx.h" be added to each source file that requires these headers.

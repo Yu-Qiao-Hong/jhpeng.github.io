@@ -2,7 +2,7 @@
 layout: post
 title: 'GetLotto'
 author: 'James Peng'
-tags: ['C++','MFC']
+tags: ['Visual C++']
 ---
 
 
