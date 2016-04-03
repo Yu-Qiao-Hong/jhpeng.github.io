@@ -5,11 +5,13 @@ author: 'James Peng'
 tags: ['ASP.NET']
 ---
 
-用System.Drawing.Text.PrivateFontCollection創建自己的私有字體
 
-想用非的非系統字型（不存在於 C:\WINNT\Fonts 中）
+在虛擬主機中想用非系統字型（不存在於 C:\WINNT\Fonts 中）
 
 轉成圖片並顯示出來？
+
+
+可以用System.Drawing.Text.PrivateFontCollection創建自己的私有字體
 
 
 ~~~csharp
@@ -19,7 +21,6 @@ PrivateFontCollection privateFontCollection = new PrivateFontCollection();
 
 // Add three font files to the private collection.
 privateFontCollection.AddFontFile(Server.MapPath("qqq.ttf"));
-
 Font drawFont = new Font( privateFontCollection.Families[0], 30 );
 ~~~
 
