@@ -28,7 +28,7 @@ Request.ServerVariables("Server_Software");//應答請求並運行網關的服�
 Request.ServerVariables("All_Http");//客戶端發送的所有HTTP標頭，前綴HTTP_
 Request.ServerVariables("All_Raw");//客戶端發送的所有HTTP標頭,其結果和客戶端發送時一樣，沒有前綴HTTP_
 Request.ServerVariables("Appl_MD_Path");//應用程序的元數據庫路徑
-Request.ServerVariables("Content_Length")客戶端發出內容的長度
+Request.ServerVariables("Content_Length");//客戶端發出內容的長度
 Request.ServerVariables("Https");//如果請求穿過安全通道（SSL），則返回ON如果請求來自非安全通道，則返回OFF
 Request.ServerVariables("Instance_ID");// IIS實例的ID號
 Request.ServerVariables("Instance_Meta_Path");//響應請求的IIS實例的元數據庫路徑
