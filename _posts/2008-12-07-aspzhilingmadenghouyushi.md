@@ -2,7 +2,7 @@
 layout: post
 title: 'ASP指令碼等候逾時'
 author: 'James Peng'
-tags: ['ASP.Net']
+tags: ['ASP.NET']
 ---
 
 Active Server Pages 錯誤 'ASP 0113'

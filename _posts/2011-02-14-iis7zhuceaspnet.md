@@ -2,7 +2,7 @@
 layout: post
 title: 'IIS7註冊asp.net'
 author: 'James Peng'
-tags: ['ASP.Net','IIS']
+tags: ['ASP.NET','IIS']
 ---
 
 [![image](http://lh5.ggpht.com/_AnTT9cbXdqY/TViKaZuL6AI/AAAAAAAAJB0/A_UvfoZlYrg/image_thumb%5B7%5D.png?imgmax=800 "image")](http://lh6.ggpht.com/_AnTT9cbXdqY/TViKZmeT55I/AAAAAAAAJBw/3n7612nElQQ/s1600-h/image%5B5%5D.png)

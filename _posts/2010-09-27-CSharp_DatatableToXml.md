@@ -2,7 +2,7 @@
 layout: post
 title: 'C# DataTable 轉換成 XML'
 author: 'James Peng'
-tags: ['C#','ASP.Net']
+tags: ['C#','ASP.NET']
 ---
 
 ## using ##
