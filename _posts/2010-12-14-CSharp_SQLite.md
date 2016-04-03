@@ -5,8 +5,11 @@ author: 'James Peng'
 tags: ['C#']
 ---
 
-System.Data.SQLite 
+## System.Data.SQLite ## 
+
+
 http://sqlite.phxsoftware.com/ 
+
 檔案下載後, 解壓縮, 從中取得 System.Data.SQLite.dll 
 
 
