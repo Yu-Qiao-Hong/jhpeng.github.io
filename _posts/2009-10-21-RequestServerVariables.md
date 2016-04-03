@@ -6,7 +6,7 @@ tags: ['ASP.Net']
 ---
 
 
-~~~cpp
+~~~csharp
 
 Request.ServerVariables("Url") ;//返回服務器地址
 Request.ServerVariables("Path_Info") ;//客戶端提供的路徑信息
@@ -52,6 +52,15 @@ Request.ServerVariables("Cert_Server_Issuer");//服務器證書的發行者字�
 Request.ServerVariables("Cert_Server_Subject");//服務器證書的主題字段
 Request.ServerVariables("Cert_Subject");//客戶端證書的主題字段
 Request.ServerVariables("Content_Type");//客戶發送的form內容或HTTPPUT的數據類型
-動手寫下string s =Request.ServerVariables["HTTP_ACCEPT_LANGUAGE"].ToString(); Response.Write(s);
 
+~~~
+
+
+----------
+
+
+## 用法 ##
+
+~~~csharp
+string s =Request.ServerVariables["HTTP_ACCEPT_LANGUAGE"].ToString(); Response.Write(s);
 ~~~
