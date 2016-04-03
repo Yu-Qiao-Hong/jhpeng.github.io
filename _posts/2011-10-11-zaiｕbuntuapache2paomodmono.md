@@ -1,8 +1,8 @@
 ---
 layout: post
-title: '在Ubuntu Apache2 跑 mod-mono'
+title: 'ASP.NET: 在Ubuntu Apache2 跑 mod-mono'
 author: 'James Peng'
-tags: ['ASP.Net']
+tags: ['ASP.NET']
 ---
 
 1. 安裝mod-mono套件

@@ -5,6 +5,11 @@ author: 'James Peng'
 tags: ['C#']
 ---
 
+## C# 使用GZip壓縮檔案 ##
+
+GZipStream 物件使用的是 GZ 演算法，而非標準 Zip 演算法
+.GZ 和 .ZIP 是不同的
+
 ## 引用 ##
 
 ~~~csharp

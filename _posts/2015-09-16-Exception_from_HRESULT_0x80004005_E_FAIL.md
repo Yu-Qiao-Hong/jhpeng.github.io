@@ -1,8 +1,8 @@
 ---
 layout: post
-title: 'Exception from HRESULT: 0x80004005 (E_FAIL)'
+title: 'ASP.NET: Exception from HRESULT: 0x80004005 (E_FAIL)'
 author: 'James Peng'
-tags: ['ASP.Net']
+tags: ['ASP.NET']
 ---
 
 ![](http://i.imgur.com/tu7zLtL.png)

@@ -2,7 +2,7 @@
 layout: post
 title: '把 aspx 也預先編譯'
 author: 'James Peng'
-tags: ['ASP.Net']
+tags: ['ASP.NET']
 ---
 
 指令  

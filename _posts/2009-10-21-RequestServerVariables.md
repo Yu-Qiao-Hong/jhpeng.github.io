@@ -1,8 +1,8 @@
 ---
 layout: post
-title: 'Request.ServerVariables 檢視伺服器環境變數的值'
+title: 'ASP.NET: Request.ServerVariables 檢視伺服器環境變數的值'
 author: 'James Peng'
-tags: ['ASP.Net']
+tags: ['ASP.NET']
 ---
 
 

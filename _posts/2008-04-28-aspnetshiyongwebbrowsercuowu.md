@@ -2,7 +2,7 @@
 layout: post
 title: 'ASP.Net 使用 webBrowser 錯誤'
 author: 'James Peng'
-tags: ['ASP.Net']
+tags: ['ASP.NET']
 ---
 
 [![](http://bp2.blogger.com/_AnTT9cbXdqY/SBVILqLVkwI/AAAAAAAACRs/0T9tVV8fFQk/s320/error428.PNG)](http://bp2.blogger.com/_AnTT9cbXdqY/SBVILqLVkwI/AAAAAAAACRs/0T9tVV8fFQk/s1600-h/error428.PNG)  
