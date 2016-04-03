@@ -38,17 +38,26 @@ CSDK官方網址：<http://www-01.ibm.com/software/data/informix/tools/csdk/>
 
  
 
+
+----------
+
+
 ### 如何建立連線：
 
   
 [C\#]  
+
+~~~csharp
 using IBM.Data.Informix;
+~~~
 
-     
+連線字串
 
-    連線字串 string ConnectionString = "Host=" + HOST + "; " +     "Service=" + SERVICENUM + "; " +     "Server=" + SERVER + "; " +     "Database=" + DATABASE + "; " +     "User Id=" + USER + "; " +     "Password=" + PASSWORD + "; ";
+~~~csharp
+     string ConnectionString = "Host=" + HOST + "; " +     "Service=" + SERVICENUM + "; " +     "Server=" + SERVER + "; " +     "Database=" + DATABASE + "; " +     "User Id=" + USER + "; " +     "Password=" + PASSWORD + "; ";
+~~~
 
-    常用classes
+常用classes
 
   
 
@@ -59,26 +68,11 @@ using IBM.Data.Informix;
 
   
 
- 
-
-請參考：  
-  
-
-### IBM Data Server Provider for .NET for Informix Dynamic Server
-
-  
-
-### <http://publib.boulder.ibm.com/infocenter/idshelp/v111/index.jsp?topic=/com.ibm.net_cc.doc/dpref-ifx41.htm>
-
-  
-
-###   
-Connect to Informix with ADO.NET
-
-  
-
-#### [](http://publib.boulder.ibm.com/infocenter/idshelp/v111/index.jsp?topic=/com.ibm.net_cc.doc/dpref-ifx41.htm)<http://www.ibm.com/developerworks/db2/library/techarticle/dm-0510durity/>
-
-  
 
 
+----------
+
+參考：
+
+- [Connect to Informix with ADO.NET](http://www.ibm.com/developerworks/data/library/techarticle/dm-0510durity/)
+- [IBM Data Server Provider for .NET for Informix Dynamic Server](http://publib.boulder.ibm.com/infocenter/idshelp/v111/index.jsp?topic=/com.ibm.net_cc.doc/dpref-ifx41.htm)
