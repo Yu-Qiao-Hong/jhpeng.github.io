@@ -75,9 +75,10 @@ namespace  WebApplication2
 
 調用方法：（注意先引用）
 
+~~~csharp
 GetPinyin("風影");//獲取全拼
 GetFirstPinyin("風影");//獲取首字母
-
+~~~
  
 
 是不是非常簡單呢？有了這個類庫就省事多了！
