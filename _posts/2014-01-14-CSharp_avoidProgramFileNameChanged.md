@@ -27,7 +27,7 @@ tags: ['C#']
                 string moduleName = Process.GetCurrentProcess().MainModule.FileName.ToUpper();
                 moduleName = Path.GetFileName(moduleName);
                 moduleName = moduleName.Replace(".VSHOST",""); //for visual studio debug
-                if (moduleName != AppInfo.PROGRAM_FILE_NAME)
+                if (moduleName != PROGRAM_FILE_NAME)
                 {
                     MessageBox.Show("Program file name is incorrect!");
                 }          
