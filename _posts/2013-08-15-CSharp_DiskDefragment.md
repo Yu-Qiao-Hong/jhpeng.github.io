@@ -7,7 +7,7 @@ tags: ['C#']
 
 ## 確保 Windows 裡有安裝 “Disk Defragment” ##
 
-![](http://lh6.ggpht.com/-ligDjGNS9U4/Ug2X9lKKx-I/AAAAAAAAVkg/Drr6CzCKzA0/s1600-h/clip_image004%25255B7%25255D.jpg)
+![](http://i.imgur.com/H4CVcNl.jpg)
 
 See if it will work if you specify a full path: 
 
@@ -15,7 +15,7 @@ See if it will work if you specify a full path:
 System.Diagnostics.Process.Start(@"c:\windows\system32\dfrgui.exe");
 ~~~
 
-![](http://lh3.ggpht.com/-K-8YUPLIEh4/Ug2YAPuZKDI/AAAAAAAAVkw/Cpq9id-6hpo/s1600-h/clip_image002%25255B10%25255D.jpg)
+![](http://i.imgur.com/Ygyeyge.jpg)
 
 
 ----------
@@ -71,9 +71,9 @@ For more information about how to add this registry key to your configuration, s
             MessageBox.Show(readvalue.ToString());
 ~~~
 
-![](http://lh4.ggpht.com/-PMXKo_hZ99E/Ug2YCVEhLqI/AAAAAAAAVlA/2rfKr28dVbw/s1600-h/clip_image006%25255B6%25255D.jpg)
+![](http://i.imgur.com/jQtljz7.jpg)
 
-![](http://lh4.ggpht.com/-Ah_NARvlCG8/Ug2YEuukwbI/AAAAAAAAVlQ/TWtmwJsOfnU/s1600-h/clip_image008%25255B6%25255D.jpg)
+![](http://i.imgur.com/eZazROQ.jpg)
 
 ----------
 
@@ -99,7 +99,7 @@ How to delete this service.
 sc delete "defragsvc"
 ~~~
 
-![](http://lh5.ggpht.com/-q08SOuA8vO0/Ug2YHFZX7lI/AAAAAAAAVlg/i2LHs-jzkWw/s1600-h/clip_image010%25255B4%25255D.jpg)
+![](http://i.imgur.com/2iaxp75.jpg)
 
 ~~~text
 C:\Users\JamesJH_Peng&gt;sc /?
@@ -185,18 +185,18 @@ RunWait
 schtasks /change /tn ""microsoft\windows\defrag\ScheduledDefrag"" /disable
 ~~~
 
-![](http://lh4.ggpht.com/-MkF_RA0Q7S0/Ug2YK3w_I_I/AAAAAAAAVlw/UY7QrzRTfco/s1600-h/clip_image012%25255B3%25255D.jpg)
+![](http://i.imgur.com/AMXTmrq.jpg)
 
-![](http://lh3.ggpht.com/--dgKHINcm-s/Ug2YNVEgpjI/AAAAAAAAVmA/88mOfAEfSqg/s1600-h/clip_image014%25255B4%25255D.jpg)
+![](http://i.imgur.com/4YhmIlJ.jpg)
 
 ~~~text
 schtasks /change /tn ""microsoft\windows\defrag\ScheduledDefrag"" /enable
 ~~~
 
-![](http://lh3.ggpht.com/-l_21LIAD2oo/Ug2YP6u28fI/AAAAAAAAVmQ/ZiIfv-X85eI/s1600-h/clip_image016%25255B3%25255D.jpg)
+![](http://i.imgur.com/Eyfp41a.jpg)
 
 
-![](http://lh4.ggpht.com/-ZV6e6SUihAw/Ug2YShhAXYI/AAAAAAAAVmg/WDG-5CFXSlo/s1600-h/clip_image018%25255B4%25255D.jpg)
+![](http://i.imgur.com/m3hY6iz.jpg)
 
 ----------
 
@@ -207,7 +207,7 @@ schtasks /change /tn ""microsoft\windows\defrag\ScheduledDefrag"" /enable
 sc config defragsvc start= disabled
 ~~~
 
-![](http://lh4.ggpht.com/-Pxbb6R4FACE/Ug2YV0zPl8I/AAAAAAAAVmw/sfAMRoQyIF8/s1600-h/clip_image020%25255B4%25255D.jpg)
+![](http://i.imgur.com/yYJORcl.jpg)
 
 ----------
 
