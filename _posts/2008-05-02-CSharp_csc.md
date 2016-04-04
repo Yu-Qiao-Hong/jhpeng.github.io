@@ -7,7 +7,9 @@ tags: ['C#']
 
 C#編譯批次檔(compile.bat) 直接放在目錄內就可以用了
 
+
 compile.bat
+
 ~~~text
 @if not exist bin\ (@echo ※注意※bin資料夾不存在，自動建立)
 @if not exist bin\ (@mkdir bin)
