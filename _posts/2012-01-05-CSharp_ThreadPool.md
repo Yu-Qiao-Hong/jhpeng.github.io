@@ -10,6 +10,9 @@ tags: ['C#']
 下列範例使用 .NET Framework 執行緒集區來計算在 20 和 40 之間，十個數字的 Fibonacci 結果。
 
 
+----------
+
+
 
 ## 參考 ##
 
@@ -17,11 +20,14 @@ tags: ['C#']
  using System.Threading;
 ~~~
 
-## 在執行緒啟動時會呼叫這個方法 ##
+
+----------
+
+
+## Fibonacci 類別 ##
 
 每個 Fibonacci 結果都由 Fibonacci 類別表示，此類別提供會執行計算且名為 ThreadPoolCallback 的方法。
 
-這時會建立表示每個 Fibonacci 值的物件，而且 ThreadPoolCallback 方法會傳遞到 QueueUserWorkItem，這個多載會指派集區中的可用執行緒來執行方法。
 
 ~~~csharp
 // Fibonacci 類別提供使用輔助執行緒的介面
@@ -70,7 +76,13 @@ public class Fibonacci
 }
 ~~~
 
+
+----------
+
+
 ## ThreadPool Example ##
+
+這時會建立表示每個 Fibonacci 值的物件，而且 ThreadPoolCallback 方法會傳遞到 QueueUserWorkItem，這個多載會指派集區中的可用執行緒來執行方法。
 
 因為提供了半隨機值給每個 Fibonacci 物件計算，而且其中每個執行緒都會競爭處理器時間，所以您無法預先知道要花多少時間，才能計算完所有十個結果。
 
@@ -115,6 +127,10 @@ public class ThreadPoolExample
     }
 }
 ~~~
+
+
+----------
+
 
 ## 執行結果 ##
 
