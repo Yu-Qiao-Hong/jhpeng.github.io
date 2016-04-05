@@ -24,7 +24,15 @@ tags: ['C#']
     WApp.Selection.InsertBreak(ref ib);
 //換行 
      WApp.Selection.TypeParagraph();
-二、word文件設置
+~~~
+
+
+----------
+
+
+## word文件設置 ##
+~~~csharp
+
 WApp.ActiveDocument.PageSetup.LineNumbering.Active =0;//行編號 
             WApp.ActiveDocument.PageSetup.Orientation =Microsoft.Office.Interop.Word.WdOrientation.wdOrientPortrait;//頁面方向 
             WApp.ActiveDocument.PageSetup.TopMargin =WApp.CentimetersToPoints(float.Parse("2.54"));//上頁邊距 
@@ -51,7 +59,15 @@ WApp.ActiveDocument.PageSetup.LineNumbering.Active =0;//行編號
             WApp.ActiveDocument.PageSetup.GutterPos = Microsoft.Office.Interop.Word.WdGutterStyle.wdGutterPosLeft;//裝訂線位於左側 
             WApp.ActiveDocument.PageSetup.LinesPage = 40;//預設頁行數量 
             WApp.ActiveDocument.PageSetup.LayoutMode = Microsoft.Office.Interop.Word.WdLayoutMode.wdLayoutModeLineGrid;//版式模式為「只指定行網格」
-   三、光標移動
+~~~
+
+
+----------
+
+
+## 光標移動 ##
+~~~csharp
+
 //移動光標 
 //光標下移3行 上移3行 
             object unit = Microsoft.Office.Interop.Word.WdUnits.wdLine; 
@@ -149,7 +165,16 @@ WApp.Selection.MoveDown(ref unitp, ref count, ref extend);
             WApp.Selection.Tables[1].Cell(System.Convert.ToInt32(strRownum), 1).Select(); 
             WApp.Selection.HomeKey(ref unith, ref missing); 
             WApp.Selection.Paste(); 
-四、段落格式設定 
+
+~~~
+
+
+----------
+
+
+## 段落格式設定  ##
+~~~csharp
+
 //段落格式設定 
             WApp.Selection.ParagraphFormat.LeftIndent = WApp.CentimetersToPoints(float.Parse("0"));//左縮進 
             WApp.Selection.ParagraphFormat.RightIndent = WApp.CentimetersToPoints(float.Parse("0"));//右縮進 
@@ -181,7 +206,16 @@ WApp.Selection.MoveDown(ref unitp, ref count, ref extend);
             WApp.Selection.ParagraphFormat.AddSpaceBetweenFarEastAndAlpha = 1; 
             WApp.Selection.ParagraphFormat.AddSpaceBetweenFarEastAndDigit = 1; 
             WApp.Selection.ParagraphFormat.BaseLineAlignment = Microsoft.Office.Interop.Word.WdBaselineAlignment.wdBaselineAlignAuto;
-五、字體格式設定 
+
+~~~
+
+
+----------
+
+
+## 字體格式設定  ##
+~~~csharp
+
 //字體格式設定 
             WApp.Selection.Font.NameFarEast = "華文中宋"; 
             WApp.Selection.Font.NameAscii = "Times New Roman"; 
@@ -211,9 +245,21 @@ WApp.Selection.MoveDown(ref unitp, ref count, ref extend);
             WApp.Selection.Font.Animation = Microsoft.Office.Interop.Word.WdAnimation.wdAnimationNone;//文字效果 
             WApp.Selection.Font.DisableCharacterSpaceGrid =false; 
             WApp.Selection.Font.EmphasisMark = Microsoft.Office.Interop.Word.WdEmphasisMark.wdEmphasisMarkNone;
-六、終於找到了獲取光標位置的東東。那裡找到的忘了，感謝提供的老大。放到這裡供大家參考。 
+
+~~~
+
+
+----------
+
+
+## 獲取光標位置  ##
+
+那裡找到的忘了，感謝提供的老大。放到這裡供大家參考。 
 有了這個和上面內容，相信大家對word文件的控制應該到了隨心所欲的地步，爽啊 
-獲取的c#語法 //get_Information 
+獲取的c#語法 
+
+~~~csharp
+//get_Information 
 Selection.get_Information(WdInformation.wdActiveEndPageNumber) 
 //關於行號-頁號-列號-位置 
             //information 屬性 
