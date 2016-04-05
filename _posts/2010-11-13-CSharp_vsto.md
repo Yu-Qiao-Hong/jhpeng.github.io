@@ -143,8 +143,19 @@ object unith = Microsoft.Office.Interop.Word.WdUnits.wdRow;//表格行方式
             object unitu = Microsoft.Office.Interop.Word.WdUnits.wdLine;//文件行方式,可以看成表格一行.不過和wdRow有區別 
             object unitp = Microsoft.Office.Interop.Word.WdUnits.wdParagraph;//段落方式,對於表格可以選擇到表格行後的換車符,對於跨行合併的行選擇,我能找到的最簡單方式 
             object count=1;//光標移動量 
+~~~
+
+----------
+
+
+## 對於存在合併單元格的選擇操作 ##
+
 下面代碼演示對於存在合併單元格的選擇操作．合併單元格的選擇問題一直是word的bug.部分object對像參照上面代碼
 上面這個是表格合併樣式.要如何才能選擇2行標題欄尼.看下面代碼
+
+~~~csharp
+
+
 //定位到表格第1單元格 
 WApp.Selection.Tables[1].Cell(1, 1).Select(); 
 //定位到第1個單元格第1個字符前          
