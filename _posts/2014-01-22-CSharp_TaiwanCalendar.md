@@ -22,3 +22,4 @@ tags: ['C#']
 參考：
 
 - http://einboch.pixnet.net/blog/post/251144804
+- [https://msdn.microsoft.com/zh-tw/library/system.globalization.taiwancalendar(v=vs.110).aspx](https://msdn.microsoft.com/zh-tw/library/system.globalization.taiwancalendar(v=vs.110).aspx)
