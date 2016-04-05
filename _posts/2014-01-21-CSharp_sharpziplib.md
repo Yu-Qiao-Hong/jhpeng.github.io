@@ -327,6 +327,8 @@ using ICSharpCode.SharpZipLib.Checksums;
 ~~~
 
 ----------
-參考：
+
+## 參考： ##
+
 - http://einboch.pixnet.net/blog/post/267876083-c%23%E4%BD%BF%E7%94%A8%E4%BE%86%E5%AE%8C%E6%88%90%E6%AA%94%E6%A1%88%E7%9A%84%E5%A3%93%E7%B8%AE-%E8%A7%A3%E5%A3%93%E7%B8%AE%E5%8A%9F%E8%83%BD
 - http://www.icsharpcode.net/opensource/sharpziplib/
