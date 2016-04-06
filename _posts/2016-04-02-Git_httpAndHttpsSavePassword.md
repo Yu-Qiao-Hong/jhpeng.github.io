@@ -50,6 +50,19 @@ tags: ['Git']
 
 
 
+----------
+
+再搭配BAT批次檔，更方便了~
+
+~~~text
+cd jhpeng.github.io\
+git add .
+git commit -am 'add'
+git push -u origin master
+pause
+~~~
+
+
 ------------
 
 ## 參考: ##
