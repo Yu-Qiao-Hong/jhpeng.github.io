@@ -5,6 +5,8 @@ author: 'James Peng'
 tags: ['C#']
 ---
 
+![](http://i.imgur.com/JmNihNT.png)
+
 Singleton Pattern在設計上是希望確保一個類別在系統運行的時候，只有一個實體(instance)產生，同時，這個類別必須要提供一個公開的方法讓其他人取得自己的實體。
 
 
