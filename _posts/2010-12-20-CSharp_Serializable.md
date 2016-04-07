@@ -34,6 +34,13 @@ tags: ['C#']
 
 首先 當然你的class要有[Serializable]的標籤
 
+## 參考命名空間 ##
+
+~~~csharp
+using System.Runtime.Serialization;
+using System.Runtime.Serialization.Formatters.Binary;
+~~~
+
 ## 宣告一個物件 ##
 
 ~~~csharp
