@@ -48,10 +48,9 @@ public class myclass
 	{
 		text = "abc";
 		number = 3;
-		number2 = 12.34;
+		number2 = 12.34f;
 	}
 }
-myclass myobj = new myclass();
 ~~~
 
 
@@ -62,11 +61,15 @@ myclass myobj = new myclass();
 ## Binary 存檔 ##
 
 ~~~csharp
+myclass myobj = new myclass();
+
 IFormatter binFmt = new BinaryFormatter();
-Stream s = File.Open("binary存檔檔名", FileMode.Create);
+Stream s = File.Open("output.bin", FileMode.Create);
 binFmt.Serialize(s, myobj);
 s.Close();
 ~~~
+
+![](http://i.imgur.com/VEZm3KR.png)
 
 ----------
 
@@ -74,11 +77,18 @@ s.Close();
 ## Binary 讀檔 ##
 
 ~~~csharp
-IFormatter binFmt = new BinaryFormatter();
-Stream s = File.Open("binary存檔檔名", FileMode.Open);
-myobj = (myclass)binFmt.Deserialize(s);
-s.Close();
+            myclass myobj = new myclass();
+            myobj.text = "aaa";
+            myobj.number = 0;
+            myobj.number2 = 0;
+
+			IFormatter binFmt = new BinaryFormatter();
+			Stream s = File.Open("output.bin", FileMode.Open);
+			myobj = (myclass)binFmt.Deserialize(s);
+			s.Close();
 ~~~
+
+![](http://i.imgur.com/ZBFXeEK.png)
 
 ----------
 
@@ -86,12 +96,15 @@ s.Close();
 ## XML 存檔 ##
 
 ~~~csharp
-System.Xml.Serialization.XmlSerializer ser = new System.Xml.Serialization.XmlSerializer(myobj.GetType()); 
-Stream s = File.Open("xml存檔檔名", FileMode.Create);
-ser.Serialize(s, myobj);
-s.Close();
+            myclass myobj = new myclass();
+
+            System.Xml.Serialization.XmlSerializer ser = new System.Xml.Serialization.XmlSerializer(myobj.GetType());
+            Stream s = File.Open("output.xml", FileMode.Create);
+            ser.Serialize(s, myobj);
+            s.Close();
 ~~~
 
+![](http://i.imgur.com/Dn2Jy6r.png)
 
 ----------
 
@@ -99,11 +112,18 @@ s.Close();
 ## XML 讀檔 ##
 
 ~~~csharp
-System.Xml.Serialization.XmlSerializer ser = new System.Xml.Serialization.XmlSerializer(myobj.GetType()); 
-Stream s = File.Open("xml存檔檔名", FileMode.Open);
-myobj = (myclass)ser.Deserialize(s);
-s.Close();
+            myclass myobj = new myclass();
+            myobj.text = "aaa";
+            myobj.number = 0;
+            myobj.number2 = 0;
+
+            System.Xml.Serialization.XmlSerializer ser = new System.Xml.Serialization.XmlSerializer(myobj.GetType());
+            Stream s = File.Open("output.xml", FileMode.Open);
+            myobj = (myclass)ser.Deserialize(s);
+            s.Close();
 ~~~
+
+![](http://i.imgur.com/HwtSGzD.png)
 
 
 ----------
