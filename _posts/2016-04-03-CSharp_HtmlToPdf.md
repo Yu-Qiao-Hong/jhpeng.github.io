@@ -18,7 +18,7 @@ https://pdfgenerator.codeplex.com/
 
 ## 使用方法 ##
 
-嘗試去讀取 Yahoo首頁 轉成 PDF 
+嘗試去讀取 <span style="color:red;">Yahoo首頁</span> 轉成 PDF 
 
 ~~~csharp
             new NReco.PdfGenerator.HtmlToPdfConverter().
