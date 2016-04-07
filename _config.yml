@@ -2,7 +2,7 @@ title:            "JHPENG's NOTE"
 description:      "C#技術筆記、Google到的解決方案，順便紀錄曾經遇到的問題。"
 disqus_shortname: jhpengsblog
 reading_time:     true
-words_per_minute: 200
+words_per_minute: 300
 # Your site's domain goes here (eg: //mmistakes.github.io, http://mademistakes.com, etc)
 # When testing locally leave blank or use http://localhost:4000
 url: http://note.jhpeng.com
@@ -52,7 +52,7 @@ sass:
 permalink:   /:categories/:title/
 
 # Amount of post to show on home page
-paginate: 5
+paginate: 10
 
 kramdown:
   auto_ids: true
