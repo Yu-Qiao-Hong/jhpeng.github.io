@@ -5,7 +5,8 @@ reading_time:     true
 words_per_minute: 200
 # Your site's domain goes here (eg: //mmistakes.github.io, http://mademistakes.com, etc)
 # When testing locally leave blank or use http://localhost:4000
-url: http://jhpeng.github.io
+url: http://note.jhpeng.com
+#http://jhpeng.github.io
 
 #http://127.0.0.1:4000
 
