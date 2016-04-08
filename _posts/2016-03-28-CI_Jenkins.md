@@ -129,6 +129,8 @@ tags: ['Continuous integration']
 
 ![](http://i.imgur.com/gZf52Bu.png)
 
+ 
+
 ### C:\CI_Tools\SuperDel.bat ###
 
  SuperDel.bat 用途是，強制刪除 DeltaIABG 目錄
@@ -151,6 +153,12 @@ Echo End Time - %Time%
 
 
 ### C:\CI_Tools\Checkout.bat ###
+
+
+需要先安裝 Subversion for Windows 才能再 CMD.exe 裡 Checkout 
+
+官網: [https://sourceforge.net/projects/win32svn/](https://sourceforge.net/projects/win32svn/)
+
 
 Checkout.bat 用途是：
 
