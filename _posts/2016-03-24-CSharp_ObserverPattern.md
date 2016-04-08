@@ -1,6 +1,6 @@
 ---
 layout: post
-title: 'C# 觀察者模式範例'
+title: 'C# 設計模式 - 觀察者模式'
 author: 'James Peng'
 tags: ['C#']
 ---
