@@ -37,7 +37,7 @@ https://msdn.microsoft.com/zh-tw/library/hh195051(v=vs.110).aspx
 
 ## 更改前 ##
 
-原本程式撰寫方式，如下，當等待 FindAddressGpibDevice 計算時候，整個 Winform 將會被 hold 無法任意移動。 
+原本程式撰寫方式，如下，當等待 Sum() 計算時候，整個 Winform 將會被 hold 無法任意移動。 
 
 同時，也無法再執行其他後續的計算。
 

@@ -43,6 +43,7 @@ tags: ['Continuous integration']
 
 ![](http://i.imgur.com/k1ipxVN.png)
 
+設定後記得重開 jenkins
 
 ----------
 
@@ -158,6 +159,8 @@ Echo End Time - %Time%
 需要先安裝 Subversion for Windows 才能再 CMD.exe 裡 Checkout 
 
 官網: [https://sourceforge.net/projects/win32svn/](https://sourceforge.net/projects/win32svn/)
+
+安裝後記得重開 jenkins
 
 
 Checkout.bat 用途是：
