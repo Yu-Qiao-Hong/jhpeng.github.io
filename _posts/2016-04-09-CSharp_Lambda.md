@@ -57,7 +57,7 @@ tags: ['C#']
 
 ----------
 
-## 使用 Lambda 用法 ##
+## 使用 delegate + Lambda 用法 ##
 
 ~~~csharp
         delegate int MyDelegate(int i, int j);
