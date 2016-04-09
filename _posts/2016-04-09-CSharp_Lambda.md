@@ -72,6 +72,8 @@ tags: ['C#']
         }
 ~~~
 
+![](http://i.imgur.com/MUklFfc.png)
+
 ----------
 
 
@@ -92,6 +94,8 @@ tags: ['C#']
         }
 ~~~
 
+![](http://i.imgur.com/MUklFfc.png)
+
 ----------
 
 
@@ -106,6 +110,9 @@ tags: ['C#']
             MessageBox.Show(del(10, 20).ToString());            
         }
 ~~~
+
+![](http://i.imgur.com/MUklFfc.png)
+
 
 ----------
 
@@ -126,6 +133,8 @@ Action 為 沒有參數沒有回傳值得委派
         }
 ~~~
 
+![](http://i.imgur.com/MUklFfc.png)
+
 ----------
 
 ## 使用 Action<T1, T2> 委派+Lambda 用法 ##
@@ -141,6 +150,8 @@ Action 為 沒有參數沒有回傳值得委派+Lambda
                      
         }
 ~~~
+
+![](http://i.imgur.com/MUklFfc.png)
 
 ----------
 
