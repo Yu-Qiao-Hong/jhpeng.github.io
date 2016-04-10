@@ -28,18 +28,14 @@ tags: ['C#']
         }
         static string Add(int x, int y, int z = 0)
         {
-            return (x + y + z).ToString();
+            return ((x + y) * z).ToString();
         }
 
 ~~~
 
-![](http://i.imgur.com/ZFL6hy3.png)
+![](http://i.imgur.com/ItotdEy.png)
 
-![](http://i.imgur.com/SQdjusU.png)
-
-
-
-
+![](http://i.imgur.com/bQ5rfH0.png)
 
 ----------
 
