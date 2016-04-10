@@ -62,7 +62,6 @@ tags: ['C#']
 
 ~~~csharp
 Person p2 = JsonConvert.DeserializeObject<Person>(jsonString);
-Console.WriteLine("id:{0}, name:{1}, today:{2}", p2.id, p2.name, p2.today);
 ~~~
 
 ![](http://i.imgur.com/WzT1Flw.png)
