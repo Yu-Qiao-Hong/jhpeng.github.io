@@ -1,6 +1,6 @@
 ---
 layout: post
-title: 'C# 使用 ExpandoObject 類別'
+title: 'C# 4.0 使用 ExpandoObject 類別'
 author: 'James Peng'
 tags: ['C#']
 ---

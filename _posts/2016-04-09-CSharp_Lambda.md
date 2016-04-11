@@ -1,6 +1,6 @@
 ---
 layout: post
-title: 'C# Lambda 運算子的用法'
+title: 'C# 3.0 Lambda 運算子的用法'
 author: 'James Peng'
 tags: ['C#']
 ---

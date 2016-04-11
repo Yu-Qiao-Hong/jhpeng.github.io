@@ -1,6 +1,6 @@
 ---
 layout: post
-title: 'C# 使用 Extension Method 擴充方法'
+title: 'C# 3.0 使用 Extension Method 擴充方法'
 author: 'James Peng'
 tags: ['C#']
 ---

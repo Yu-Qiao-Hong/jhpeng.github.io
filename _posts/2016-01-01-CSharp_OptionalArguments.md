@@ -1,6 +1,6 @@
 ---
 layout: post
-title: 'C# 選擇性引數 Optional Arguments'
+title: 'C# 4.0 選擇性引數 Optional Arguments'
 author: 'James Peng'
 tags: ['C#']
 ---

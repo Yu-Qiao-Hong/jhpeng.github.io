@@ -1,6 +1,6 @@
 ---
 layout: post
-title: 'C# 具名引數 Named Argument'
+title: 'C# 4.0 具名引數 Named Argument'
 author: 'James Peng'
 tags: ['C#']
 ---
