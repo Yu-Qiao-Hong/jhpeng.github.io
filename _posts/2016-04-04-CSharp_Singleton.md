@@ -2,7 +2,7 @@
 layout: post
 title: 'C# 設計模式 - Singleton Pattern 單例模式'
 author: 'James Peng'
-tags: ['C#']
+tags: ['Design Pattern']
 ---
 
 ![](http://i.imgur.com/JmNihNT.png)

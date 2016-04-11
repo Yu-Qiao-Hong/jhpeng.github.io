@@ -2,7 +2,7 @@
 layout: post
 title: 'C# 設計模式 - 觀察者模式'
 author: 'James Peng'
-tags: ['C#']
+tags: ['Design Pattern']
 ---
 
 - 棒球不知道 球員A 和 球員B
