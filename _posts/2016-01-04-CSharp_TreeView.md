@@ -7,7 +7,7 @@ tags: ['C#']
 
 ## 讀取XML ##
 ~~~csharp
-XElement xdoc = XElement.Load(edsListPath);
+XElement xdoc = XElement.Load(xmlPath);
 ~~~
 ----------
 
