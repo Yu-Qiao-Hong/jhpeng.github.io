@@ -2,7 +2,7 @@
 layout: post
 title: 'C# 4.0 具名引數 Named Argument'
 author: 'James Peng'
-tags: ['C#']
+tags: ['C# 4.0']
 ---
 
  C# 4.0 開始支援了 Named Argument 功能

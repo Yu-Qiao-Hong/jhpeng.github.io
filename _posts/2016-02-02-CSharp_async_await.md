@@ -2,7 +2,7 @@
 layout: post
 title: 'C# 使用非同步的 async 和 await'
 author: 'James Peng'
-tags: ['C#']
+tags: ['C# 5.0']
 ---
 
 async和await是.net 4.5才開始出現用來簡化非同步開發，讓使用者更加輕鬆的去處理，而且看起來和一般的Code沒啥差異，

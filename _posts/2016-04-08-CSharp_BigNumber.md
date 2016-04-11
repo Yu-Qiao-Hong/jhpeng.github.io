@@ -2,9 +2,10 @@
 layout: post
 title: 'C# BigInteger 處理超大數值'
 author: 'James Peng'
-tags: ['C#']
+tags: ['C# 4.0']
 ---
 
+![](http://i.imgur.com/Ja9GoGW.jpg)
 
 ## 用途 ##
 

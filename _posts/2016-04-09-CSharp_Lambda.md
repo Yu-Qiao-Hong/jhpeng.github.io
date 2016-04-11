@@ -2,9 +2,10 @@
 layout: post
 title: 'C# 3.0 Lambda 運算子的用法'
 author: 'James Peng'
-tags: ['C#']
+tags: ['C# 3.0']
 ---
 
+![](http://i.imgur.com/Ja9GoGW.jpg)
 
 ## 一般 delegate 用法 ##
 

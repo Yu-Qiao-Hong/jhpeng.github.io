@@ -2,7 +2,7 @@
 layout: post
 title: 'C# 4.0 選擇性引數 Optional Arguments'
 author: 'James Peng'
-tags: ['C#']
+tags: ['C# 4.0']
 ---
 
  C# 4.0 開始支援了 Optional Parameters 功能

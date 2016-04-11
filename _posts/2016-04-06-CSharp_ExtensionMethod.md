@@ -2,8 +2,11 @@
 layout: post
 title: 'C# 3.0 使用 Extension Method 擴充方法'
 author: 'James Peng'
-tags: ['C#']
+tags: ['C# 3.0']
 ---
+
+![](http://i.imgur.com/Ja9GoGW.jpg)
+
 
 在.Net中，如果想要在已有的類別上去新增自己自訂的Function，應該要怎麼做呢？
 

@@ -2,7 +2,7 @@
 layout: post
 title: 'C# 4.0 函數中一次返回多個回傳值 Tuple'
 author: 'James Peng'
-tags: ['C#']
+tags: ['C# 4.0']
 ---
 
  C# 4.0 開始支援了 Tuple 功能

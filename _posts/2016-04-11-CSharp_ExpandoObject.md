@@ -2,10 +2,12 @@
 layout: post
 title: 'C# 4.0 使用 ExpandoObject 類別'
 author: 'James Peng'
-tags: ['C#']
+tags: ['C# 4.0']
 ---
 
 從 .NET Framework 4.0 開始 C# 支援 dynamic
+
+![](http://i.imgur.com/Ja9GoGW.jpg)
 
 你可以建立 System.Dynamic.ExpandoObject 物件，來可動態新增、移除成員。成員包含屬性、方法、事件等。
 
