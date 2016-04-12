@@ -5,7 +5,7 @@ author: 'James Peng'
 tags: ['C# 3.0']
 ---
 
-![](http://i.imgur.com/Ja9GoGW.jpg)
+
 
 ## 一般 delegate 用法 ##
 

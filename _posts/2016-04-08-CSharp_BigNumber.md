@@ -5,7 +5,7 @@ author: 'James Peng'
 tags: ['C# 4.0']
 ---
 
-![](http://i.imgur.com/Ja9GoGW.jpg)
+
 
 ## 用途 ##
 
