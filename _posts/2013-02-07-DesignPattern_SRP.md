@@ -52,6 +52,57 @@ tags: ['Design Pattern']
 {: rules="groups"}
 
 
+~~~csharp
+
+    public class Knife
+    {
+        public void cut(string foodSolid)
+        {
+            MessageBox.Show("切" + foodSolid + "的餐刀");
+        }
+    }
+
+    public class Fork
+    {
+        public void cross(string foodSolid)
+        {
+            MessageBox.Show("叉" + foodSolid + "的餐叉");
+        }
+    }
+
+    public class Spoon
+    {
+        public void dig(string foodSolid)
+        {
+            MessageBox.Show("挖" + foodSolid + "的湯匙");
+        }
+
+        public void dig(string foodLiquid)
+        {
+            MessageBox.Show("挖" + foodLiquid + "的湯匙");
+        }
+    }
+
+    public class Chopsticks
+    {
+        public void press(string foodSolid)
+        {
+            MessageBox.Show("夾" + foodSolid + "的筷子");
+        }
+        public void dig(string foodSolid)
+        {
+            MessageBox.Show("挖" + foodSolid + "的湯匙");
+        }
+        public void cross(string foodSolid)
+        {
+            MessageBox.Show("叉" + foodSolid + "的筷子");
+        }
+        public void cut(string foodSolid)
+        {
+            MessageBox.Show("切" + foodSolid + "的筷子");
+        }
+    }
+~~~
 
 ----------
 
