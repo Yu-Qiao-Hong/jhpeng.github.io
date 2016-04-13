@@ -2,7 +2,7 @@
 layout: post
 title: 'C# 透過 Unit Test Generator 快速為專案加入單元測試程式碼'
 author: 'James Peng'
-tags: ['Design Pattern']
+tags: ['C#']
 ---
 
 今天要跟各位介紹的，是由微軟的 Visual Studio ALM Rangers 小組所開發出來的 Visual Studio 擴充功能包 Unit Test Generator。
