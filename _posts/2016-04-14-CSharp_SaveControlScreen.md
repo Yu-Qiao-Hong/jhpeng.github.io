@@ -32,6 +32,11 @@ tags: ['C#']
 ~~~
 
 
+----------
+
+
+## 結果如下 ##
+
 ![](http://i.imgur.com/kYgld5J.png)
 
 
