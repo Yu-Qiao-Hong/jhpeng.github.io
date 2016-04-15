@@ -13,12 +13,14 @@ tags: ['C#']
 ![](http://i.imgur.com/mKLklJM.png)
 
 前10% VBA公式:
+
 ~~~text
 =AVERAGEIF(B2:B11,">="&PERCENTILE(B2:B11,1-ROW(1:1)/10))
 ~~~
 
 
 前20% VBA公式:
+
 ~~~text
 =AVERAGEIF(B2:B11,">="&PERCENTILE(B2:B11,1-ROW(2:2)/10))
 ~~~
