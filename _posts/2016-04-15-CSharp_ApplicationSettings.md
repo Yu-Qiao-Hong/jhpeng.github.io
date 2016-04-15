@@ -9,9 +9,9 @@ tags: ['C#']
 
 ## 問題 ##
 
-> 如何讓 combolist 存值下次開啟程式卻不會不消失？
+如何讓 combolist 存值下次開啟程式卻不會不消失？
 
-問題來源：https://social.msdn.microsoft.com/Forums/zh-TW/7b74da1d-d43c-43a2-9f62-b384ce1a9338/combolist?forum=233
+問題來源：[MSDN 論壇](https://social.msdn.microsoft.com/Forums/zh-TW/7b74da1d-d43c-43a2-9f62-b384ce1a9338/combolist?forum=233)
 
 ----------
 
@@ -100,4 +100,5 @@ tags: ['C#']
 
 ## 參考： ##
 
+- https://social.msdn.microsoft.com/Forums/zh-TW/7b74da1d-d43c-43a2-9f62-b384ce1a9338/combolist?forum=233
 - https://dotblogs.com.tw/sam319/2010/01/01/12753
