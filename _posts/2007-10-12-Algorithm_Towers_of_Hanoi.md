@@ -66,7 +66,7 @@ tags: ['Algorithm']
 
 ## Procedure code ##
 
-~~~vb
+~~~cpp
 Procedure HANOI(n, A, B, C) [  //n是盤子數量,A=來源,B=暫存,C=目的
      IF(n == 1) [
          PRINT("Move sheet " n " from " A " to " C);
