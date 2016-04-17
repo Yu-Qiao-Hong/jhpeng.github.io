@@ -66,7 +66,7 @@ tags: ['Algorithm']
 
 ## Procedure code ##
 
-~~~Text
+~~~basic
 Procedure HANOI(n, A, B, C) [  //n是盤子數量,A=來源,B=暫存,C=目的
      IF(n == 1) [
          PRINT("Move sheet " n " from " A " to " C);
@@ -84,7 +84,7 @@ Procedure HANOI(n, A, B, C) [  //n是盤子數量,A=來源,B=暫存,C=目的
 
 ## Java code ##
 
-~~~Text
+~~~java
 import java.io.*;
 
 public class Hanoi {
@@ -121,7 +121,7 @@ public class Hanoi {
 
 ## C# code ##
 
-~~~Text
+~~~csharp
 using System;
 using System.Text;
 
