@@ -72,31 +72,29 @@ tags: ['Google']
 
 ----------
 
+一個 div 區塊用來擺置地圖，style="width: 300px; height:300px" 則是用來指定地圖區塊大小。
+
 ~~~html
 <div id="map" style="width: 500px; height: 300px"></div>
 ~~~
 
-一個 div 區塊用來擺置地圖，style="width: 300px; height:300px" 則是用來指定地圖區塊大小。
-
-
 
 ----------
+
+宣告一個 GMap 物件。
 
 ~~~javascript
 var map = new GMap2(document.getElementById("map"));
 ~~~
 
-宣告一個 GMap 物件。
-
 
 ----------
+
+將地圖的中心點固定在經度 37.4419 和緯度 -122.1419，而 Zoom Level 在這範例中設成 13 (1 為最大，數字越大 Zoom Level 越小)
 
 ~~~javascript
 map.setCenter(new GLatLng(37.4419, -122.1419), 13);
 ~~~
-
-將地圖的中心點固定在經度 37.4419 和緯度 -122.1419，而 Zoom Level 在這範例中設成 13 (1 為最大，數字越大 Zoom Level 越小)
-
 
 
 ----------
