@@ -1,6 +1,6 @@
 ---
 layout: post
-title: 'C# 使用索引子 Indexer'
+title: 'C# 使用文字當做索引 Indexer'
 author: 'James Peng'
 tags: ['C#']
 ---
@@ -245,3 +245,5 @@ public string this[string s]
 
 - https://msdn.microsoft.com/zh-tw/library/2549tw02.aspx
 - https://msdn.microsoft.com/zh-tw/library/6x16t2tx.aspx
+- http://iverson127.github.io/CSharp_Indexer/
+- http://jesily-tw.blogspot.tw/search/label/C%23
