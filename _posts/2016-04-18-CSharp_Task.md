@@ -48,7 +48,7 @@ https://drive.google.com/folderview?id=0B9ORcd2U4a0RUDRhNWtXQlFuOVk&usp=sharing
 
 而在 C#4.0 後出現了 System.Threading.Tasks命名空間的類型
 
-Task 跟 ThreadPool 的功能類似，不過寫起來更為 簡單，直觀，簡潔
+Task 跟 ThreadPool 的功能類似，而且寫起來更為 簡單，直觀，簡潔，本篇就介紹Task的用法。
 
 ----------
 
