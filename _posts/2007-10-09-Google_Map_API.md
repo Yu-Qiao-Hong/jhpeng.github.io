@@ -37,7 +37,7 @@ tags: ['Google']
   <head>
     <meta http-equiv="content-type" content="text/html; charset=utf-8"/>
     <title>Google Maps JavaScript API Example</title>
-    <script src="http://maps.google.com/maps?file=api&v=2&key=ABQIAAAA3zUNMPBnK123OXJ6inh_BQushyC6AHBLzZgEz456Pyj0pLBST8lk_et49T0789zZOKYIqg"
+    <script src="http://maps.google.com/maps?file=api&v=2&key=SAMPLEKEY123OXJ6inh_POMZgEz456Pyj0pLBST8lk_et49T0789zZOKYIqg"
       type="text/javascript"></script>
     <script type="text/javascript">
     //<![CDATA[
@@ -65,7 +65,7 @@ tags: ['Google']
 這部分就是用你取得的 Key 去載入 Google Maps API
 
 ~~~html
-    <script src="http://maps.google.com/maps?file=api&v=2&key=ABQIAAAA3zUNMPBnK123OXJ6inh_BQushyC6AHBLzZgEz456Pyj0pLBST8lk_et49T0789zZOKYIqg"
+    <script src="http://maps.google.com/maps?file=api&v=2&key=SAMPLEKEY123OXJ6inh_POMZgEz456Pyj0pLBST8lk_et49T0789zZOKYIqg"
       type="text/javascript"></script>
 ~~~
 
@@ -162,8 +162,10 @@ map.addOverlay(polyline);
 
 ----------
 
-Other resources
+## Other resources ##
+
 Here are some additional resources. Note that these sites are not owned or supported by Google.
+
 - Google Mapki: http://www.mapki.com/
 - Google Maps API Tutorial: http://www.econym.demon.co.uk/googlemaps/
 - Esa's Google Maps API Examples: http://koti.mbnet.fi/ojalesa/exam/index.html
