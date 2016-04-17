@@ -12,13 +12,13 @@ C#中的索引子 (Indexer)是一個相當直覺好用的設計，讓自訂的�
 一般的存取方式
 
 ~~~csharp
-float temp = tr.temps[4]。
+float temp = tr.temps[4]
 ~~~
 
 使用索引子的存取方式
 
 ~~~csharp
-float temp = tr[4] ，
+float temp = tr[4]
 ~~~
 
 
@@ -36,9 +36,115 @@ using System.Collections;
 ----------
 
 
-## 範例 StringIndexSample.cs ##
+定義一個 StringIndexSample 物件 
 
-在 StringIndexSample 物件 中使用 Indexer，使用者可以指定 string 或是 int 就可以存取內部的資料：
+中使用 Indexer的宣告語法如下：
+
+~~~csharp
+public string this[string s]
+~~~
+
+指定 string 就可以存取封裝內部集合或陣列的資料：
+
+~~~csharp
+        public string this[string s]
+        {
+            get
+            {
+                int index;
+                for (index = 0; index < this._fieldnames.Count; index++)
+                {
+                    if (this._fieldnames[index].Equals(s)) break;
+                }
+                return (string)(this._data[index]);
+            }
+            set
+            {
+                int index;
+                for (index = 0; index < this._fieldnames.Count; index++)
+                {
+                    if (this._fieldnames[index].Equals(s)) break;
+                }
+                if (index < this._fieldnames.Count) this._data[index] = value;
+                else
+                {
+                    _fieldnumber.Add(this._fieldnames.Count + 1);
+                    _fieldnames.Add(s);
+                    _data.Add(value);
+                }
+            }
+        }
+~~~
+
+
+指定 int 就可以存取封裝內部集合或陣列的資料：
+
+~~~csharp
+        public string this[int i]
+        {
+            get
+            {
+                int index;
+                for (index = 0; index < this._fieldnames.Count; index++)
+                {
+                    if (this._fieldnumber[index].Equals(i)) break;
+                }
+                return (string)(this._data[index]);
+            }
+            set
+            {
+                int index;
+                for (index = 0; index < this._fieldnames.Count; index++)
+                {
+                    if (this._fieldnumber[index].Equals(i)) break;
+                }
+                if (index < this._fieldnames.Count) this._data[index] = value;
+                else
+                {
+
+                }
+            }
+        }
+~~~
+
+----------
+
+
+## 使用結果 ##
+
+~~~text
+    
+        private void button1_Click(object sender, EventArgs e)
+        {
+
+            StringIndexSample testing = new StringIndexSample();
+
+            //隨便輸入一個索引文字  並且給值
+            testing["name"] = "james";
+            MessageBox.Show(testing["name"]);
+
+            //再輸入一個索引文字  並且給值 
+            testing["url"] = "note.jhpeng.com";
+            MessageBox.Show(testing["url"]);
+
+            //也可以用數字叫出
+            MessageBox.Show(testing[1]);
+            MessageBox.Show(testing[2]);   
+            
+
+        }
+~~~
+
+
+![](http://i.imgur.com/5SkHtGI.png)
+
+![](http://i.imgur.com/Lmokpcr.png)
+
+
+
+----------
+
+## 完整範例 StringIndexSample.cs ##
 
 ~~~csharp
 
@@ -132,39 +238,6 @@ using System.Collections;
     } // end of class
 ~~~
 
-
-----------
-
-
-## 使用結果 ##
-
-~~~text
-    
-        private void button1_Click(object sender, EventArgs e)
-        {
-
-            StringIndexSample testing = new StringIndexSample();
-
-            //隨便輸入一個索引文字  並且給值
-            testing["name"] = "james";
-            MessageBox.Show(testing["name"]);
-
-            //再輸入一個索引文字  並且給值 
-            testing["url"] = "note.jhpeng.com";
-            MessageBox.Show(testing["url"]);
-
-            //也可以用數字叫出
-            MessageBox.Show(testing[1]);
-            MessageBox.Show(testing[2]);   
-            
-
-        }
-~~~
-
-
-![](http://i.imgur.com/5SkHtGI.png)
-
-![](http://i.imgur.com/Lmokpcr.png)
 
 ----------
 
