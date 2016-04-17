@@ -112,7 +112,7 @@ public string this[string s]
 
 ## 使用結果 ##
 
-~~~text
+~~~csharp
     
         private void button1_Click(object sender, EventArgs e)
         {
