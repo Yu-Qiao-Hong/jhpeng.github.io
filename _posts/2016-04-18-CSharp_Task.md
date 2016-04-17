@@ -2,7 +2,7 @@
 layout: post
 title: 'C# Task 簡單用法'
 author: 'James Peng'
-tags: ['C#']
+tags: ['C# 4.0']
 ---
 
 # 問題：Button1按第2次時,無法清除textBox1的文字 #
