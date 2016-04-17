@@ -107,11 +107,11 @@ web.xml 放置於 [context目錄]\WEB-INF\ 底下
 
 ###  注意  ###
 
-xmlns:xsi="xxx" xsi:yy="xx" 為單行(不換行)
-
-<servlet> 配置 servlet名稱 對映的 class
-
-<servlet-mapping> 配置 servlet名稱 對映的 客戶端顯示路徑/名稱
+    xmlns:xsi="xxx" xsi:yy="xx" 為單行(不換行)
+    
+    <servlet> 配置 servlet名稱 對映的 class
+    
+    <servlet-mapping> 配置 servlet名稱 對映的 客戶端顯示路徑/名稱
 
 -------------------------------
 
@@ -129,9 +129,9 @@ Now You See The Servlet , HelloPOMPOM
 
 ###  注意  ###
 
-如自訂外部 [context目錄]
-
-每當重新編譯程式、修改web.xml
-
-Tomcat必須重新啟動，才會載入新的 class 及配置
+    如自訂外部 [context目錄]
+    
+    每當重新編譯程式、修改web.xml
+    
+    Tomcat必須重新啟動，才會載入新的 class 及配置
 
