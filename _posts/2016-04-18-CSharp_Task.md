@@ -5,7 +5,9 @@ author: 'James Peng'
 tags: ['C#']
 ---
 
-# 問題 #
+# 問題：Button1按第2次時,無法清除textBox1的文字 #
+
+問題來源 [msdn論壇](https://social.msdn.microsoft.com/Forums/zh-TW/7e2f9d7e-f6c1-433a-903c-032a2cead7b4/button12textbox1?forum=233)
 
 各位大大們好,小弟跟大家請教一個問題
 
@@ -34,7 +36,7 @@ textBox1.Text = "測試文字~按第2次Button\r\n要先清除間隔2秒後才�
 
 https://drive.google.com/folderview?id=0B9ORcd2U4a0RUDRhNWtXQlFuOVk&usp=sharing
 
-問題來源 [msdn論壇](https://social.msdn.microsoft.com/Forums/zh-TW/7e2f9d7e-f6c1-433a-903c-032a2cead7b4/button12textbox1?forum=233)
+
 
 ----------
 
