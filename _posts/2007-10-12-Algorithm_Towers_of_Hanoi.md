@@ -64,7 +64,7 @@ tags: ['Algorithm']
 
 ----------
 
-## Procedure code ##
+## Pseudo code ##
 
 ~~~php
 Procedure HANOI(n, A, B, C) [  //n是盤子數量,A=來源,B=暫存,C=目的
