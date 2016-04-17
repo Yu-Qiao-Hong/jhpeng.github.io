@@ -14,12 +14,6 @@ private void button1_Click(object sender, EventArgs e)
 {
 textBox1.Text = " ";
 
-//textBox1.Clear();
-
-//Clean_TextBox1();
-
-//textBox1.Text = string.Empty;
-
 Thread.Sleep(2000); //Delay 1秒
 
 textBox1.Text = "測試文字~按第2次Button\r\n要先清除間隔2秒後才顯示唷";
@@ -48,17 +42,13 @@ https://drive.google.com/folderview?id=0B9ORcd2U4a0RUDRhNWtXQlFuOVk&usp=sharing
 
 首先 Thread.Sleep 不應該出現在 UI 所在的執行緒, 如：button1_Click 內
 
-因為在UI 執行緒中使用 Thread.Sleep 等於在封鎖操作畫面. 
+因為在UI 執行緒中使用 Thread.Sleep 等於在封鎖操作畫面，這並不是一個好的使用者經驗設計方式.
 
-也就是當你在 Thread.Sleep 的那段時間, 畫面上的任何東西都是不能被操作的 ,
-
-這並不是一個好的使用者經驗設計方式.
-
-所以, 我建議是使用多執行緒處理能比較符合此應用的情況
+所以, 建議是使用多執行緒處理能比較符合此應用的情況
 
 而在 C#4.0 後出現了 System.Threading.Tasks命名空間的類型
 
-Task 跟 ThreadPool 的功能類似，不過寫起來更為簡單，直觀。程式碼更簡潔了
+Task 跟 ThreadPool 的功能類似，不過寫起來更為 簡單，直觀，簡潔
 
 ----------
 
@@ -73,10 +63,11 @@ using System.Threading.Tasks;
 
 ----------
 
-
 ## 建立 Task ##
 
 我們在 button1_Click 裡，使用 Task 讓 要處理的事情另外開執行緒，這樣可以和 UI執行緒 分開。
+
+以下範例：
 
 ~~~csharp
         private static CancellationTokenSource source = new CancellationTokenSource();        
