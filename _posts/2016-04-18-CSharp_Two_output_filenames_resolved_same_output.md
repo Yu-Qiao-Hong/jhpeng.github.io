@@ -26,6 +26,8 @@ remove all .resx files, next build it to test.
 
 ![](http://i.imgur.com/UwYi29Y.png)
 
+或是 看是否有同名文件但不同資料夾
+
 ----------
 
 參考：
