@@ -1,6 +1,6 @@
 ---
 layout: post
-title: 'C# 取得 Namespace 下所有 Class 名稱'
+title: 'C# 取得 Namespace 下所有 Class 名稱 以及 Method 資訊'
 author: 'James Peng'
 tags: ['C#']
 ---
