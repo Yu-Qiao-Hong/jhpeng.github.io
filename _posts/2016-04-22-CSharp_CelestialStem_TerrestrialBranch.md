@@ -124,6 +124,14 @@ tags: ['C#']
 天干：甲乙丙丁戊己庚辛壬癸
 地支：子丑寅卯辰巳午未申酉戌亥
 
+
+----------
+
+
+
+# 年份的天干地支計算方式 #
+
+
 因為年干支的干支配合雖後代才有，但其應用是仍從公元後1年開始。
 
 剛好公元前第四年為甲子年 ​​，減去3是為了計算的方便，把公元前和公元後兩者的記年法分開來言。
@@ -138,7 +146,7 @@ tags: ['C#']
 
 
 
-天干地址下標分別為
+天干地支：
 
 
 
@@ -146,7 +154,7 @@ tags: ['C#']
 <tbody>
 <tr>
 <td valign="top" width="55">
-<p align="center"><font><font class="">下標</font></font></p>
+<p align="center"><font><font class="">index</font></font></p>
 </td>
 <td valign="top" width="55">
 <p align="center"><font><font>0</font></font></p>
@@ -324,7 +332,7 @@ tags: ['C#']
 
 計算年份對應的天干地支甲子都出黎啦下面當然是事例啦！就拿2010年來計算一下。
 
-事例：
+手算：
 
     Year = 2010 
     Celestial Stem = ( Year – 3 ) Mod 10 
@@ -353,8 +361,58 @@ tags: ['C#']
     =庚寅
 
 
+----------
 
-得出既結果大家可以去網站搜查一下對不對
+## C# 計算 年天干 ##
+
+~~~csharp
+        private string GetSky(int year)
+        {
+            string[] Sky = { "癸" , "甲", "乙", "丙", "丁", "戊", "己", "庚", "辛", "壬"};
+            int i = (year - 3) % 10;
+            return Sky[i];
+        }
+~~~
+
+![](http://i.imgur.com/rFuaLHu.png)
+
+
+----------
+
+
+## C# 計算 年地支 ##
+
+~~~csharp
+        private string GetGround(int year)
+        {
+            string[] Ground = {"亥", "子", "丑", "寅", "卯", "辰", "巳", "午", "未", "申", "酉", "戌" };
+            int i = (year - 3) % 12;
+            return Ground[i];
+        }
+~~~
+
+![](http://i.imgur.com/BFKRclf.png)
+
+
+
+----------
+
+## C# 計算 年天干地支 ##
+
+~~~csharp
+        private string GetSkyGround(int year)
+        {
+            return GetSky(year) + GetGround(year);
+        }
+~~~
+
+![](http://i.imgur.com/5RJDZ1c.png)
+
+----------
+
+# 月份的天干地支計算方式 #
+
+
 
 月份的天干地支算法，以2010年為事例我們先計算正月的天干地支
 正月天干​​=如果天干數小於5公式上需要加上5如果大於等於5公式上需要減去5，
