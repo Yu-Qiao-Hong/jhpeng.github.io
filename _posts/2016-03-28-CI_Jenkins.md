@@ -2,7 +2,7 @@
 layout: post
 title: 'CI Server - Jenkins'
 author: 'James Peng'
-tags: ['Continuous integration']
+tags: ['Continuous Integration']
 ---
 
 在這次的系列教學的目的是 順手幫TEAM裡 架一個 CI Server，
