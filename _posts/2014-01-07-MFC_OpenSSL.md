@@ -54,10 +54,9 @@ P.S.若有需要將Build好的OpenSSL.exe及其相關檔案存其他路徑，請
 
 
 - 建立Makefile文件，使用NASM組合語言編譯ms\do_nasm
-
-    如果使用MASM，接著輸入：ms\do_masm
-    如果使用NASM，接著輸入：ms\do_nasm
-    如果不使用組合語言編譯器，輸入:ms\do_ms
+	- 如果使用MASM，接著輸入：ms\do_masm
+	- 如果使用NASM，接著輸入：ms\do_nasm
+	- 如果不使用組合語言編譯器，輸入:ms\do_ms
 
 - 選擇OpenSSL.exe編譯的類型。
 
@@ -65,8 +64,8 @@ P.S.若有需要將Build好的OpenSSL.exe及其相關檔案存其他路徑，請
     靜態庫連結nmake -f ms\nt.mak
 
 P.S. 編譯過程發生錯誤，參考如下方式處理
-(1) 確認NASM是否有添加環境變數到系統
-(2) 環境變數已添加，請重開機再試一次
+	- (1) 確認NASM是否有添加環境變數到系統
+	- (2) 環境變數已添加，請重開機再試一次
 
 
 - 驗證編譯好的檔案是否可以正常運作。
