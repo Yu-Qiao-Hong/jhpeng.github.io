@@ -46,13 +46,10 @@ P.S.若沒有顯示Perl的版本，請重開機後再將此步驟重做一次即
 	- x86環境使用：perl Configure VC-WIN32
 	- x64環境使用：perl Configure VC-WIN64A
 
-
-P.S.若有需要將Build好的OpenSSL.exe及其相關檔案存其他路徑，請在VC-WIN32或VC-WIN64A後面加上--prefix=<資料夾路徑>。
+- P.S.若有需要將Build好的OpenSSL.exe及其相關檔案存其他路徑，請在VC-WIN32或VC-WIN64A後面加上--prefix=<資料夾路徑>。
 
 	- x86環境使用：perl Configure VC-WIN32 --prefix=C:\TestOpenSSL
 	- x64環境使用：perl Configure VC-WIN64A --prefix=C:\TestOpenSSL
-
-
 
 - 建立Makefile文件，使用NASM組合語言編譯ms\do_nasm
 
