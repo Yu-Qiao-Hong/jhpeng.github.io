@@ -321,3 +321,60 @@ In most cases, you can just uncheck the “Try to locate other DLLs” and press
 
 
 ----------
+
+## REFERENCES ##
+
+For more information, click the following article number to view the article in the
+Microsoft Knowledge Base: 131058 (http://support.microsoft.com/kb/131058/) Descriptions of tips for remote debugging with Visual C++ versions 2.x, 4.0, 5.0, and 6.0
+Search for "Debugging Remote Applications" in the Visual C++ Programmer's Guide.
+
+
+----------
+
+
+## APPLIES TO ##
+
+- Microsoft Visual C++, 32-bit Learning Edition 6.0
+- Microsoft Visual C++ 5.0 Enterprise Edition
+- Microsoft Visual C++ 6.0 Enterprise Edition
+- Microsoft Visual C++ 5.0 Professional Edition
+- Microsoft Visual C++ 6.0 Professional Edition
+
+Keywords: kbhowto kbbug kbdebug KB241848
+
+
+----------
+
+## WinPE Settings: ##
+
+- On the WinPE machine (target), for example: create a folder ReDebug on disk X:\.
+- Copy the DLLs, the EXEs and the PDB into it (use USB drive).
+- Be sure that, disable the firewall on the WinPE machine using the command: x:\>wpeutil disablefirewall
+- On the host, don’t forget to “change Debugger Remote Connection from Local to Remote. Click Settings, and then change the Target machine name or address. You can also give an IP address instead.
+
+Now you can run the debugging process.
+
+![](http://i.imgur.com/gCSMP2e.png)
+
+
+----------
+
+## Share Folder for the Target ##
+
+Host computer shares a folder and target computer links the folder as a local drive.
+
+![](http://i.imgur.com/OgeKJIH.png)
+
+User of Host machine: Tom_Lee on the domain compal On the target machine please type:
+
+![](http://i.imgur.com/TrN0XT7.png)
+
+Then the program will ask you type the password for ‘compal\Tom_Lee’ to connect to ‘Tom_Lee2’: If success: it says:
+The command completed successfully.
+Ortherwise:
+
+![](http://i.imgur.com/UozIjrB.png)
+
+Figure A.
+
+![](http://i.imgur.com/Sqy3A4J.png)
