@@ -19,6 +19,7 @@ OpenSSL是一套提供許多免費加密函數的開放程式碼，這裡簡單�
 - Perl：請自行依據自己機器使用的Windows環境，下載對應的x86或x64版本的ActivePerl http://www.activestate.com/activeperl/downloads
 - OpenSSL：下載OpenSSL原始碼 http://www.openssl.org/source/
 - NASM或MASM組合語言組譯器： 
+
 	- NASM是一種可攜性高且可跨多個作業系統平台的組合語言組譯器，下載連結http://www.nasm.us/
 	- MASM微軟推行的組合語言組譯器，不具備跨平台的特性，僅能在Intel平台上使用，下載連結http://www.masm32.com/
 
@@ -42,54 +43,55 @@ P.S.若沒有顯示Perl的版本，請重開機後再將此步驟重做一次即
 
 - 設定編譯OpenSSL.exe Configure設定。
 
-    x86環境使用：perl Configure VC-WIN32
-    x64環境使用：perl Configure VC-WIN64A
+	- x86環境使用：perl Configure VC-WIN32
+	- x64環境使用：perl Configure VC-WIN64A
 
 
 P.S.若有需要將Build好的OpenSSL.exe及其相關檔案存其他路徑，請在VC-WIN32或VC-WIN64A後面加上--prefix=<資料夾路徑>。
 
-    x86環境使用：perl Configure VC-WIN32 --prefix=C:\TestOpenSSL
-    x64環境使用：perl Configure VC-WIN64A --prefix=C:\TestOpenSSL
+	- x86環境使用：perl Configure VC-WIN32 --prefix=C:\TestOpenSSL
+	- x64環境使用：perl Configure VC-WIN64A --prefix=C:\TestOpenSSL
 
 
 
 - 建立Makefile文件，使用NASM組合語言編譯ms\do_nasm
+
 	- 如果使用MASM，接著輸入：ms\do_masm
 	- 如果使用NASM，接著輸入：ms\do_nasm
 	- 如果不使用組合語言編譯器，輸入:ms\do_ms
 
 - 選擇OpenSSL.exe編譯的類型。
 
-    動態庫連結nmake -f ms\ntdll.mak
-    靜態庫連結nmake -f ms\nt.mak
+	- 動態庫連結nmake -f ms\ntdll.mak
+	- 靜態庫連結nmake -f ms\nt.mak
 
-P.S. 編譯過程發生錯誤，參考如下方式處理
+- P.S. 編譯過程發生錯誤，參考如下方式處理
+
 	- (1) 確認NASM是否有添加環境變數到系統
 	- (2) 環境變數已添加，請重開機再試一次
 
 
 - 驗證編譯好的檔案是否可以正常運作。
 
-    動態庫測試nmake -f ms\ntdll.mak test
-    靜態庫測試nmake -f ms\nt.mak test
+	- 動態庫測試nmake -f ms\ntdll.mak test
+	- 靜態庫測試nmake -f ms\nt.mak test
 
 - 安裝編譯好的檔案。
-- 
-    動態庫安裝nmake -f ms\ntdll.mak install
-    靜態庫安裝nmake -f ms\nt.mak install
 
-此部分完成後，若在步驟2沒有設定需要另外輸出的資料夾路徑，將會在openssl資料夾外產生一個user的資料夾來存放openssl.exe、libeay32.dll、、ssleay32.dll
+	- 動態庫安裝nmake -f ms\ntdll.mak install
+	- 靜態庫安裝nmake -f ms\nt.mak install
+	- 此部分完成後，若在步驟2沒有設定需要另外輸出的資料夾路徑，將會在openssl資料夾外產生一個user的資料夾來存放openssl.exe、libeay32.dll、ssleay32.dll
 
 
 - 若要清除編譯的檔案，可參考如下指令。
 
-    動態庫清除nmake -f ms\ntdll.mak clean
-    靜態庫清除nmake -f ms\nt.mak clean
+	- 動態庫清除nmake -f ms\ntdll.mak clean
+	- 靜態庫清除nmake -f ms\nt.mak clean
 
-如果以上步驟都成功，可在openssl看到out32、out32dll資料夾產生，裡面openssl.exe、libeay32.dll、libeay32.lib、ssleay32.dll、ssleay32.lib
+- 如果以上步驟都成功，可在openssl看到out32、out32dll資料夾產生，裡面openssl.exe、libeay32.dll、libeay32.lib、ssleay32.dll、ssleay32.lib
 
-    動態庫編譯檔案輸出目錄\openssl\out32dll
-    靜態庫編譯檔案輸出目錄\openssl\out32
+	- 動態庫編譯檔案輸出目錄\openssl\out32dll
+	- 靜態庫編譯檔案輸出目錄\openssl\out32
 
 
 ----------
