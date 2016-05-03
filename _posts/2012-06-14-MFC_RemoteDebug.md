@@ -191,3 +191,133 @@ Connection項目選擇 Network(TCP/IP)，並在Settings/Target machine name欄�
 例如 程式需要使用MyRemote.dll，透過Dependency Walker載入，可以查詢缺少的相依DLL檔，在此例為MFC100.dll，如下圖所示：
 
 ![](http://i.imgur.com/qwDiyOM.png)
+
+
+----------
+
+
+## How to set up remote debugging quickly by using Visual C++ 5.0 or Visual C++ 6.0 ##
+
+http://support.microsoft.com/?scid=kb%3Ben-us%3B241848&x=11&y=9
+
+This article was previously published under Q241848
+
+## SUMMARY ##
+
+This article describes how to set up remote debugging quickly when you use Microsoft Visual C++ 5.0 or Microsoft Visual C++ 6.0 to debug applications on non-development computers.
+
+## MORE INFORMATION ##
+
+Note In these steps, the target computer is the computer that does not have Visual C++ installed on it, and it is the computer that is usually called the "clean" computer. The host computer is the computer on which Visual C++ is installed where the debugging with the integrated development environment (IDE) occurs.
+
+Make sure that both computers can see each other on the network. This makes it easier than setting up a serial connection between the two and makes the remote debugging much faster.
+
+On the target computer, create a share so that the host computer can access it. For example, it debug on the host like such as \\server\share\somedll.dll.
+
+Copy the following files to the target computer share created or the system folder. On a computer that is running Microsoft Windows 95, Microsoft Windows 98, Microsoft Windows NT 4.0, or Microsoft Windows 2000, the remote debug monitor consists of the following files:
+
+	- o Msvcmon.exe
+	- o Msvcrt.dll
+	- o Tln0t.dll
+	- o Dm.dll
+	- o Msvcp6o.dll
+	- o Msdis110.dll
+	
+
+Note In Windows NT, the remote debugger also requires the Psapi.dll file. The files are located in the following folders:
+
+<table>
+<tbody><tr>
+<td style="width:116px; height:26px; border-style:solid; border-color:#000000; border-width:1px 1px 1px 1px">
+<span style="font-size:12pt; color:#000000">File </span></td>
+<td style="width:405px; height:26px; border-style:solid; border-color:#000000; border-width:1px 1px 1px 1px">
+<span style="font-size:12pt; color:#000000">Copy from location </span></td>
+</tr>
+<tr>
+<td style="width:116px; height:25px; border-style:solid; border-color:#000000; border-width:1px">
+<span style="font-size:12pt; font-weight:normal; color:#000000">Msvcmon.exe </span></td>
+<td style="width:405px; height:25px; border-style:solid; border-color:#000000; border-width:1px">
+<span style="font-size:12pt; font-weight:normal; color:#000000">\Common\Msdev98\Bin </span></td>
+</tr>
+<tr>
+<td style="width:116px; height:25px; border-style:solid; border-color:#000000; border-width:1px">
+<span style="font-size:12pt; font-weight:normal; color:#000000">Tln0t.dll </span></td>
+<td style="width:405px; height:25px; border-style:solid; border-color:#000000; border-width:1px">
+<span style="font-size:12pt; font-weight:normal; color:#000000">\Common\Msdev98\Bin </span></td>
+</tr>
+<tr>
+<td style="width:116px; height:25px; border-style:solid; border-color:#000000; border-width:1px">
+<span style="font-size:12pt; font-weight:normal; color:#000000">Dm.dll </span></td>
+<td style="width:405px; height:25px; border-style:solid; border-color:#000000; border-width:1px">
+<span style="font-size:12pt; font-weight:normal; color:#000000">\Common\Msdev98\Bin </span></td>
+</tr>
+<tr>
+<td style="width:116px; height:25px; border-style:solid; border-color:#000000; border-width:1px">
+<span style="font-size:12pt; font-weight:normal; color:#000000">Msdis110.dll </span></td>
+<td style="width:405px; height:25px; border-style:solid; border-color:#000000; border-width:1px">
+<span style="font-size:12pt; font-weight:normal; color:#000000">\Common\Msdev98\Bin </span></td>
+</tr>
+<tr>
+<td style="width:116px; height:25px; border-style:solid; border-color:#000000; border-width:1px">
+<span style="font-size:12pt; font-weight:normal; color:#000000">Msvcrt.dll </span></td>
+<td style="width:405px; height:25px; border-style:solid; border-color:#000000; border-width:1px">
+<span style="font-size:12pt; font-weight:normal; color:#000000">%SYSTEMROOT%\System(32) </span></td>
+</tr>
+<tr>
+<td style="width:116px; height:49px; border-style:solid; border-color:#000000; border-width:1px">
+<span style="font-size:12pt; font-weight:normal; color:#000000">Msvcp60.dll </span></td>
+<td style="width:405px; height:49px; border-style:solid; border-color:#000000; border-width:1px">
+<span style="font-size:12pt; font-weight:normal; color:#000000">%SYSTEMROOT%\System(32) (Msvcp50.dll for VC++ 5.0) </span></td>
+</tr>
+<tr>
+<td style="width:116px; height:73px; border-style:solid; border-color:#000000; border-width:1px 1px 1px 1px">
+<span style="font-size:12pt; font-weight:normal; color:#000000">Psapi.dll </span></td>
+<td style="vertical-align:top; width:405px; height:73px; border-style:solid; border-color:#000000; border-width:1px 1px 1px 1px">
+<span style="font-size:12pt; font-weight:normal; color:#000000">%SYSTEMROOT%\System32 (Do not copy this file to Windows 95-based computer or Windows 98-based computers.) </span></td>
+</tr>
+</tbody></table>
+
+ote If the Msvcrt.dll file is on the host computer and is an earlier version than the version of the Msvcrt.dll file that is on the target computer, do not copy the Msvcrt.dll file to the target. If the Msvcrt.dll file is copied to the target, restart the target computer because the Msvcrt.dll file is a known DLL.
+
+Copy your DLLs and .exe files to the share. Be sure to copy any third-party information that you may need. Also copy any dependent DLLs such as Mfc42d.dll and Msvcrtd.dll to the share. Also, make sure all that all COM DLL and .exe files being used by your program are registered on the target.
+
+Copy the .pdb files to the share. This includes all of the .pdb files in the debug or release folders for the project on the host computer. If you do not have any .pdb files because you are doing release builds, you can add debug info to the release project. To do this, follow these steps:
+
+- On the Project menu, click Settings.
+- Click the C/C++ tab.
+- Click Category, and then click General.
+- Change Debug info from None to Program Database.
+- Click the Link tab.
+- Click Category, and then click General.
+- Click to select the Generate Debug Info check box.
+- Rebuild and run.
+
+On the host computer, the one with the source code, change the debug target in the Remote executable path and file name box in the Project Settings Debug tab to reflect the DLL/EXE that is to be debugged.
+For example: \\server\share\somedll.dll
+
+Example 2: You may link \\server\share\ as a Net Disk, say Y:\, And the shared folder in the server (target) is:
+c:\users\stdsid\desktop\redshare\ The program is ReD2.exe
+
+
+![](http://i.imgur.com/gY7mduo.png)
+
+and
+
+![](http://i.imgur.com/KORglm6.png)
+
+In the Visual C++ IDE, click Debugger Remote Connection on the Build menu select . Change it from Local to Remote. Click Settings, and then change the Target machine name or address. You can also give an IP address instead.
+
+Set breakpoints in the source code that you want to debug. Do this before you start the remote monitor.
+
+On the target computer, run Msvcmon.exe. This has to be running before you try to connect. Click Settings, and then change the Target machine name or address to the host computer name. You can also give an IP address instead. Always be sure that the target has this running before wondering why the debugger is not working.
+
+You are ready to debug now. On the host computer, click Start Debug on the Build menu, and then click Go.
+
+![](http://i.imgur.com/pwEwG3W.png)
+
+In most cases, you can just uncheck the “Try to locate other DLLs” and press “Cancel”.
+
+![](http://i.imgur.com/9rg9UCX.png)
+
+
+----------
