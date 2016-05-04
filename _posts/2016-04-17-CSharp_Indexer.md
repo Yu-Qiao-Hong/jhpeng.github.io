@@ -136,9 +136,9 @@ public string this[string s]
 ~~~
 
 
-![](http://i.imgur.com/5SkHtGI.png)
+![](..\images\2016-04-17-CSharp_Indexer\5SkHtGI.png)
 
-![](http://i.imgur.com/Lmokpcr.png)
+![](..\images\2016-04-17-CSharp_Indexer\Lmokpcr.png)
 
 
 

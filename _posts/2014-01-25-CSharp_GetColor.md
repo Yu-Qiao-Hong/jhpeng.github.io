@@ -5,7 +5,7 @@ author: 'James Peng'
 tags: ['C#']
 ---
 
-![](http://i.imgur.com/Jl4LPUr.png)
+![](..\images\2014-01-25-CSharp_GetColor\Jl4LPUr.png)
 
 
 ## 引用命名空間 ##

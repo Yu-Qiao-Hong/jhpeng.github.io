@@ -12,7 +12,7 @@ tags: ['C#']
 Two output file names resolved to the same output path: "obj\x86\Debug\xxxx.resources" DryWash
 
 
-![](http://i.imgur.com/40qBPbh.png)
+![](..\images\2016-04-18-CSharp_Two_output_filenames_resolved_same_output\40qBPbh.png)
 
 ----------
 
@@ -24,7 +24,7 @@ Two output file names resolved to the same output path: "obj\x86\Debug\xxxx.reso
 
 remove all .resx files, next build it to test.
 
-![](http://i.imgur.com/UwYi29Y.png)
+![](..\images\2016-04-18-CSharp_Two_output_filenames_resolved_same_output\UwYi29Y.png)
 
 或是 看是否有同名文件但不同資料夾
 

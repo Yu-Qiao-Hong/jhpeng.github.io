@@ -44,7 +44,7 @@ tags: ['C#']
             MessageBox.Show(jsonString);
 ~~~
 
-![](http://i.imgur.com/sizryKT.png)
+![](..\images\2016-04-10-CSharp_JSON_NET\sizryKT.png)
 
 
 加上 Newtonsoft.Json.Formatting.Indented  多了換行
@@ -54,7 +54,7 @@ tags: ['C#']
             MessageBox.Show(jsonString);
 ~~~
 
-![](http://i.imgur.com/yXCUo4u.png)
+![](..\images\2016-04-10-CSharp_JSON_NET\yXCUo4u.png)
 
 ----------
 
@@ -64,7 +64,7 @@ tags: ['C#']
 Person p2 = JsonConvert.DeserializeObject<Person>(jsonString);
 ~~~
 
-![](http://i.imgur.com/WzT1Flw.png)
+![](..\images\2016-04-10-CSharp_JSON_NET\WzT1Flw.png)
 
 
 
@@ -74,7 +74,7 @@ Person p2 = JsonConvert.DeserializeObject<Person>(jsonString);
 
 從 SQLite 裡 撈出 DataTable 轉成 Json
 
-![](http://i.imgur.com/jzbh8q4.png)
+![](..\images\2016-04-10-CSharp_JSON_NET\jzbh8q4.png)
 
 ~~~csharp
 
@@ -111,7 +111,7 @@ Person p2 = JsonConvert.DeserializeObject<Person>(jsonString);
             System.IO.File.WriteAllText(@"GPIB.json", jsonString);
 ~~~
 
-![](http://i.imgur.com/lFvBjB1.png)
+![](..\images\2016-04-10-CSharp_JSON_NET\lFvBjB1.png)
 
 
 
@@ -122,7 +122,7 @@ Person p2 = JsonConvert.DeserializeObject<Person>(jsonString);
 
 修改過後的 Json 
 
-![](http://i.imgur.com/VyY44Wg.png)
+![](..\images\2016-04-10-CSharp_JSON_NET\VyY44Wg.png)
 
 ~~~csharp
             string jsonString = System.IO.File.ReadAllText(@"GPIB.json");
@@ -130,7 +130,7 @@ Person p2 = JsonConvert.DeserializeObject<Person>(jsonString);
             dataGridView1.DataSource = dt;
 ~~~
 
-![](http://i.imgur.com/tLu6M2u.png)
+![](..\images\2016-04-10-CSharp_JSON_NET\tLu6M2u.png)
 
 
 
@@ -144,7 +144,7 @@ Person p2 = JsonConvert.DeserializeObject<Person>(jsonString);
             dataGridView1.DataSource = jArry;            
 ~~~
 
-![](http://i.imgur.com/tLu6M2u.png)
+![](..\images\2016-04-10-CSharp_JSON_NET\tLu6M2u.png)
 
 
 ----------
@@ -198,7 +198,7 @@ Person p2 = JsonConvert.DeserializeObject<Person>(jsonString);
 ~~~
 
 
-![](http://i.imgur.com/vq2Z15c.png)
+![](..\images\2016-04-10-CSharp_JSON_NET\vq2Z15c.png)
 
 ----------
 
@@ -233,7 +233,7 @@ Person p2 = JsonConvert.DeserializeObject<Person>(jsonString);
                 MessageBox.Show(ReadOutput);  
 ~~~
 
-![](http://i.imgur.com/6Ck3i3N.png)
+![](..\images\2016-04-10-CSharp_JSON_NET\6Ck3i3N.png)
 
 
 

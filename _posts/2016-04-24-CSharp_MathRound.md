@@ -76,11 +76,11 @@ tags: ['C#']
         }
 ~~~
 
-![](http://i.imgur.com/8RxEpKs.png)
+![](..\images\2016-04-24-CSharp_MathRound\8RxEpKs.png)
 
-![](http://i.imgur.com/pWpcGyR.png)
+![](..\images\2016-04-24-CSharp_MathRound\pWpcGyR.png)
 
-![](http://i.imgur.com/0GNEnoR.png)
+![](..\images\2016-04-24-CSharp_MathRound\0GNEnoR.png)
 
 ----------
 

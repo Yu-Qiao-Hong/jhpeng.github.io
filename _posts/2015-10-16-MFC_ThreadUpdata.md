@@ -8,7 +8,7 @@ tags: ['Visual C++']
 
 在嘗試線程更新界面時，在線程中調用UpdateData(FALSE)後出現如下錯誤：
 
-![](http://i.imgur.com/rVSAYNX.png)
+![](..\images\2015-10-16-MFC_ThreadUpdata\rVSAYNX.png)
 
 # 原因： #
 

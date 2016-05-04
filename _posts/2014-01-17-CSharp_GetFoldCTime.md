@@ -5,7 +5,7 @@ author: 'James Peng'
 tags: ['C#']
 ---
 
-![](http://i.imgur.com/TwmLAvi.png)
+![](..\images\2014-01-17-CSharp_GetFoldCTime\TwmLAvi.png)
 
 ## C# 取得資料夾建立時間 ##
 

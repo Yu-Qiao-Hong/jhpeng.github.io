@@ -21,7 +21,7 @@ tags: ['Visual C++']
 
 1.對著右邊的 方案總管點右鍵 > 屬性 
 
-![](http://i.imgur.com/34J8xX3.png)
+![](..\images\2015-10-17-MFC_CRT_SECURE_NO_WARNINGS.\34J8xX3.png)
 
 
 2.組態屬性 > C/C++ > 前置處理器 > 前置處理器定義，然後在後面加上 
@@ -30,7 +30,7 @@ tags: ['Visual C++']
     _CRT_SECURE_NO_WARNINGS
 ~~~
 
-![](http://i.imgur.com/bWD1OL2.png)
+![](..\images\2015-10-17-MFC_CRT_SECURE_NO_WARNINGS.\bWD1OL2.png)
 
 
 3.就可以了...

@@ -33,7 +33,7 @@ tags: ['C#']
 
 Sixxpack 是一個 .Net EXE 檔案壓縮工具。經 Sixxpack 壓縮過的檔案，執行時與壓縮前相比沒有任何區別，壓縮比最大可達80%。，壓縮完之後就編譯不出源文件了。用Reflector查看的話都是actmp.dll的信息。不過最近看cnblogs裡有人給出了破解這個的方法，有興趣的可以去找找看。
 
-![](http://i.imgur.com/pDnlZ3S.png)
+![](..\images\2012-08-20-CSharp_Sixxpack \pDnlZ3S.png)
 
 [下載](https://drive.google.com/file/d/0B50p9ExIX1S7NllndW1CbkluZEE/view?usp=sharing)
 

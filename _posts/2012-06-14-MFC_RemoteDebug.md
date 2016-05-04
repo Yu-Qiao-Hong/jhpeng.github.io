@@ -19,7 +19,7 @@ tags: ['Visual Studio']
 
 將Remote電腦新增/修改為有密碼之使用者帳戶. (遠端連線需設密碼)
 
-![](http://i.imgur.com/VDSgD3J.png)
+![](..\images\2012-06-14-MFC_RemoteDebug\VDSgD3J.png)
 
 
 
@@ -47,7 +47,7 @@ tags: ['Visual Studio']
 變更
 
 
-![](http://i.imgur.com/04fdhTt.png)
+![](..\images\2012-06-14-MFC_RemoteDebug\04fdhTt.png)
 
 
 ----------
@@ -56,9 +56,9 @@ tags: ['Visual Studio']
 
 Host電腦於 我的電腦/網路 查看是否有看到Remote電腦所開啟的共用資料夾，若有請將其設置為網路磁碟機 (右鍵/連接網路磁碟機)，屆時會指定此磁碟機名稱(ex. Z:)，設置完成後可在【我的電腦】看到此磁碟機.
 
-![](http://i.imgur.com/05SzlIT.png)
+![](..\images\2012-06-14-MFC_RemoteDebug\05SzlIT.png)
 
-![](http://i.imgur.com/FhMSsHv.png)
+![](..\images\2012-06-14-MFC_RemoteDebug\FhMSsHv.png)
 
 
 ----------
@@ -75,7 +75,7 @@ Host電腦於 我的電腦/網路 查看是否有看到Remote電腦所開啟的�
 
 複製Visual Studio Remote Debugging Monitor 【註1】於Remote電腦，開啟並在Tools/Options中勾選 No Authentication (native only)與Allow any user to debug.
 
-![](http://i.imgur.com/aoZuAEb.png)
+![](..\images\2012-06-14-MFC_RemoteDebug\aoZuAEb.png)
 
 註1：Visual Studio Remote Debugging monitor可在Host電腦找到，通常放置於 Program Files\Microsoft Visual Studio 10.0\Common7\IDE\Remote Debugger中，再依作業系統選擇適合的版本，例如win7 32bit則使用x86.
 
@@ -87,7 +87,7 @@ Host電腦於 我的電腦/網路 查看是否有看到Remote電腦所開啟的�
 
 複製Visual C++ Debug Monitor等檔案【註2】於Remote電腦，開啟並在Settings/Target machine name 設定Host電腦之電腦名稱。於程式Debug前執行Connect即可.
 
-![](http://i.imgur.com/US6dwkz.png)
+![](..\images\2012-06-14-MFC_RemoteDebug\US6dwkz.png)
 
 註2：Visual C++ Debug Monitor等檔案，通常放置於
 
@@ -112,7 +112,7 @@ Program Files\Microsoft Visual Studio\Common\MSDev98\Bin中，複製六個檔案
 
 Configuration Properties/General/Output Directory設定為網路磁碟機(ex. Z:)
 
-![](http://i.imgur.com/vH6Qfz0.png)
+![](..\images\2012-06-14-MFC_RemoteDebug\vH6Qfz0.png)
 
 
 ----------
@@ -130,7 +130,7 @@ Configuration Properties/General/Output Directory設定為網路磁碟機(ex. Z:
 - Remote Server Name 	設置Remote電腦之【電腦名稱】 例如 B-PC
 - Connection			點選Remote with no authentication (Native only)
 
-![](http://i.imgur.com/Q9dDWIg.png)
+![](..\images\2012-06-14-MFC_RemoteDebug\Q9dDWIg.png)
 
 
 ----------
@@ -148,7 +148,7 @@ Configuration Properties/General/Output Directory設定為網路磁碟機(ex. Z:
 位置：Build/Debugger Remote Connection
 Connection項目選擇 Network(TCP/IP)，並在Settings/Target machine name欄位填入Remote電腦之電腦名稱.(ex. B-PC)
 
-![](http://i.imgur.com/j64qx6U.png)
+![](..\images\2012-06-14-MFC_RemoteDebug\j64qx6U.png)
 
 
 ----------
@@ -164,7 +164,7 @@ Connection項目選擇 Network(TCP/IP)，並在Settings/Target machine name欄�
 - Remote executable path and file name	設置程式執行檔的絕對位置 (以Remote電腦角度) 	例如 C:\Remotedbg\forRemote.exe
 - Project/Settings/Link Output file name				設置Debug程式執行檔的位置 (以Host電腦角度)	例如 Z:\forRemote.exe
 
-![](http://i.imgur.com/TVaZist.png)
+![](..\images\2012-06-14-MFC_RemoteDebug\TVaZist.png)
 
 
 ----------
@@ -190,7 +190,7 @@ Connection項目選擇 Network(TCP/IP)，並在Settings/Target machine name欄�
 
 例如 程式需要使用MyRemote.dll，透過Dependency Walker載入，可以查詢缺少的相依DLL檔，在此例為MFC100.dll，如下圖所示：
 
-![](http://i.imgur.com/qwDiyOM.png)
+![](..\images\2012-06-14-MFC_RemoteDebug\qwDiyOM.png)
 
 
 ----------
@@ -299,11 +299,11 @@ Example 2: You may link \\server\share\ as a Net Disk, say Y:\, And the shared f
 c:\users\stdsid\desktop\redshare\ The program is ReD2.exe
 
 
-![](http://i.imgur.com/gY7mduo.png)
+![](..\images\2012-06-14-MFC_RemoteDebug\gY7mduo.png)
 
 and
 
-![](http://i.imgur.com/KORglm6.png)
+![](..\images\2012-06-14-MFC_RemoteDebug\KORglm6.png)
 
 In the Visual C++ IDE, click Debugger Remote Connection on the Build menu select . Change it from Local to Remote. Click Settings, and then change the Target machine name or address. You can also give an IP address instead.
 
@@ -313,11 +313,11 @@ On the target computer, run Msvcmon.exe. This has to be running before you try t
 
 You are ready to debug now. On the host computer, click Start Debug on the Build menu, and then click Go.
 
-![](http://i.imgur.com/pwEwG3W.png)
+![](..\images\2012-06-14-MFC_RemoteDebug\pwEwG3W.png)
 
 In most cases, you can just uncheck the “Try to locate other DLLs” and press “Cancel”.
 
-![](http://i.imgur.com/9rg9UCX.png)
+![](..\images\2012-06-14-MFC_RemoteDebug\9rg9UCX.png)
 
 
 ----------
@@ -354,7 +354,7 @@ Keywords: kbhowto kbbug kbdebug KB241848
 
 Now you can run the debugging process.
 
-![](http://i.imgur.com/gCSMP2e.png)
+![](..\images\2012-06-14-MFC_RemoteDebug\gCSMP2e.png)
 
 
 ----------
@@ -363,18 +363,18 @@ Now you can run the debugging process.
 
 Host computer shares a folder and target computer links the folder as a local drive.
 
-![](http://i.imgur.com/OgeKJIH.png)
+![](..\images\2012-06-14-MFC_RemoteDebug\OgeKJIH.png)
 
 User of Host machine: Tom_Lee on the domain compal On the target machine please type:
 
-![](http://i.imgur.com/TrN0XT7.png)
+![](..\images\2012-06-14-MFC_RemoteDebug\TrN0XT7.png)
 
 Then the program will ask you type the password for ‘compal\Tom_Lee’ to connect to ‘Tom_Lee2’: If success: it says:
 The command completed successfully.
 Ortherwise:
 
-![](http://i.imgur.com/UozIjrB.png)
+![](..\images\2012-06-14-MFC_RemoteDebug\UozIjrB.png)
 
 Figure A.
 
-![](http://i.imgur.com/Sqy3A4J.png)
+![](..\images\2012-06-14-MFC_RemoteDebug\Sqy3A4J.png)

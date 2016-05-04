@@ -10,13 +10,13 @@ tags: ['Visual C++']
 [https://github.com/jhpeng/Build-Mfc-Project-Bat](https://github.com/jhpeng/Build-Mfc-Project-Bat "source code")
 
 
-![](http://i.imgur.com/KZDJXNz.jpg)
+![](..\images\2015-07-31-BuildMfcProjectBat\KZDJXNz.jpg)
 
 約耳測試裡面有一條是「用一個步驟建出所有結果」
 
 本 bat 適用於 MFC Project
 
-![](http://i.imgur.com/QllyvVX.png)
+![](..\images\2015-07-31-BuildMfcProjectBat\QllyvVX.png)
 
 效果：點兩下 出來一個7z
 
@@ -27,9 +27,9 @@ tags: ['Visual C++']
 - 總共省了六秒 YA
 
 
-![](http://i.imgur.com/hudO0Sb.png)
+![](..\images\2015-07-31-BuildMfcProjectBat\hudO0Sb.png)
 
-![](http://i.imgur.com/RZsirS0.png)
+![](..\images\2015-07-31-BuildMfcProjectBat\RZsirS0.png)
 
 
 TODO: 還差 自動產生 release note + mail 寄出

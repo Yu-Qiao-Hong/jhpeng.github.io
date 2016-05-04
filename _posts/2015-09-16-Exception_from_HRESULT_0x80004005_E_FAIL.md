@@ -5,7 +5,7 @@ author: 'James Peng'
 tags: ['ASP.NET']
 ---
 
-![](http://i.imgur.com/tu7zLtL.png)
+![](..\images\2015-09-16-Exception_from_HRESULT_0x80004005_E_FAIL\tu7zLtL.png)
 
 > I just install Visual Studio 2013 Express and when I try to create a new ASP.NET Web Application I see this:
 > 

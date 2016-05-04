@@ -17,7 +17,7 @@ tags: ['Git']
 
 1.到 http://gitcredentialstore.codeplex.com/ 點選右邊的 download 下載此工具執行檔 
 
-![](http://i.imgur.com/pbmCfwn.png)
+![](..\images\2016-04-02-Git_httpAndHttpsSavePassword\pbmCfwn.png)
 
 
 ----------
@@ -25,28 +25,28 @@ tags: ['Git']
 
 2.直接執行 git-credential-winstore.exe 進行安裝
 
-![](http://i.imgur.com/221FEuP.png)
+![](..\images\2016-04-02-Git_httpAndHttpsSavePassword\221FEuP.png)
 
 
 ----------
 
 3.設定完成後，下在你在執行 git push 時，他就會自動開啟 Windows 內建的「Windows 安全性」視窗，並且讓你輸入帳號密碼儲存。
 
-![](http://i.imgur.com/8SK3fKo.png)
+![](..\images\2016-04-02-Git_httpAndHttpsSavePassword\8SK3fKo.png)
 
 
 ----------
 
 比起你去設定 store 認證輔助方法，用這個工具儲存的密碼安全多了！因為這些密碼並不是用明碼儲存，而是儲存在 Windows 作業系統內建的「認證管理員」之中 (可以從控制台中找到)：
 
-![](http://i.imgur.com/krVdu2E.png)
+![](..\images\2016-04-02-Git_httpAndHttpsSavePassword\krVdu2E.png)
 
 
 ----------
 
 如果你想要移除先前記憶過的密碼，也可以直接從「認證管理員」移除特定網站下的密碼即可：
 
-![](http://i.imgur.com/EFkxSOT.png)
+![](..\images\2016-04-02-Git_httpAndHttpsSavePassword\EFkxSOT.png)
 
 
 

@@ -76,7 +76,7 @@ binFmt.Serialize(s, myobj);
 s.Close();
 ~~~
 
-![](http://i.imgur.com/VEZm3KR.png)
+![](..\images\2010-12-20-CSharp_Serializable\VEZm3KR.png)
 
 ----------
 
@@ -95,7 +95,7 @@ s.Close();
 			s.Close();
 ~~~
 
-![](http://i.imgur.com/ZBFXeEK.png)
+![](..\images\2010-12-20-CSharp_Serializable\ZBFXeEK.png)
 
 ----------
 
@@ -111,7 +111,7 @@ s.Close();
             s.Close();
 ~~~
 
-![](http://i.imgur.com/Dn2Jy6r.png)
+![](..\images\2010-12-20-CSharp_Serializable\Dn2Jy6r.png)
 
 ----------
 
@@ -130,7 +130,7 @@ s.Close();
             s.Close();
 ~~~
 
-![](http://i.imgur.com/HwtSGzD.png)
+![](..\images\2010-12-20-CSharp_Serializable\HwtSGzD.png)
 
 
 ----------

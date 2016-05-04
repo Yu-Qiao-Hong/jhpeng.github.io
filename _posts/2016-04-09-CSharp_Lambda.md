@@ -29,7 +29,7 @@ tags: ['C# 3.0']
         }
 ~~~
 
-![](http://i.imgur.com/MUklFfc.png)
+![](..\images\2016-04-09-CSharp_Lambda\MUklFfc.png)
 
 
 ----------
@@ -52,7 +52,7 @@ tags: ['C# 3.0']
         }
 ~~~
 
-![](http://i.imgur.com/MUklFfc.png)
+![](..\images\2016-04-09-CSharp_Lambda\MUklFfc.png)
 
 
 
@@ -73,7 +73,7 @@ tags: ['C# 3.0']
         }
 ~~~
 
-![](http://i.imgur.com/MUklFfc.png)
+![](..\images\2016-04-09-CSharp_Lambda\MUklFfc.png)
 
 ----------
 
@@ -95,7 +95,7 @@ tags: ['C# 3.0']
         }
 ~~~
 
-![](http://i.imgur.com/MUklFfc.png)
+![](..\images\2016-04-09-CSharp_Lambda\MUklFfc.png)
 
 ----------
 
@@ -112,7 +112,7 @@ tags: ['C# 3.0']
         }
 ~~~
 
-![](http://i.imgur.com/MUklFfc.png)
+![](..\images\2016-04-09-CSharp_Lambda\MUklFfc.png)
 
 
 ----------
@@ -134,7 +134,7 @@ Action 為 沒有參數沒有回傳值得委派
         }
 ~~~
 
-![](http://i.imgur.com/MUklFfc.png)
+![](..\images\2016-04-09-CSharp_Lambda\MUklFfc.png)
 
 ----------
 
@@ -152,7 +152,7 @@ Action 為 沒有參數沒有回傳值得委派+Lambda
         }
 ~~~
 
-![](http://i.imgur.com/MUklFfc.png)
+![](..\images\2016-04-09-CSharp_Lambda\MUklFfc.png)
 
 ----------
 

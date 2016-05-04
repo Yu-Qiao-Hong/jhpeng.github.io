@@ -5,7 +5,7 @@ author: 'James Peng'
 tags: ['C#']
 ---
 
-![](http://i.imgur.com/lnDFeO0.png)
+![](..\images\2016-04-19-CSharp_LunarCalendar\lnDFeO0.png)
 
 定氣法計算二十四節氣,二十四節氣是按地球公轉來計算的，並非是陰曆計算的節氣的定法有兩種。
 
@@ -271,7 +271,7 @@ tags: ['C#']
         }
 ~~~
 
-![](http://i.imgur.com/CnSHlJm.png)
+![](..\images\2016-04-19-CSharp_LunarCalendar\CnSHlJm.png)
 
 
 
@@ -493,7 +493,7 @@ tags: ['C#']
         }
 ~~~
 
-![](http://i.imgur.com/42WSObC.png)
+![](..\images\2016-04-19-CSharp_LunarCalendar\42WSObC.png)
 
 ----------
 

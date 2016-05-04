@@ -9,7 +9,7 @@ tags: ['Visual C++']
 
     無法找到程序輸入點 MFCreateDXGIDeviceManager (在動態連結程式庫 mfplat.dll)
 
-![](http://i.imgur.com/JxEd9HB.png)
+![](..\images\2014-03-25-MFC_MFCreateDXGIDeviceManager\JxEd9HB.png)
 
 ## 解法 ##
 

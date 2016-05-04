@@ -14,11 +14,11 @@ HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Windows NT\CurrentVersion\AppCompatFlags\L
 1. Create **REG_SZ** value with name as full path to executable (if path contains spaces, do not surround it with quotes)
 2. Data for this value must contain string **RUNASADMIN**
 
-![](http://i.imgur.com/qtbmogb.png)
+![](..\images\2013-09-17-WIN8RunAsAdmin\qtbmogb.png)
 
 ## 結果 ##
 
-![](http://i.imgur.com/gWANpky.png)
+![](..\images\2013-09-17-WIN8RunAsAdmin\gWANpky.png)
 
 ## 參考 ##
 http://www.cievo.sk/2011/11/02/how-to-set-run-this-program-as-administrator-via-registry/

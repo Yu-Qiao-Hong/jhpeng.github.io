@@ -9,14 +9,14 @@ tags: ['C#']
 
 只要在 Visual Studio 2012 以上版本的 TOOLS –> Extensions and Updates 視窗中針對 Online 分類搜尋 "Unit Test" 關鍵字，就可以找到這個擴充包來安裝囉!!
 
-![](http://i.imgur.com/hIdv7iH.png)
+![](..\images\2016-04-05-CSharp_UnitTest\hIdv7iH.png)
 
 
 ----------
 
 ## 使用方法: ##
 
-![](http://i.imgur.com/GjhIO9j.png)
+![](..\images\2016-04-05-CSharp_UnitTest\GjhIO9j.png)
 
 
 點選 "Generate Unit Test" 之後~~~ 
@@ -28,11 +28,11 @@ tags: ['C#']
 
 ## 有些函式不會出現的原因 ##
 
-![](http://i.imgur.com/GCqQSAi.png)
+![](..\images\2016-04-05-CSharp_UnitTest\GCqQSAi.png)
 
 CLASS 沒 public
 
-![](http://i.imgur.com/hCKo7ar.png)
+![](..\images\2016-04-05-CSharp_UnitTest\hCKo7ar.png)
 
 ----------
 

@@ -7,7 +7,7 @@ tags: ['C#']
 
 在COM元件中選擇Microsoft Speech Object Library 5.4
 
-![](http://i.imgur.com/Q8LXnfd.png)
+![](..\images\2014-01-23-CSharp_SpeechLib\Q8LXnfd.png)
 
 
 ----------
@@ -62,7 +62,7 @@ using SpeechLib;
 		}
 ~~~
 
-![](http://i.imgur.com/ojcYApA.png)
+![](..\images\2014-01-23-CSharp_SpeechLib\ojcYApA.png)
 
 ----------
 

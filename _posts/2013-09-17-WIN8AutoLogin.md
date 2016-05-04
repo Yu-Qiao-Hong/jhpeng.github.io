@@ -16,9 +16,9 @@ tags: ['Windows']
 4. DefaultDomainName = "Compal" (Only needed if this computer has joined a domain)
 
 
-![](http://i.imgur.com/sTWJGA6.png)
+![](..\images\2013-09-17-WIN8AutoLogin\sTWJGA6.png)
 
-![](http://i.imgur.com/qybAwEM.png)
+![](..\images\2013-09-17-WIN8AutoLogin\qybAwEM.png)
 
 
 ## 參考 ##

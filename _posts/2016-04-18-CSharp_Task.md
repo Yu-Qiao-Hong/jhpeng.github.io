@@ -119,7 +119,7 @@ using System.Threading.Tasks;
 
 你會遇到 跨執行緒作業無效：
 
-![](http://i.imgur.com/qlXIOFJ.png)
+![](..\images\2016-04-18-CSharp_Task\qlXIOFJ.png)
 
 你自已開的Task裡 和 UI執行緒 是分開的，所以你需要用 Control.Invoke 方法寫在 task裡 去操作 UI
 

@@ -37,7 +37,7 @@ tags: ['C#']
 點一下PropertyBinding的[...]來做屬性繫結設定
 
 
-![](http://i.imgur.com/HIgNt4h.png)
+![](..\images\2016-04-15-CSharp_ApplicationSettings\HIgNt4h.png)
 
 
 
@@ -53,7 +53,7 @@ tags: ['C#']
 
 按下確定後可以看到資料連繫後的變化
 
-![](http://i.imgur.com/tGLEfcC.png)
+![](..\images\2016-04-15-CSharp_ApplicationSettings\tGLEfcC.png)
 
 
 ----------
@@ -77,7 +77,7 @@ tags: ['C#']
 
 選擇後 按下save 重新開啟 都會記住存值
 
-![](http://i.imgur.com/rXIYVNf.png)
+![](..\images\2016-04-15-CSharp_ApplicationSettings\rXIYVNf.png)
 
 
 
@@ -87,7 +87,7 @@ tags: ['C#']
 
 他連繫的欄位其實就是放在 App.config 裡面
 
-![](http://i.imgur.com/hSbHj2j.png)
+![](..\images\2016-04-15-CSharp_ApplicationSettings\hSbHj2j.png)
 
 
 你可以直接用下面的程式碼取用[comboItems]的值

@@ -7,7 +7,7 @@ tags: ['C#']
 
 產生之文件結果：
 
-![](http://i.imgur.com/l4CfXYM.jpg)
+![](..\images\2008-05-12-CSharp_SandcastleGUI\l4CfXYM.jpg)
 
 
 ----------
@@ -15,7 +15,7 @@ tags: ['C#']
 
 使用介面：
 
-![](http://i.imgur.com/N4p5cst.png)
+![](..\images\2008-05-12-CSharp_SandcastleGUI\N4p5cst.png)
 
 
 ----------

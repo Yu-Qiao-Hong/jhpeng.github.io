@@ -61,7 +61,7 @@ namespace WindowsFormsApplication2
 
 最後輸出
 
-![](http://i.imgur.com/0tRWb1D.png)
+![](..\images\2016-04-12-CSharp_CallerInformationAttributes\0tRWb1D.png)
 
 會自動帶入 Caller Information 的值
 

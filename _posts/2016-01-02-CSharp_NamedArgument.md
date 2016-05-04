@@ -33,9 +33,9 @@ tags: ['C# 4.0']
 
 ~~~
 
-![](http://i.imgur.com/ItotdEy.png)
+![](..\images\2016-01-02-CSharp_NamedArgument\ItotdEy.png)
 
-![](http://i.imgur.com/bQ5rfH0.png)
+![](..\images\2016-01-02-CSharp_NamedArgument\bQ5rfH0.png)
 
 ----------
 

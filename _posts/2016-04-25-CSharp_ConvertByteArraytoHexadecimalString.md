@@ -57,7 +57,7 @@ tags: ['C#']
 
 輸入 0x3F8CCCCD
 
-![](http://i.imgur.com/iRutcxD.png)
+![](..\images\2016-04-25-CSharp_ConvertByteArraytoHexadecimalString\iRutcxD.png)
 
 - 063 = 0x3F = 0011 1111
 - 140 = 0x8C = 1000 1100
@@ -66,7 +66,7 @@ tags: ['C#']
 
 再把 byteArray 轉回hex字串
 
-![](http://i.imgur.com/TZvGi4A.png)
+![](..\images\2016-04-25-CSharp_ConvertByteArraytoHexadecimalString\TZvGi4A.png)
 
 ----------
 

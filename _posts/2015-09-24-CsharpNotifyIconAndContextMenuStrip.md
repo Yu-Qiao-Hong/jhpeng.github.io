@@ -7,7 +7,7 @@ tags: ['C#']
 
 先拉 NotifyIcon 與 contextMenuStrip 這兩個元件到 Form
 
-![](http://i.imgur.com/LJHvGF7.png)
+![](..\images\2015-09-24-CsharpNotifyIconAndContextMenuStrip\LJHvGF7.png)
 
 
 點選Form右上角縮到最小之後，就會將Form隱藏，並將notifyicon顯示於右下角
@@ -42,12 +42,12 @@ tags: ['C#']
 
 設定contextMenuStrip元件
 
-![](http://i.imgur.com/5UmzYgn.png)
+![](..\images\2015-09-24-CsharpNotifyIconAndContextMenuStrip\5UmzYgn.png)
 
 
 NotifyIcon裡，指定 contextMenuStrip
 
-![](http://i.imgur.com/inFsmJn.png)
+![](..\images\2015-09-24-CsharpNotifyIconAndContextMenuStrip\inFsmJn.png)
 
 ~~~csharp
         private void exitToolStripMenuItem_Click(object sender, EventArgs e)
@@ -78,9 +78,9 @@ NotifyIcon裡，指定 contextMenuStrip
 
 DEMO：
 
-![](http://i.imgur.com/X6pJhhm.png)
+![](..\images\2015-09-24-CsharpNotifyIconAndContextMenuStrip\X6pJhhm.png)
 
-![](http://i.imgur.com/XZDjbMp.png)
+![](..\images\2015-09-24-CsharpNotifyIconAndContextMenuStrip\XZDjbMp.png)
 
 
 參考：

@@ -5,10 +5,10 @@ author: 'James Peng'
 tags: ['Visual C++']
 ---
 
-![](http://i.imgur.com/uDdZkwz.png)
+![](..\images\2012-01-01-MFC_SystemMenuNewMenuItems\uDdZkwz.png)
 
 
-![](http://i.imgur.com/vK59BxS.png)
+![](..\images\2012-01-01-MFC_SystemMenuNewMenuItems\vK59BxS.png)
 
 ## 定義一個功能表 ##
 

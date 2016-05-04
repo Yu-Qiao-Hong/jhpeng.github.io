@@ -5,9 +5,9 @@ author: 'James Peng'
 tags: ['C#']
 ---
 
-![](http://i.imgur.com/IiZ8yoM.png)
+![](..\images\2016-04-21-CSharp_DevExpress_TreeList\IiZ8yoM.png)
 
-![](http://i.imgur.com/ZxUr1ja.png)
+![](..\images\2016-04-21-CSharp_DevExpress_TreeList\ZxUr1ja.png)
 
 
 
@@ -93,7 +93,7 @@ using DevExpress.XtraTreeList.Nodes;
      
 ~~~
 
-![](http://i.imgur.com/F9lfLeR.png)
+![](..\images\2016-04-21-CSharp_DevExpress_TreeList\F9lfLeR.png)
 
 ----------
 
@@ -112,7 +112,7 @@ using DevExpress.XtraTreeList.Nodes;
      
 ~~~
 
-![](http://i.imgur.com/IBBLKQa.png)
+![](..\images\2016-04-21-CSharp_DevExpress_TreeList\IBBLKQa.png)
 
 
 ----------

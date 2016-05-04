@@ -7,7 +7,7 @@ tags: ['C#']
 
 ## 參考 ##
 
-![](http://i.imgur.com/DtpIJPR.png)
+![](..\images\2016-02-01-CSharp_OfficeWord\DtpIJPR.png)
 
 
 ----------

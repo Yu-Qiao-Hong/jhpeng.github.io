@@ -17,9 +17,9 @@ GUI在我電腦顯示都正常
 
 
 
-![](http://i.imgur.com/zvwoILC.png)
+![](..\images\2016-04-27-CSharp_AutoScaleMode\zvwoILC.png)
 
-![](http://i.imgur.com/iPrHZYh.png)
+![](..\images\2016-04-27-CSharp_AutoScaleMode\iPrHZYh.png)
 
 
 ----------

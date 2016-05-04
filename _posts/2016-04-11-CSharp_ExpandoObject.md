@@ -35,7 +35,7 @@ tags: ['C# 4.0']
             dynClass.Print();
 ~~~
 
-![](http://i.imgur.com/N6Fq2nW.png)
+![](..\images\2016-04-11-CSharp_ExpandoObject\N6Fq2nW.png)
 
 
 ----------
@@ -47,7 +47,7 @@ tags: ['C# 4.0']
  ((System.Collections.Generic.IDictionary<String, Object>)dynClass).Remove("Print");
 ~~~
 
-![](http://i.imgur.com/NlLsxhZ.png)
+![](..\images\2016-04-11-CSharp_ExpandoObject\NlLsxhZ.png)
 
 
 ----------
@@ -116,9 +116,9 @@ ToDynamic(object obj) 會將原本的 物件，轉成 Key Value 型態後 回傳
 ~~~
 
 
-![](http://i.imgur.com/itwisSr.png)
+![](..\images\2016-04-11-CSharp_ExpandoObject\itwisSr.png)
 
-![](http://i.imgur.com/Jh22mdm.png)
+![](..\images\2016-04-11-CSharp_ExpandoObject\Jh22mdm.png)
 
 ----------
 

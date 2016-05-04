@@ -11,7 +11,7 @@ tags: ['C#']
 
 先找出 Process 名稱
 
-![](http://i.imgur.com/iLKBQ1N.png)
+![](..\images\2016-03-18-CSharp_KillProcess\iLKBQ1N.png)
 
 ~~~csharp
         public static void KillPdfProcess()

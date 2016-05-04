@@ -63,7 +63,7 @@ namespace WindowsFormsApplication3
 
 ~~~
 
-![](http://i.imgur.com/2tESN3Y.png)
+![](..\images\2016-01-03-CSharp_Tuple\2tESN3Y.png)
 
 會碰到幾個問題：
 

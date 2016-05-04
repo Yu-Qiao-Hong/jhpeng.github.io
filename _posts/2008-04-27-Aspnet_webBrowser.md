@@ -5,7 +5,7 @@ author: 'James Peng'
 tags: ['ASP.NET']
 ---
 
-![](http://i.imgur.com/B5hoO6F.png)
+![](..\images\2008-04-27-Aspnet_webBrowser\B5hoO6F.png)
 
 
 ## 錯誤訊息： ##

@@ -26,7 +26,7 @@ tags: ['C# 4.0']
 
 ## 引用命名空間 ##
 
-![](http://i.imgur.com/t6jTfdI.png)
+![](..\images\2016-04-08-CSharp_BigNumber\t6jTfdI.png)
 
 ~~~csharp
 using System.Numerics;

@@ -169,9 +169,9 @@ namespace WindowsFormsApplication3
         }
 ~~~
 
-![](http://i.imgur.com/ggSmkIs.png)
+![](..\images\2016-04-21-CSharp_GetClassName\ggSmkIs.png)
 
-![](http://i.imgur.com/rkvbAJU.png)
+![](..\images\2016-04-21-CSharp_GetClassName\rkvbAJU.png)
 
 ----------
 

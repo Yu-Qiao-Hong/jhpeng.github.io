@@ -11,7 +11,7 @@ tags: ['Google']
 
 (1) 所決定的 URL 填入，並按 "Generate API Key" 取得 Key。
 
-![](http://i.imgur.com/J89nAni.jpg)
+![](..\images\2007-10-09-Google_Map_API\J89nAni.jpg)
 
 
 ----------
@@ -25,7 +25,7 @@ tags: ['Google']
 
 如下圖：
 
-![](http://i.imgur.com/131qMIM.jpg)
+![](..\images\2007-10-09-Google_Map_API\131qMIM.jpg)
 
 範例如下：
 
@@ -108,7 +108,7 @@ map.setCenter(new GLatLng(37.4419, -122.1419), 13);
 然後按下網頁上的 Link to this page，這時候 Google Maps 就會顯示出這頁的 URL，URL 上就有該點的經緯度了
 
 
-![](http://i.imgur.com/O0lqRDi.jpg)
+![](..\images\2007-10-09-Google_Map_API\O0lqRDi.jpg)
 
 取得ll=24.947124,121.229646這就是經緯度
 

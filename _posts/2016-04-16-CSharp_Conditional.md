@@ -19,15 +19,15 @@ tags: ['C#']
 
 Solution Configuration (方案設置) 選單，預設就有 Debug 與 Release 兩個選項可用，當專案需要建置時可以利用這兩個選項進行快速切換，以產生不同的組件輸出。
 
-![](http://i.imgur.com/aut9QBc.png)
+![](..\images\2016-04-16-CSharp_Conditional\aut9QBc.png)
 
 透過 #if 語法與 #endif 語法的包夾之後，你會發現在開發環境似乎沒什麼變化
 
-![](http://i.imgur.com/2U6mnCY.png)
+![](..\images\2016-04-16-CSharp_Conditional\2U6mnCY.png)
 
 選單切換至 Release 之後程式碼自動變「灰色」的了
 
-![](http://i.imgur.com/8r67uN3.png)
+![](..\images\2016-04-16-CSharp_Conditional\8r67uN3.png)
 
 這也代表著切換至 Release 之後所建置 (Build) 出來的組件不會包含這些測試的程式碼。
 
@@ -75,13 +75,13 @@ using System.Diagnostics;
 
 ## DEBUG 運行結果 ##
 
-![](http://i.imgur.com/Pdfu71U.png)
+![](..\images\2016-04-16-CSharp_Conditional\Pdfu71U.png)
 
-![](http://i.imgur.com/JHkQhpO.png)
+![](..\images\2016-04-16-CSharp_Conditional\JHkQhpO.png)
 
 ## Release 運行結果 ##
 
-![](http://i.imgur.com/RpOYQLO.png)
+![](..\images\2016-04-16-CSharp_Conditional\RpOYQLO.png)
 
 ----------
 

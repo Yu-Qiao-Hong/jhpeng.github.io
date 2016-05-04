@@ -160,7 +160,7 @@ tags: ['C#']
         }
 ~~~
 
-![](http://i.imgur.com/9kzMmX5.png)
+![](..\images\2016-04-20-CSharp_GetLunarCalendar\9kzMmX5.png)
 
 ----------
 

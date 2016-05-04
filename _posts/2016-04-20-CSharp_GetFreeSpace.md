@@ -68,13 +68,13 @@ tags: ['C#']
         }
 ~~~
 
-![](http://i.imgur.com/dGXILFY.png)
+![](..\images\2016-04-20-CSharp_GetFreeSpace\dGXILFY.png)
 
-![](http://i.imgur.com/TCsiokP.png)
+![](..\images\2016-04-20-CSharp_GetFreeSpace\TCsiokP.png)
 
-![](http://i.imgur.com/YclLB7q.png)
+![](..\images\2016-04-20-CSharp_GetFreeSpace\YclLB7q.png)
 
-![](http://i.imgur.com/X2mjmfn.png)
+![](..\images\2016-04-20-CSharp_GetFreeSpace\X2mjmfn.png)
 
 ----------
 

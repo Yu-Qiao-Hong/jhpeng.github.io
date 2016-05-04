@@ -7,7 +7,7 @@ tags: ['C#']
 
 ## 引用 ##
 
-![](http://i.imgur.com/RP7n460.png)
+![](..\images\2014-01-07-CSharp_Management\RP7n460.png)
 
 
 

@@ -37,7 +37,7 @@ tags: ['C#']
 
 ## 結果如下 ##
 
-![](http://i.imgur.com/kYgld5J.png)
+![](..\images\2016-04-14-CSharp_SaveControlScreen\kYgld5J.png)
 
 
 ----------

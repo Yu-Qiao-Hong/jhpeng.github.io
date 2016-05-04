@@ -23,7 +23,7 @@ tags: ['Rails']
  1 gem installed
 ~~~
 
-![](http://i.imgur.com/WcRIfcZ.png)
+![](..\images\2015-02-14-rails-upload_picture\WcRIfcZ.png)
 
 
 在終端裡，執行：

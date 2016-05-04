@@ -13,41 +13,41 @@ RailsInstaller是一鍵安裝包，能夠幫助你盡快上手，快速安裝好
 
 1. 下載最新的 [RailsInstaller](http://railsinstaller.org/en) 並執行。使用預設選項，一直按下一步。
 
-![](http://i.imgur.com/Sad9e00.png)
+![](..\images\2015-02-13-setup_rails_for_windows\Sad9e00.png)
 
 
 railsinstaller安裝步驟
 
-![](http://i.imgur.com/j1aCju2.png)
+![](..\images\2015-02-13-setup_rails_for_windows\j1aCju2.png)
 
 
 同意安裝協議，進入下一步
 
-![](http://i.imgur.com/SDFLzd9.png)
+![](..\images\2015-02-13-setup_rails_for_windows\SDFLzd9.png)
 
 這一步設置文件安裝的位置，推薦使用英文或者拼音，字母間一定不要帶空格，方便以後通過 終端機（Windows 叫做命令提示字元）的方式進行操作，點擊install進行安裝。
 
-![](http://i.imgur.com/kXwefL5.png)
+![](..\images\2015-02-13-setup_rails_for_windows\kXwefL5.png)
 
 等待幾分鐘
 
-![](http://i.imgur.com/kQkmcQn.png)
+![](..\images\2015-02-13-setup_rails_for_windows\kQkmcQn.png)
 
 點擊finish完成安裝。
 
-![](http://i.imgur.com/I9ZwQOM.png)
+![](..\images\2015-02-13-setup_rails_for_windows\I9ZwQOM.png)
 
 點擊完成後，會彈出設置使用者名稱，如下圖。
 
-![](http://i.imgur.com/QZzQgJr.png)
+![](..\images\2015-02-13-setup_rails_for_windows\QZzQgJr.png)
 
 輸入email
 
-![](http://i.imgur.com/paKRVzl.png)
+![](..\images\2015-02-13-setup_rails_for_windows\paKRVzl.png)
 
 完成後，會給一組ssh key把它複製起來，建立一個txt文件，把它保存下來，留著以後使用。
 
-![](http://i.imgur.com/47LCEZx.png)
+![](..\images\2015-02-13-setup_rails_for_windows\47LCEZx.png)
 
 
 查看Rails版本
@@ -68,7 +68,7 @@ ruby -v
 gem -v
 ```
 
-![](http://i.imgur.com/qQo3eVX.png)
+![](..\images\2015-02-13-setup_rails_for_windows\qQo3eVX.png)
 
 看到這裡我們的windows已經快速的安裝了Ruby on Rails
 
@@ -84,7 +84,7 @@ gem -v
 gem update rails --no-ri --no-rdoc
 ```
 
-![](http://i.imgur.com/OhZUMot.png)
+![](..\images\2015-02-13-setup_rails_for_windows\OhZUMot.png)
 
 
 這時候出現一個錯誤訊息
@@ -103,7 +103,7 @@ gem update rails --no-ri --no-rdoc
 
 這裡剛剛查過gem版本是 2.2.2，下載 rubygems-update-2.2.3.gem
 
-![](http://i.imgur.com/c9ZX2z2.png)
+![](..\images\2015-02-13-setup_rails_for_windows\c9ZX2z2.png)
 
 下載到工作目錄 C:\Sites，安裝 RubyGems
 
@@ -111,21 +111,21 @@ gem update rails --no-ri --no-rdoc
 gem install --local rubygems-update-2.2.3.gem
 update_rubygems --no-ri --no-rdoc
 ```
-![](http://i.imgur.com/Wgae0R2.png)
+![](..\images\2015-02-13-setup_rails_for_windows\Wgae0R2.png)
 
 查看版本
 ```
 gem -v
 ```
 應該會更新到 2.2.3
-![](http://i.imgur.com/AVZBfCa.png)
+![](..\images\2015-02-13-setup_rails_for_windows\AVZBfCa.png)
 
 
 這時候執行 update rails 就正常更新了
 ```
 gem update rails --no-ri --no-rdoc
 ```
-![](http://i.imgur.com/kd9TqU4.png)
+![](..\images\2015-02-13-setup_rails_for_windows\kd9TqU4.png)
 
 --------------------------
 
@@ -138,7 +138,7 @@ gem update rails --no-ri --no-rdoc
 rails new RailsDemo
 ```
 
-![](http://i.imgur.com/2nbuQGY.png)
+![](..\images\2015-02-13-setup_rails_for_windows\2nbuQGY.png)
 
 命令切換到 Rails APP 資料夾：
 
@@ -152,11 +152,11 @@ cd RailsDemo
 ruby bin\rails server
 ```
 
-![](http://i.imgur.com/ZByZBtQ.png)
+![](..\images\2015-02-13-setup_rails_for_windows\ZByZBtQ.png)
 
 在瀏覽器打開 [http://localhost:3000/](http://localhost:3000/)。應該會看到 "Welcome aboard" 的頁面，代表 APP 產生成功了！
 
-![](http://i.imgur.com/HurwwNo.png)
+![](..\images\2015-02-13-setup_rails_for_windows\HurwwNo.png)
 
 在終端機（Windows 叫做命令提示字元）按 CTRL-C 來離開伺服器。
 
@@ -168,9 +168,9 @@ ruby bin\rails server
 
 我們推薦使用現在最潮的editor [Sublime Text 編輯器](http://www.sublimetext.com/2)。
 
-![](http://i.imgur.com/kljCol3.png)
+![](..\images\2015-02-13-setup_rails_for_windows\kljCol3.png)
 
-![](http://i.imgur.com/7IbLrMh.png)
+![](..\images\2015-02-13-setup_rails_for_windows\7IbLrMh.png)
 
 [附上低調的東東](http://www.yinqisen.cn/blog-246.html)
 

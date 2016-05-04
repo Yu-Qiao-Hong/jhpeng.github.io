@@ -35,13 +35,13 @@ tags: ['Continuous Integration']
 
 安裝所需的PlugIn，點選左側的管理Jenkins，選擇管理外掛程式
 
-![](http://i.imgur.com/w0NoK0M.png)
+![](..\images\2016-03-28-CI_Jenkins\w0NoK0M.png)
 
 這是後會發現 根本連不上...
 
 需要設定 proxy
 
-![](http://i.imgur.com/k1ipxVN.png)
+![](..\images\2016-03-28-CI_Jenkins\k1ipxVN.png)
 
 設定後記得重開 jenkins
 
@@ -75,43 +75,43 @@ tags: ['Continuous Integration']
 
 因為公司的 email smtp 會檢查 寄件者帳號是否存在
 
-![](http://i.imgur.com/XaC20FD.png)
+![](..\images\2016-03-28-CI_Jenkins\XaC20FD.png)
 
-![](http://i.imgur.com/Vkze6f4.png)
+![](..\images\2016-03-28-CI_Jenkins\Vkze6f4.png)
 
-![](http://i.imgur.com/Ys1hob1.png)
+![](..\images\2016-03-28-CI_Jenkins\Ys1hob1.png)
 
 收到了
 
-![](http://i.imgur.com/tlJ7bnA.png)
+![](..\images\2016-03-28-CI_Jenkins\tlJ7bnA.png)
 
 
 ## 啟動登入註冊功能 ##
 
 請先安裝 [Role-based Authorization Strategy](http://wiki.jenkins-ci.org/display/JENKINS/Role+Strategy+Plugin)
 
-![](http://i.imgur.com/SRKxvM7.png)
+![](..\images\2016-03-28-CI_Jenkins\SRKxvM7.png)
 
-![](http://i.imgur.com/qIwgXFC.png)
+![](..\images\2016-03-28-CI_Jenkins\qIwgXFC.png)
 
-![](http://i.imgur.com/AROK5W3.png)
+![](..\images\2016-03-28-CI_Jenkins\AROK5W3.png)
 
 
 新增一個user
 
-![](http://i.imgur.com/2BGESeh.png)
+![](..\images\2016-03-28-CI_Jenkins\2BGESeh.png)
 
 設定權限
 
-![](http://i.imgur.com/ADLiE0V.png)
+![](..\images\2016-03-28-CI_Jenkins\ADLiE0V.png)
 
-![](http://i.imgur.com/I9amCJK.png)
+![](..\images\2016-03-28-CI_Jenkins\I9amCJK.png)
 
-![](http://i.imgur.com/ROJXwUP.png)
+![](..\images\2016-03-28-CI_Jenkins\ROJXwUP.png)
 
-![](http://i.imgur.com/cQ9CopF.png)
+![](..\images\2016-03-28-CI_Jenkins\cQ9CopF.png)
 
-![](http://i.imgur.com/eSa1wiD.png)
+![](..\images\2016-03-28-CI_Jenkins\eSa1wiD.png)
 
 ----------
 
@@ -119,16 +119,16 @@ tags: ['Continuous Integration']
 
 1.新增作業 -> 建置 Free-Style 軟體專案
 
-![](http://i.imgur.com/OwP0jIE.png)
+![](..\images\2016-03-28-CI_Jenkins\OwP0jIE.png)
 
 2.因為要連線的地方 是 區網的網路磁碟機，我用內建 Subversion  怎麼試就是連不上
-![](http://i.imgur.com/IYs0rqQ.png)
+![](..\images\2016-03-28-CI_Jenkins\IYs0rqQ.png)
 
 最後改用 批次檔的方式，終於正常
 
-![](http://i.imgur.com/QWm3s78.png)
+![](..\images\2016-03-28-CI_Jenkins\QWm3s78.png)
 
-![](http://i.imgur.com/gZf52Bu.png)
+![](..\images\2016-03-28-CI_Jenkins\gZf52Bu.png)
 
  
 
@@ -219,13 +219,13 @@ pause
 
 先自訂工作區 指定到 共用的工作區
 
-![](http://i.imgur.com/tw6rHbP.png)
+![](..\images\2016-03-28-CI_Jenkins\tw6rHbP.png)
 
-![](http://i.imgur.com/gnW4I6C.png)
+![](..\images\2016-03-28-CI_Jenkins\gnW4I6C.png)
 
 ### 設置三個 MSBuild ###
 
-![](http://i.imgur.com/flbWE7z.png)
+![](..\images\2016-03-28-CI_Jenkins\flbWE7z.png)
 
 
 ~~~text
@@ -253,7 +253,7 @@ C:\Windows\Microsoft.NET\Framework64\v4.0.30319\MSBuild.exe
 
 3.新增建置步驟 -> Build a Visual Studio project or solution using MSBuild
 
-![](http://i.imgur.com/DlG7mWo.png)
+![](..\images\2016-03-28-CI_Jenkins\DlG7mWo.png)
 
 
 ----------
@@ -262,9 +262,9 @@ C:\Windows\Microsoft.NET\Framework64\v4.0.30319\MSBuild.exe
 
 先自訂工作區 指定到 共用的工作區
 
-![](http://i.imgur.com/tw6rHbP.png)
+![](..\images\2016-03-28-CI_Jenkins\tw6rHbP.png)
 
-![](http://i.imgur.com/uME3Xat.png)
+![](..\images\2016-03-28-CI_Jenkins\uME3Xat.png)
 
 
 ----------
@@ -276,9 +276,9 @@ C:\Windows\Microsoft.NET\Framework64\v4.0.30319\MSBuild.exe
 
 先自訂工作區 指定到 共用的工作區
 
-![](http://i.imgur.com/tw6rHbP.png)
+![](..\images\2016-03-28-CI_Jenkins\tw6rHbP.png)
 
-![](http://i.imgur.com/dxxU6Fx.png)
+![](..\images\2016-03-28-CI_Jenkins\dxxU6Fx.png)
 
 
 StyleCopSetting.xml
@@ -343,10 +343,10 @@ FxCop是一套由微軟所開發的靜態程式碼分析工具，
 
 先自訂工作區 指定到 共用的工作區
 
-![](http://i.imgur.com/tw6rHbP.png)
+![](..\images\2016-03-28-CI_Jenkins\tw6rHbP.png)
 
 
-![](http://i.imgur.com/cVlc0uR.png)
+![](..\images\2016-03-28-CI_Jenkins\cVlc0uR.png)
 
 ~~~text
 "C:\Program Files (x86)\Microsoft Visual Studio 12.0\Team Tools\Static Analysis Tools\FxCop\FxCopCmd.exe" /file:"C:\Program Files (x86)\Jenkins\jobs\Build SVN Code\workspace\DeltaIABG\Project\EIPBuilder\bin\Debug\Delta*.dll" /rule:"C:\Program Files (x86)\Microsoft Visual Studio 12.0\Team Tools\Static Analysis Tools\FxCop\Rules\DesignRules.dll" /out:FxCopReport.xml
@@ -373,7 +373,7 @@ pause
 
 先自訂工作區 指定到 共用的工作區
 
-![](http://i.imgur.com/tw6rHbP.png)
+![](..\images\2016-03-28-CI_Jenkins\tw6rHbP.png)
 
 
 新增建置步驟 -> 執行 Windows 批次檔
@@ -382,7 +382,7 @@ pause
 C:\CI_Tools\pmd-bin\bin\cpd.bat --minimum-tokens 100 --language cs --format xml --files "C:\Program Files (x86)\Jenkins\jobs\Build SVN Code\workspace\DeltaIABG" >duplicatecode.xml || exit 0
 ~~~
 
-![](http://i.imgur.com/Mwno8F4.png)
+![](..\images\2016-03-28-CI_Jenkins\Mwno8F4.png)
 
 ----------
 
@@ -397,12 +397,12 @@ C:\CI_Tools\pmd-bin\bin\cpd.bat --minimum-tokens 100 --language cs --format xml 
 
 先自訂工作區 指定到 共用的工作區
 
-![](http://i.imgur.com/tw6rHbP.png)
+![](..\images\2016-03-28-CI_Jenkins\tw6rHbP.png)
 
 
-![](http://i.imgur.com/l0cnhhi.png)
+![](..\images\2016-03-28-CI_Jenkins\l0cnhhi.png)
 
-![](http://i.imgur.com/uOqVeXe.png)
+![](..\images\2016-03-28-CI_Jenkins\uOqVeXe.png)
 
 
 ### SourceMonitor.bat ###
@@ -712,12 +712,12 @@ C:\CI_Tools\pmd-bin\bin\cpd.bat --minimum-tokens 100 --language cs --format xml 
 
 ## 整合 MultiJob Project  ##
 
-![](http://i.imgur.com/TNfAPe4.png)
+![](..\images\2016-03-28-CI_Jenkins\TNfAPe4.png)
 
 
 先自訂工作區 指定到 共用的工作區
 
-![](http://i.imgur.com/tw6rHbP.png)
+![](..\images\2016-03-28-CI_Jenkins\tw6rHbP.png)
 
 
 ### 定期建置 ###
@@ -738,30 +738,30 @@ C:\CI_Tools\pmd-bin\bin\cpd.bat --minimum-tokens 100 --language cs --format xml 
 
 ### 加入現有的 MutiJob Phase ###
 
-![](http://i.imgur.com/0MNetRm.png)
+![](..\images\2016-03-28-CI_Jenkins\0MNetRm.png)
 
-![](http://i.imgur.com/BdKdbNQ.png)
+![](..\images\2016-03-28-CI_Jenkins\BdKdbNQ.png)
 
 ### 找到重複代碼的報告 ###
 
-![](http://i.imgur.com/FRsP1td.png)
+![](..\images\2016-03-28-CI_Jenkins\FRsP1td.png)
 
 ### 程式複雜度的報告 ###
 
-![](http://i.imgur.com/tsMG9u4.png)
+![](..\images\2016-03-28-CI_Jenkins\tsMG9u4.png)
 
 ### 程式風格 和 靜態程式碼分析的報告 ###
 
-![](http://i.imgur.com/LT9xfZG.png)
+![](..\images\2016-03-28-CI_Jenkins\LT9xfZG.png)
 
 
 ### 寄出報告信 ###
 
-![](http://i.imgur.com/nE3Ebek.png)
+![](..\images\2016-03-28-CI_Jenkins\nE3Ebek.png)
 
 加入 Triggers
 
-![](http://i.imgur.com/1Nfa5Hn.png)
+![](..\images\2016-03-28-CI_Jenkins\1Nfa5Hn.png)
 
 
 #### 失敗時 ####
@@ -881,7 +881,7 @@ James Peng</spen>
 
 ## 成果： ##
 
-![](http://i.imgur.com/owCszEW.png)
+![](..\images\2016-03-28-CI_Jenkins\owCszEW.png)
 
 ----------
 

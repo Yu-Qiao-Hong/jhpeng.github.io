@@ -5,7 +5,7 @@ author: 'James Peng'
 tags: ['Design Pattern']
 ---
 
-![](http://i.imgur.com/NsNX0Ie.jpg)
+![](..\images\2013-02-07-DesignPattern_SRP\NsNX0Ie.jpg)
 
 
 ## 書摘 ##

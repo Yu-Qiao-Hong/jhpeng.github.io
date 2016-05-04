@@ -5,7 +5,7 @@ author: 'James Peng'
 tags: ['Visual C++']
 ---
 
-![](http://i.imgur.com/51RBy37.png)
+![](..\images\2012-01-02-MFC_datatable_dynamically_generated_menu\51RBy37.png)
 
 MFC本身有提供CMenu類別
 

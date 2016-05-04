@@ -7,10 +7,10 @@ tags: ['C#']
 
 如果你在 Excel 中取得一個成績的資料表，而想要計算某百分比內的平均分數，該如何處理？
 
-![](http://i.imgur.com/tVdnXPt.png)
+![](..\images\2016-04-15-CSharp_PERCENTILE_AVERAGEIF\tVdnXPt.png)
 
 
-![](http://i.imgur.com/mKLklJM.png)
+![](..\images\2016-04-15-CSharp_PERCENTILE_AVERAGEIF\mKLklJM.png)
 
 前10% VBA公式:
 
@@ -111,7 +111,7 @@ tags: ['C#']
         }
 ~~~
 
-![](http://i.imgur.com/ID3Z5JK.png)
+![](..\images\2016-04-15-CSharp_PERCENTILE_AVERAGEIF\ID3Z5JK.png)
 
 ----------
 

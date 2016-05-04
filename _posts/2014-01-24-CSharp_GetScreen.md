@@ -134,5 +134,5 @@ private Bitmap CaptureDesktop()//抓取帶鼠標的桌面
         }
 ~~~
 
-![](http://i.imgur.com/rFujmGb.png)
+![](..\images\2014-01-24-CSharp_GetScreen\rFujmGb.png)
 

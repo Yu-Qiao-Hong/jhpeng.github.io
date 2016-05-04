@@ -7,7 +7,7 @@ tags: ['C#']
 
 ## 確保 Windows 裡有安裝 “Disk Defragment” ##
 
-![](http://i.imgur.com/H4CVcNl.jpg)
+![](..\images\2013-08-15-CSharp_DiskDefragment\H4CVcNl.jpg)
 
 See if it will work if you specify a full path: 
 
@@ -15,7 +15,7 @@ See if it will work if you specify a full path:
 System.Diagnostics.Process.Start(@"c:\windows\system32\dfrgui.exe");
 ~~~
 
-![](http://i.imgur.com/Ygyeyge.jpg)
+![](..\images\2013-08-15-CSharp_DiskDefragment\Ygyeyge.jpg)
 
 
 ----------
@@ -71,9 +71,9 @@ For more information about how to add this registry key to your configuration, s
             MessageBox.Show(readvalue.ToString());
 ~~~
 
-![](http://i.imgur.com/jQtljz7.jpg)
+![](..\images\2013-08-15-CSharp_DiskDefragment\jQtljz7.jpg)
 
-![](http://i.imgur.com/eZazROQ.jpg)
+![](..\images\2013-08-15-CSharp_DiskDefragment\eZazROQ.jpg)
 
 ----------
 
@@ -99,7 +99,7 @@ How to delete this service.
 sc delete "defragsvc"
 ~~~
 
-![](http://i.imgur.com/2iaxp75.jpg)
+![](..\images\2013-08-15-CSharp_DiskDefragment\2iaxp75.jpg)
 
 ~~~text
 C:\Users\JamesJH_Peng&gt;sc /?
@@ -185,18 +185,18 @@ RunWait
 schtasks /change /tn ""microsoft\windows\defrag\ScheduledDefrag"" /disable
 ~~~
 
-![](http://i.imgur.com/AMXTmrq.jpg)
+![](..\images\2013-08-15-CSharp_DiskDefragment\AMXTmrq.jpg)
 
-![](http://i.imgur.com/4YhmIlJ.jpg)
+![](..\images\2013-08-15-CSharp_DiskDefragment\4YhmIlJ.jpg)
 
 ~~~text
 schtasks /change /tn ""microsoft\windows\defrag\ScheduledDefrag"" /enable
 ~~~
 
-![](http://i.imgur.com/Eyfp41a.jpg)
+![](..\images\2013-08-15-CSharp_DiskDefragment\Eyfp41a.jpg)
 
 
-![](http://i.imgur.com/m3hY6iz.jpg)
+![](..\images\2013-08-15-CSharp_DiskDefragment\m3hY6iz.jpg)
 
 ----------
 
@@ -207,7 +207,7 @@ schtasks /change /tn ""microsoft\windows\defrag\ScheduledDefrag"" /enable
 sc config defragsvc start= disabled
 ~~~
 
-![](http://i.imgur.com/yYJORcl.jpg)
+![](..\images\2013-08-15-CSharp_DiskDefragment\yYJORcl.jpg)
 
 ----------
 

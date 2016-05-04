@@ -29,9 +29,9 @@ tags: ['C# 4.0']
 
 
 
-![](http://i.imgur.com/ZFL6hy3.png)
+![](..\images\2016-01-01-CSharp_OptionalArguments\ZFL6hy3.png)
 
-![](http://i.imgur.com/SQdjusU.png)
+![](..\images\2016-01-01-CSharp_OptionalArguments\SQdjusU.png)
 
 ----------
 

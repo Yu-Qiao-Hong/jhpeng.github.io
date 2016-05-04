@@ -9,12 +9,12 @@ C# 將 HTML 轉 PDF 可以透過第三方套件 NReco.PdfGenerator 簡單辦到�
 
 ## 下載套件 並 參考 ##
 
-![](http://i.imgur.com/ynpptPk.png)
+![](..\images\2016-04-03-CSharp_HtmlToPdf\ynpptPk.png)
 
 https://pdfgenerator.codeplex.com/
 
 
-![](http://i.imgur.com/DDamu2W.png)
+![](..\images\2016-04-03-CSharp_HtmlToPdf\DDamu2W.png)
 
 ## 使用方法 ##
 
@@ -30,7 +30,7 @@ https://pdfgenerator.codeplex.com/
 
 非常真神奇，這樣就完工了...。
 
-![](http://i.imgur.com/yP8L45s.png)
+![](..\images\2016-04-03-CSharp_HtmlToPdf\yP8L45s.png)
 
 
 ## 參考： ##

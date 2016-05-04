@@ -36,7 +36,7 @@ XElement xdoc = XElement.Load(xmlPath);
 
 ## 把 XML讀取到的值 加入 TreeView   ##
 
-![](http://i.imgur.com/WTwtAyr.png)
+![](..\images\2016-01-04-CSharp_TreeView\WTwtAyr.png)
 
 ~~~csharp
 using System;

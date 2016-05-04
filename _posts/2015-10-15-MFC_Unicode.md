@@ -9,23 +9,23 @@ tags: ['Visual C++']
 
 使用Win7正體中文作業系統，執行日文軟體的畫面，都是亂碼。
 
-![](http://i.imgur.com/gE2jcvV.jpg)
+![](..\images\2015-10-15-MFC_Unicode\gE2jcvV.jpg)
 
 整個功能表都是亂碼。
 
-![](http://i.imgur.com/hNMRfV4.jpg)
+![](..\images\2015-10-15-MFC_Unicode\hNMRfV4.jpg)
 
 使用Win7正體中文作業系統，執行大陸的軟體，畫面顯示的不是簡體而是亂碼。
 
-![](http://i.imgur.com/HjbntTu.png)
+![](..\images\2015-10-15-MFC_Unicode\HjbntTu.png)
 
 同樣的外國人用英文版的作業系統，執行我們台灣的報稅系統，同樣是亂碼。
 
-![](http://i.imgur.com/VcgP2wI.png)
+![](..\images\2015-10-15-MFC_Unicode\VcgP2wI.png)
 
 國產軟體，也同樣是亂碼。
 
-![](http://i.imgur.com/LSvkLFn.jpg)
+![](..\images\2015-10-15-MFC_Unicode\LSvkLFn.jpg)
 
 -----------------
 
@@ -39,11 +39,11 @@ tags: ['Visual C++']
 
 每支程式透過 Microsoft AppLocale 來開啟
 
-![](http://i.imgur.com/HjbntTu.png)
+![](..\images\2015-10-15-MFC_Unicode\HjbntTu.png)
 
 就變成
 
-![](http://i.imgur.com/gadEZkn.png)
+![](..\images\2015-10-15-MFC_Unicode\gadEZkn.png)
 
 但也有失敗的機率，是個治標不治本的方法。
 

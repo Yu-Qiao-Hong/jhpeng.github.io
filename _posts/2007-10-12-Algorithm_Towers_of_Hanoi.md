@@ -5,7 +5,7 @@ author: 'James Peng'
 tags: ['Algorithm']
 ---
 
-![](http://i.imgur.com/PR4OFLO.jpg)
+![](..\images\2007-10-12-Algorithm_Towers_of_Hanoi\PR4OFLO.jpg)
 
 原名：Towers of Hanoi
 
@@ -112,9 +112,9 @@ public class Hanoi {
 }
 ~~~
 
-![](http://i.imgur.com/MRkCixu.png)
+![](..\images\2007-10-12-Algorithm_Towers_of_Hanoi\MRkCixu.png)
 
-![](http://i.imgur.com/uyzYBqe.png)
+![](..\images\2007-10-12-Algorithm_Towers_of_Hanoi\uyzYBqe.png)
 
 ----------
 
@@ -151,9 +151,9 @@ public class Hanoi {
 }
 ~~~
 
-![](http://i.imgur.com/hpLxrfA.png)
+![](..\images\2007-10-12-Algorithm_Towers_of_Hanoi\hpLxrfA.png)
 
-![](http://i.imgur.com/LFXhbdo.png)
+![](..\images\2007-10-12-Algorithm_Towers_of_Hanoi\LFXhbdo.png)
 
 
 

@@ -5,9 +5,9 @@ author: 'James Peng'
 tags: ['Visual C++']
 ---
 
-![](http://i.imgur.com/uHHPvwL.png)
+![](..\images\2012-01-03-MFC_FloatingMenu\uHHPvwL.png)
 
-![](http://i.imgur.com/dUBWfdc.png)
+![](..\images\2012-01-03-MFC_FloatingMenu\dUBWfdc.png)
 
 
 ## 步驟1 ##

@@ -10,13 +10,13 @@ only for my company
 
 [https://github.com/jhpeng/FreeMyUSB](https://github.com/jhpeng/FreeMyUSB "SourceCode")
 
-![](http://i.imgur.com/swBK3Aw.png)
+![](..\images\2015-09-04-FreeMyUSB\swBK3Aw.png)
 
 1. click button1 and reboot
 
 2. refer the picture
 
-![](http://i.imgur.com/Kh4w5cR.png)
+![](..\images\2015-09-04-FreeMyUSB\Kh4w5cR.png)
 
 3. Run C:\backdoor.bat
 

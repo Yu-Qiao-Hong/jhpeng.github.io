@@ -10,21 +10,21 @@ tags: ['C# 3.0']
 
 這裡我希望字串反轉，但 string 裡 沒有 Reverse反轉這方法
 
-![](http://i.imgur.com/gFgroCr.png)
+![](..\images\2016-04-06-CSharp_ExtensionMethod\gFgroCr.png)
 
 
 
 ## 新增一個 Extension Method 擴充方法 ##
 
-![](http://i.imgur.com/y5lJBHY.png)
+![](..\images\2016-04-06-CSharp_ExtensionMethod\y5lJBHY.png)
 
 - 自訂的 類別 必須是 public static的
 - 類別中的 function 必須是 public static 類型
 - function的第一個傳入參數必須要加上 this 的關鍵字，而隨後跟著的是要擴充的類別名稱需要傳入參數的話，則在function中的第二個參數加入想要傳入的參數型態以及名稱
 
-![](http://i.imgur.com/N3vm7HV.png)
+![](..\images\2016-04-06-CSharp_ExtensionMethod\N3vm7HV.png)
 
-![](http://i.imgur.com/keJTzt9.png)
+![](..\images\2016-04-06-CSharp_ExtensionMethod\keJTzt9.png)
 
 
 ## StringExtensions.cs ##

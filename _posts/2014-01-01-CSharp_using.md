@@ -5,7 +5,7 @@ author: 'James Peng'
 tags: ['C#']
 ---
 
-![](http://i.imgur.com/ciEqhx6.png)
+![](..\images\2014-01-01-CSharp_using\ciEqhx6.png)
 
 ~~~csharp
         private void btn_true_Click(object sender, EventArgs e)

@@ -5,7 +5,7 @@ author: 'James Peng'
 tags: ['C#']
 ---
 
-![](http://i.imgur.com/WmluzLn.png)
+![](..\images\2008-12-20-CSharp_ifelseendif\WmluzLn.png)
 
 ~~~csharp
 #if NET1 

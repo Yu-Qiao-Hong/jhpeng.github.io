@@ -11,9 +11,9 @@ tags: ['Visual C++','C#']
 
 1.AccessPort： [http://www.sudt.com/download/AccessPort137.zip](http://www.sudt.com/download/AccessPort137.zip)
 
-![](http://i.imgur.com/fJsGUDI.png)
+![](..\images\2015-09-14-SomeBasicKnowledgeAboutRS232Programming\fJsGUDI.png)
 
-![](http://i.imgur.com/qdyoeH7.png)
+![](..\images\2015-09-14-SomeBasicKnowledgeAboutRS232Programming\qdyoeH7.png)
 
 2.串口調試助手 （C#開發 附原始碼）
 
@@ -40,16 +40,16 @@ Virtual Serial Ports Emulator
 
 使用方法：
 
-![](http://i.imgur.com/0iurVU9.png)
+![](..\images\2015-09-14-SomeBasicKnowledgeAboutRS232Programming\0iurVU9.png)
 
-![](http://i.imgur.com/je38zQN.png)
+![](..\images\2015-09-14-SomeBasicKnowledgeAboutRS232Programming\je38zQN.png)
 
-![](http://i.imgur.com/JUH81S0.png)
+![](..\images\2015-09-14-SomeBasicKnowledgeAboutRS232Programming\JUH81S0.png)
 
-![](http://i.imgur.com/8ll5OfN.png)
+![](..\images\2015-09-14-SomeBasicKnowledgeAboutRS232Programming\8ll5OfN.png)
 
 打開兩個串口助手 一個連com2  一個連com3  即可互傳資料
-![](http://i.imgur.com/v1R9mnu.png)
+![](..\images\2015-09-14-SomeBasicKnowledgeAboutRS232Programming\v1R9mnu.png)
 
 ----------
 
