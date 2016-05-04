@@ -46,6 +46,10 @@ tags: ['C#']
 ![](..\images\2016-05-03-CSharp_GetImgurPictureToLocal\3yWxvry.png)
 
 
+本地化後 40MB ... 聽說上限是 1GB 還早~
+
+![](..\images\2016-05-03-CSharp_GetImgurPictureToLocal\vk7w4lW.png)
+
 ----------
 
 
